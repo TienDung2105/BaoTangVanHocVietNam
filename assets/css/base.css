@@ -1,0 +1,24 @@
+@font-face { font-family: 'Brother'; src: url('../fonts/brother-regular.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'Brother'; src: url('../fonts/brother-italic.otf') format('opentype'); font-style: italic; font-display: swap; }
+@font-face { font-family: 'Uber Move'; src: url('../fonts/uber-move-bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Nexa'; src: url('../fonts/nexa-light.ttf') format('truetype'); font-weight: 300; font-display: swap; }
+@font-face { font-family: 'Nexa'; src: url('../fonts/nexa-bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Proxima'; src: url('../fonts/proxima-nova.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Qalogre'; src: url('../fonts/qalogre-italic.ttf') format('truetype'); font-style: italic; font-display: swap; }
+@font-face { font-family: 'Vellago'; src: url('../fonts/vellago.ttf') format('truetype'); font-display: swap; }
+:root { --paper: #fbf5e7; --ink: #45392f; --accent: #ae3625; --gold: #c49815; --ivory: #fff; --gold-soft: #e8c979; --umber: #2c1c05; --black: #19140e; --font-scale: 1; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: 'Proxima', Arial, sans-serif; }
+a { color: inherit; text-decoration: none; }
+button { color: inherit; font: inherit; cursor: pointer; }
+img { display: block; max-width: 100%; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+::selection { color: #fff; background: var(--accent); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 1700px) { :root { --font-scale: .833333; } }
+@media (max-width: 1500px) { :root { --font-scale: .75; } }
+@media (max-width: 1300px) { :root { --font-scale: .666667; } }
+@media (max-width: 1100px) { :root { --font-scale: .583333; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }

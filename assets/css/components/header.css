@@ -1,0 +1,27 @@
+museum-header { display: block; }
+.site-header { position: relative; z-index: 10; background: #352b19b8; border-bottom: 1px solid #d9bd762e; }
+.nav { display: flex; align-items: center; justify-content: space-between; height: 88px; padding: 0 4%; max-width: 1920px; margin: 0 auto; color: #fff; font: 300 calc(16px * var(--font-scale))/1.2 'Nexa', sans-serif; }
+.nav__group { display: flex; flex: 1 1 0; align-items: center; justify-content: space-between; gap: 18px; }
+.nav__group--left { padding-right: 7%; }
+.nav__group--right { padding-left: 7%; }
+.nav a { white-space: nowrap; transition: color .2s ease; }
+.nav a:hover, .nav a[aria-current='page'], .mobile-menu a[aria-current='page'] { color: #f2ce63; }
+.nav__logo { display: grid; place-items: center; width: 76px; height: 76px; flex: 0 0 76px; }
+.nav__logo img { width: 76px; height: 76px; object-fit: contain; }
+.nav__search, .nav__ticket { display: inline-flex; align-items: center; gap: 8px; border: 1px solid #ffffff75; border-radius: 999px; padding: 6px 12px; }
+.nav__search svg, .nav__ticket svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.2; }
+.nav__menu-button, .nav__ticket--mobile, .mobile-menu { display: none; }
+@media (max-width: 1700px) { .nav { height: 74px; } .nav__logo, .nav__logo img { width: 64px; height: 64px; } .nav__logo { flex-basis: 64px; } }
+@media (max-width: 1500px) { .nav { height: 66px; } .nav__logo, .nav__logo img { width: 58px; height: 58px; } .nav__logo { flex-basis: 58px; } }
+@media (max-width: 1024px) {
+  .nav { height: 64px; padding: 0 6%; font-size: 13px; }
+  .nav__group { display: none; }
+  .nav__logo { position: absolute; left: 50%; transform: translateX(-50%); }
+  .nav__logo, .nav__logo img { width: 58px; height: 58px; }
+  .nav__menu-button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; width: 44px; height: 44px; border: 1px solid #ffffff75; border-radius: 50%; background: none; }
+  .nav__menu-button span { width: 18px; height: 1px; background: #fff; }
+  .nav__ticket--mobile { display: inline-flex; min-height: 38px; }
+  .mobile-menu { padding: 20px 6%; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; background: #2c2319; color: #fff; font: 16px 'Nexa', sans-serif; }
+  .mobile-menu.is-open { display: grid; }
+  .mobile-menu a { padding: 12px 0; }
+}

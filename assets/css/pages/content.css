@@ -1,0 +1,7 @@
+.content-page { background: var(--black); color: var(--ivory); }
+.content-page .site-header { background: var(--black); }
+.page-content { width: min(1200px, 100%); margin: 0 auto; padding: 48px 24px; }
+.page-content h1 { margin: 24px 0; font-size: 36px; line-height: 1.2; }
+.breadcrumb { font-size: 14px; color: var(--gold-soft); }
+.breadcrumb a:hover { text-decoration: underline; }
+@media (max-width: 640px) { .page-content { padding-top: 32px; } .page-content h1 { font-size: 28px; } }

@@ -1,0 +1,5 @@
+# Keep 3D models local; upload separately when deploying the 3D viewer.
+*.glb
+
+# Local backups are not part of the published website.
+backups/

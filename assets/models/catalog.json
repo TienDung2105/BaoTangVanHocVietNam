@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "id": "bhtq",
+      "name": "BHTQ",
+      "url": "./assets/models/bhtq.glb",
+      "originalFilename": "BHTQ.glb",
+      "bytes": 166002280
+    },
+    {
+      "id": "le-quy-don",
+      "name": "Lê Quý Đôn",
+      "url": "./assets/models/le-quy-don.glb",
+      "originalFilename": "lê quý đôn.glb",
+      "bytes": 72991348
+    },
+    {
+      "id": "nguyen-khuyen",
+      "name": "Nguyễn Khuyến",
+      "url": "./assets/models/nguyen-khuyen.glb",
+      "originalFilename": "nguyễn khuyến.glb",
+      "bytes": 75219320
+    }
+  ]
+}
