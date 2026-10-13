@@ -4,16 +4,136 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hiện Vật | Bảo Tàng Văn Học Việt Nam</title>
+  <meta name="description" content="Chạm vào ký ức qua từng hiện vật.">
+  <link rel="preload" as="font" href="../assets/fonts/qalogre-italic.ttf" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/home/logo.png">
+  <link rel="modulepreload" href="../src/components/site-header.js">
+  <link rel="modulepreload" href="../src/components/header-template.js">
+  <link rel="modulepreload" href="../src/data/navigation.js">
+  <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
+  <link rel="stylesheet" href="../assets/css/pages/artifacts.css">
+  <link rel="preload" as="font" href="../assets/fonts/proxima-nova.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="font" href="../assets/fonts/uber-move-bold.ttf" type="font/ttf" crossorigin>
 </head>
-<body class="content-page" data-page="exhibitions">
-  <museum-header></museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Hiện Vật</span></nav>
-    <h1>Hiện Vật</h1>
-  </main>
-  <script type="module" src="../src/main.js"></script>
+<body class="collection-page" data-page="exhibitions">
+<museum-header>
+<header class="site-header">
+      <nav class="nav" aria-label="Điều hướng chính">
+        <button class="nav__menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__group nav__group--left">
+          <a class="nav__search" href="../pages/tim-kiem.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <span>Tìm kiếm</span>
+          </a>
+          <a href="../pages/tham-quan.html">Tham quan</a>
+          <div class="nav__dropdown"><a href="../pages/trung-bay.html" aria-current="page">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        </div>
+
+        <a class="nav__logo" href="../index.html" aria-label="Bảo Tàng Văn Học Việt Nam">
+          <img data-site-image="assets/images/home/logo.png" width="76" height="76" alt="Bảo tàng Văn học Việt Nam" src="../assets/images/home/logo.png" fetchpriority="high">
+        </a>
+
+        <div class="nav__group nav__group--right">
+          <a href="../pages/tin-tuc.html">Tin tức</a>
+          <a href="../pages/kham-pha.html">Khám phá</a>
+          <a href="../pages/media.html">Media</a>
+          <a class="nav__ticket" href="../pages/mua-ve.html">
+            <span>Mua vé</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+
+        <a class="nav__ticket nav__ticket--mobile" href="../pages/mua-ve.html">
+          <span>Mua vé</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../pages/tim-kiem.html">Tìm kiếm</a>
+        <a href="../pages/tham-quan.html">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="../pages/trung-bay.html" aria-current="page">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        <a href="../pages/tin-tuc.html">Tin tức</a>
+        <a href="../pages/kham-pha.html">Khám phá</a>
+        <a href="../pages/media.html">Media</a>
+      </div>
+    </header>
+</museum-header>
+<main class="collection-main" id="mainContent">
+<nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Hiện Vật</span></nav>
+<header class="collection-heading"><h1>Hiện Vật</h1><p>Chạm vào ký ức qua từng hiện vật.</p></header>
+
+<section class="artifact-panel" id="co-trung-dai" aria-labelledby="title-co-trung-dai">
+  <header class="artifact-intro"><div class="collection-list-heading artifact-intro-heading"><h2 id="title-co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</h2></div><p class="artifact-intro-description">Chiêm ngưỡng những tác phẩm văn học của nhiều nhà thơ nổi tiếng như nhà thơ Nguyễn Trãi, nhà thơ Hồ Xuân Hương, đại thi hào Nguyễn Du,..; lịch sử chữ viết của dân tộc trên các loại chất liệu.</p></header>
+  
+</section>
+<section class="artifact-panel" id="ho-chi-minh" aria-labelledby="title-ho-chi-minh">
+  <header class="artifact-intro"><div class="collection-list-heading artifact-intro-heading"><h2 id="title-ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</h2></div><p class="artifact-intro-description">Chiêm ngưỡng những hiện vật, tư liệu về những tên tuổi lớn của văn học Việt Nam đầu thế kỷ 20 và các nhà văn đoạt giải thưởng Hồ Chí Minh về văn học nghệ thuật.</p></header>
+  
+</section>
+<section class="artifact-panel" id="nha-nuoc" aria-labelledby="title-nha-nuoc">
+  <header class="artifact-intro"><div class="collection-list-heading artifact-intro-heading"><h2 id="title-nha-nuoc">Các nhà văn Giải thưởng Nhà nước</h2></div><p class="artifact-intro-description">Các tác phẩm được trưng bày, tái hiện hình ảnh các kỳ đại hội Hội nhà văn Việt Nam.</p></header>
+  
+</section>
+<section class="collection-list artifact-list" data-artifact-list="co-trung-dai" aria-label="Hiện vật văn học cổ trung đại"><div class="artifact-list-meta"><p class="collection-count">4 bài viết</p></div><div class="collection-grid"><article class="listing-card"><a class="collection-photo" href="hien-vat/chu-viet.html"><img data-content-id="co-trung-dai-chu-viet" src="../assets/images/artifacts/ancient/chu-viet.webp" width="1024" height="507" alt="Chữ viết trên những tập lá được xâu lại"  loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/chu-viet.html">Chữ viết được thể hiện trên chất liệu gì?</a></h3><a class="collection-link" href="hien-vat/chu-viet.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="hien-vat/giay-do.html"><img data-content-id="co-trung-dai-giay-do" src="../assets/images/artifacts/ancient/giay-do.webp" width="1133" height="760" alt="Bể và dụng cụ làm giấy dó trong không gian trưng bày"  loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/giay-do.html">Làm giấy dó thủ công</a></h3><a class="collection-link" href="hien-vat/giay-do.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="hien-vat/van-hoc-tran.html"><img data-content-id="co-trung-dai-van-hoc-tran" src="../assets/images/artifacts/ancient/van-hoc-tran.webp" width="1201" height="1600" alt="Tượng và tư liệu trong không gian trưng bày văn học đời Trần"  loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/van-hoc-tran.html">Văn học đời Trần</a></h3><a class="collection-link" href="hien-vat/van-hoc-tran.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="hien-vat/lop-hoc.html"><img data-content-id="co-trung-dai-lop-hoc" src="../assets/images/artifacts/ancient/lop-hoc.webp" width="1010" height="759" alt="Mô hình thầy đồ và học trò trong lớp học thời phong kiến"  loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/lop-hoc.html">Mô hình dạy học thời phong kiến</a></h3><a class="collection-link" href="hien-vat/lop-hoc.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article></div><p class="collection-end">Bạn đã xem 4 / 4 bài viết</p></section>
+<section class="collection-list artifact-list" data-artifact-list="ho-chi-minh" aria-label="Hiện vật các nhà văn Giải thưởng Hồ Chí Minh" hidden><div class="artifact-list-meta"><p class="collection-count">2 bài viết</p></div><div class="collection-grid"><article class="listing-card"><a class="collection-photo" href="hien-vat/nguyen-cong-hoan.html"><img data-content-id="ho-chi-minh-nguyen-cong-hoan" src="../assets/images/artifacts/ho-chi-minh/nguyen-cong-hoan.webp" width="528" height="760" alt="Những kỷ vật của nhà văn Nguyễn Công Hoan" style="object-position:center 15%" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/nguyen-cong-hoan.html">Những kỷ vật của nhà văn Nguyễn Công Hoan</a></h3><a class="collection-link" href="hien-vat/nguyen-cong-hoan.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="hien-vat/tho-chuc-tet.html"><img data-content-id="ho-chi-minh-tho-chuc-tet" src="../assets/images/artifacts/ho-chi-minh/tho-chuc-tet.webp" width="528" height="760" alt="Thơ chúc Tết của chủ tịch Hồ Chí Minh" style="object-position:center 8%" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="hien-vat/tho-chuc-tet.html">Thơ chúc Tết của chủ tịch Hồ Chí Minh</a></h3><a class="collection-link" href="hien-vat/tho-chuc-tet.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article></div><p class="collection-end">Bạn đã xem 2 / 2 bài viết</p></section>
+<section class="collection-list artifact-list" data-artifact-list="shared" aria-label="Danh sách hiện vật" hidden>
+<div class="artifact-list-meta"><p class="collection-count">6 bài viết</p></div>
+
+<div class="collection-grid"><article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=chu-viet"><img data-content-id="chu-viet" src="../assets/images/home/intro-center.webp" width="1000" height="606" alt="Chữ viết được thể hiện trên chất liệu gì?" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=chu-viet">Chữ viết được thể hiện trên chất liệu gì?</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=chu-viet">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=tho-chuc-tet"><img data-content-id="tho-chuc-tet" src="../assets/images/home/intro-left.webp" width="1000" height="606" alt="Thơ chúc Tết của chủ tịch Hồ Chí Minh" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=tho-chuc-tet">Thơ chúc Tết của chủ tịch Hồ Chí Minh</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=tho-chuc-tet">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=giay-do"><img data-content-id="giay-do" src="../assets/images/home/story-archive.webp" width="1000" height="606" alt="Làm giấy dó thủ công" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=giay-do">Làm giấy dó thủ công</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=giay-do">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=nguyen-cong-hoan"><img data-content-id="nguyen-cong-hoan" src="../assets/images/home/statue.webp" width="1000" height="606" alt="Những kỷ vật của nhà văn Nguyễn Công Hoan" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=nguyen-cong-hoan">Những kỷ vật của nhà văn Nguyễn Công Hoan</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=nguyen-cong-hoan">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=may-danh-chu" style="--image-position:center 75%"><img data-content-id="may-danh-chu" src="../assets/images/home/typewriter.jpg" width="1000" height="606" alt="Những chiếc máy đánh chữ quen thuộc một thời" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=may-danh-chu">Những chiếc máy đánh chữ quen thuộc một thời</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=may-danh-chu">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=exhibitions&amp;id=nhan-chung"><img data-content-id="nhan-chung" src="../assets/images/home/bicycle.webp" width="1000" height="606" alt="Những nhân chứng lịch sử" loading="lazy"></a>
+<div class="listing-card-body"><h3><a href="bai-viet.html?collection=exhibitions&amp;id=nhan-chung">Những nhân chứng lịch sử</a></h3><a class="collection-link" href="bai-viet.html?collection=exhibitions&amp;id=nhan-chung">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article></div>
+<p class="collection-end">Bạn đã xem 6 / 6 bài viết</p>
+</section>
+</main>
+<museum-footer></museum-footer>
+<script type="module" src="../src/pages/artifacts.js"></script>
 </body>
 </html>

@@ -6,14 +6,111 @@
   <title>Tham Quan | Bảo Tàng Văn Học Việt Nam</title>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/home/logo.png">
+  <link rel="modulepreload" href="../src/components/site-header.js">
+  <link rel="modulepreload" href="../src/components/header-template.js">
+  <link rel="modulepreload" href="../src/data/navigation.js">
+  <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
+  <meta name="description" content="Chuẩn bị cho một cuộc hẹn với văn chương.">
+  <link rel="stylesheet" href="../assets/css/pages/heritage.css">
+  <link rel="preload" as="font" href="../assets/fonts/qalogre-italic.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="font" href="../assets/fonts/uber-move-bold.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="font" href="../assets/fonts/proxima-nova.ttf" type="font/ttf" crossorigin>
 </head>
-<body class="content-page" data-page="visiting">
-  <museum-header></museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Tham Quan</span></nav>
-    <h1>Tham Quan</h1>
-  </main>
-  <script type="module" src="../src/main.js"></script>
+<body class="collection-page" data-page="visiting">
+<museum-header>
+<header class="site-header">
+      <nav class="nav" aria-label="Điều hướng chính">
+        <button class="nav__menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__group nav__group--left">
+          <a class="nav__search" href="../pages/tim-kiem.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <span>Tìm kiếm</span>
+          </a>
+          <a href="../pages/tham-quan.html" aria-current="page">Tham quan</a>
+          <div class="nav__dropdown"><a href="../pages/trung-bay.html">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        </div>
+
+        <a class="nav__logo" href="../index.html" aria-label="Bảo Tàng Văn Học Việt Nam">
+          <img data-site-image="assets/images/home/logo.png" width="76" height="76" alt="Bảo tàng Văn học Việt Nam" src="../assets/images/home/logo.png" fetchpriority="high">
+        </a>
+
+        <div class="nav__group nav__group--right">
+          <a href="../pages/tin-tuc.html">Tin tức</a>
+          <a href="../pages/kham-pha.html">Khám phá</a>
+          <a href="../pages/media.html">Media</a>
+          <a class="nav__ticket" href="../pages/mua-ve.html">
+            <span>Mua vé</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+
+        <a class="nav__ticket nav__ticket--mobile" href="../pages/mua-ve.html">
+          <span>Mua vé</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../pages/tim-kiem.html">Tìm kiếm</a>
+        <a href="../pages/tham-quan.html" aria-current="page">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="../pages/trung-bay.html">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        <a href="../pages/tin-tuc.html">Tin tức</a>
+        <a href="../pages/kham-pha.html">Khám phá</a>
+        <a href="../pages/media.html">Media</a>
+      </div>
+    </header>
+</museum-header>
+<main class="collection-main" id="mainContent">
+<nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Tham Quan</span></nav>
+<header class="collection-heading"><h1>Tham Quan</h1><p>Chuẩn bị cho một cuộc hẹn với văn chương.</p></header>
+<section class="collection-featured" aria-label="Bảo tàng Văn học Việt Nam ở đâu?">
+<a class="collection-photo" href="https://www.google.com/maps/search/?api=1&amp;query=B%E1%BA%A3o+t%C3%A0ng+V%C4%83n+h%E1%BB%8Dc+Vi%E1%BB%87t+Nam+275+%C3%82u+C%C6%A1+H%C3%A0+N%E1%BB%99i"><img data-content-id="vi-tri" src="../assets/images/home/visiting.webp" width="1000" height="606" alt="Không gian Bảo tàng Văn học Việt Nam" fetchpriority="high"></a><div class="featured-copy"><p class="collection-category">BẮT ĐẦU CHUYẾN THAM QUAN</p><h2><a href="https://www.google.com/maps/search/?api=1&amp;query=B%E1%BA%A3o+t%C3%A0ng+V%C4%83n+h%E1%BB%8Dc+Vi%E1%BB%87t+Nam+275+%C3%82u+C%C6%A1+H%C3%A0+N%E1%BB%99i">Bảo tàng <br>Văn học Việt Nam <br>ở đâu?</a></h2><div class="featured-rule" aria-hidden="true"></div><a class="collection-link" href="https://www.google.com/maps/search/?api=1&amp;query=B%E1%BA%A3o+t%C3%A0ng+V%C4%83n+h%E1%BB%8Dc+Vi%E1%BB%87t+Nam+275+%C3%82u+C%C6%A1+H%C3%A0+N%E1%BB%99i">Tìm hiểu đường đi</a><span class="featured-number" aria-hidden="true">01</span></div>
+</section>
+<section class="collection-list" aria-labelledby="collectionListTitle">
+<div class="collection-list-heading"><h2 id="collectionListTitle">LÊN KẾ HOẠCH THAM QUAN</h2><p class="collection-count">07 nội dung</p></div>
+<div class="collection-grid"><article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=visiting&amp;id=gio-mo-cua"><img data-content-id="gio-mo-cua" src="../assets/images/home/news-visit.webp" width="1000" height="606" alt="Khách tham quan bảo tàng" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">THÔNG TIN THAM QUAN</p><h3><a href="bai-viet.html?collection=visiting&amp;id=gio-mo-cua">Giờ mở cửa, giá vé và những điều cần biết</a></h3><a class="collection-link" href="bai-viet.html?collection=visiting&amp;id=gio-mo-cua">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=visiting&amp;id=ban-do"><img data-content-id="ban-do" src="../assets/images/home/story-garden.webp" width="1000" height="606" alt="Lối đi trong khu vườn bảo tàng" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">SƠ ĐỒ &amp; LỘ TRÌNH</p><h3><a href="bai-viet.html?collection=visiting&amp;id=ban-do">Bản đồ tham quan Bảo tàng Văn học Việt Nam</a></h3><a class="collection-link" href="bai-viet.html?collection=visiting&amp;id=ban-do">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=visiting&amp;id=gioi-thieu"><img data-content-id="gioi-thieu" src="../assets/images/home/intro-right.webp" width="1000" height="606" alt="Không gian trưng bày trong bảo tàng" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">VỀ BẢO TÀNG</p><h3><a href="bai-viet.html?collection=visiting&amp;id=gioi-thieu">Giới thiệu chung</a></h3><a class="collection-link" href="bai-viet.html?collection=visiting&amp;id=gioi-thieu">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=visiting&amp;id=quy-dinh"><img data-content-id="quy-dinh" src="../assets/images/home/intro-left.webp" width="1000" height="606" alt="Tủ trưng bày sách và tư liệu văn học" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">HƯỚNG DẪN THAM QUAN</p><h3><a href="bai-viet.html?collection=visiting&amp;id=quy-dinh">Quy định khi tham quan bảo tàng</a></h3><a class="collection-link" href="bai-viet.html?collection=visiting&amp;id=quy-dinh">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="bai-viet.html?collection=visiting&amp;id=theo-doan"><img data-content-id="theo-doan" src="../assets/images/home/news-group.webp" width="1000" height="606" alt="Một đoàn khách tại bảo tàng" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">ĐĂNG KÝ THAM QUAN</p><h3><a href="bai-viet.html?collection=visiting&amp;id=theo-doan">Đăng ký tham quan theo đoàn</a></h3><a class="collection-link" href="bai-viet.html?collection=visiting&amp;id=theo-doan">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article>
+<article class="listing-card">
+<a class="collection-photo" href="media.html"><img data-content-id="cong-nghe-so" src="../assets/images/home/explore-listen.webp" width="1000" height="606" alt="Khách khám phá không gian trưng bày" loading="lazy" decoding="async"></a><div class="listing-card-body"><p class="collection-category">TRẢI NGHIỆM SỐ</p><h3><a href="media.html">Tham quan bảo tàng bằng công nghệ số</a></h3><a class="collection-link" href="media.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+</article></div>
+<p class="collection-end">Bạn đã xem 7 / 7 nội dung</p>
+</section>
+</main>
+<museum-footer></museum-footer>
+<script type="module" src="../src/pages/collection.js"></script>
 </body>
 </html>

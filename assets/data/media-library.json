@@ -1,0 +1,18 @@
+{
+  "videos": [
+    { "id": "toan-canh", "title": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam", "poster": "assets/images/home/visiting.webp", "src": null },
+    { "id": "vu-tu-nam", "title": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam", "poster": "assets/images/home/intro-left.webp", "src": null, "youtubeId": "w0A1BD9CRcE" },
+    { "id": "nguyen-my", "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ", "poster": "assets/images/home/story-archive.webp", "src": null },
+    { "id": "thu-hoc-sinh", "title": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường", "poster": "assets/images/artifacts/ho-chi-minh/tho-chuc-tet.webp", "src": null, "youtubeId": "NcY1AuUy9Po" }
+  ],
+  "models": [
+    { "id": "ba-huyen-thanh-quan", "title": "Tượng nữ sĩ Bà Huyện Thanh Quan", "src": "assets/models/web/ba-huyen-thanh-quan.glb", "poster": "assets/images/media/ba-huyen-thanh-quan.webp" },
+    { "id": "le-quy-don", "title": "Tượng nhà bác học Lê Quý Đôn", "src": "assets/models/web/le-quy-don.glb", "poster": "assets/images/media/le-quy-don.webp" },
+    { "id": "nguyen-khuyen", "title": "Tượng nhà thơ Nguyễn Khuyến", "src": "assets/models/web/nguyen-khuyen.glb", "poster": "assets/images/media/nguyen-khuyen.webp" }
+  ],
+  "photos": [
+    { "id": "nguyen-du", "title": "Mô hình không gian sống và làm việc của đại thi hào Nguyễn Du", "src": "assets/images/home/intro-right.webp", "illustration": true },
+    { "id": "lop-hoc", "title": "Mô hình lớp học thời phong kiến", "src": "assets/images/articles/lop-hoc/1.webp", "illustration": false },
+    { "id": "xom-choi", "title": "Mô hình Xóm Chòi – Căn cứ văn nghệ kháng chiến", "src": "assets/images/home/hero-history.webp", "illustration": true }
+  ]
+}

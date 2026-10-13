@@ -1,0 +1,38 @@
+/* Page-specific differences measured from the two supplied overview images. */
+.collection-page[data-page='visiting'] .listing-card-body {
+  padding-top: calc(26px * var(--collection-scale));
+  min-height: calc(224px * var(--collection-scale));
+}
+.collection-page[data-page='visiting'] .listing-card .collection-category {
+  font-size: calc(19px * var(--collection-scale));
+  margin-bottom: calc(16px * var(--collection-scale));
+}
+.collection-page[data-page='stories'] .collection-heading h1 {
+  font-size: calc(100px * var(--collection-scale));
+}
+.collection-page[data-page='stories'] .collection-heading p {
+  text-align: left;
+}
+.collection-page[data-page='stories'] .listing-card h3 {
+  font-size: calc(30px * var(--collection-scale));
+}
+.collection-page[data-page='stories'] .listing-card-body {
+  min-height: calc(230px * var(--collection-scale));
+}
+.collection-page[data-page='visiting'] .detail-copy {
+  font-family: 'Brother', sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  .collection-page[data-page='stories'] .collection-heading h1 { font-size: 68px; }
+  .collection-page[data-page='visiting'] .listing-card-body,
+  .collection-page[data-page='stories'] .listing-card-body { padding-top: 24px; min-height: 230px; }
+  .collection-page[data-page='visiting'] .listing-card .collection-category { font-size: 14px; margin-bottom: 16px; }
+  .collection-page[data-page='stories'] .listing-card h3 { font-size: 25px; }
+}
+@media (max-width: 640px) {
+  .collection-page[data-page='stories'] .collection-heading h1 { font-size: 52px; }
+  .collection-page[data-page='visiting'] .listing-card-body,
+  .collection-page[data-page='stories'] .listing-card-body { min-height: 0; }
+  .collection-page[data-page='stories'] .listing-card h3 { font-size: 24px; }
+}

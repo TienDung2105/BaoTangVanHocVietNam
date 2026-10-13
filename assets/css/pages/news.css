@@ -1,0 +1,7 @@
+/* All listing photos fill the same rounded frames, with no letterboxing. */
+.collection-page[data-page='news'] .collection-photo img { object-fit: cover; }
+.collection-page[data-page='news'] .featured-copy h2 { margin-top: 0; font-size: calc(42px * var(--collection-scale)); }
+.collection-page[data-page='news'] .featured-copy .collection-link { font-family: 'Brother', sans-serif; font-style: italic; gap: 14px; }
+.collection-page[data-page='news'] .featured-copy .collection-link svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+@media (max-width:1024px) { .collection-page[data-page='news'] .featured-copy h2 { font-size: 32px; } }
+@media (max-width:640px) { .collection-page[data-page='news'] .featured-copy h2 { font-size: 28px; } }

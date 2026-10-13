@@ -1,0 +1,83 @@
+.ticket-main { width: min(87.5%, 1280px); margin: 0 auto; padding: 36px 0 72px; color: #382f26; }
+.ticket-main .collection-breadcrumb { font-size: 16px; margin-bottom: 28px; }
+.ticket-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--rule); margin-bottom: 40px; }
+.ticket-heading h1 { margin: 0; color: var(--accent); font: italic 400 88px/1.1 'Qalogre', serif; }
+.ticket-heading p { margin: 0; font: 20px/1.5 'Brother', sans-serif; }
+.ticket-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 72px; align-items: start; }
+.ticket-form { min-width: 0; }
+.ticket-section { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid var(--rule); }
+.ticket-section:last-child { border: 0; padding-bottom: 0; margin-bottom: 0; }
+.ticket-section h2 { font: 700 24px/1.35 'Uber Move', sans-serif; margin: 0 0 22px; }
+.visit-fields, .contact-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.field { display: flex; flex-wrap: wrap; flex-direction: column; gap: 9px; font-size: 17px; min-width: 0; }
+.field-wide { grid-column: 1 / -1; }
+.optional, .field-help { color: #6b6056; font-size: 14px; }
+.field input, .field textarea { width: 100%; min-width: 0; border: 1px solid #b6a995; background: #fffdf8; color: #382f26; border-radius: 4px; padding: 13px 14px; font: 16px/1.5 'Proxima', sans-serif; min-height: 50px; }
+.field input:focus, .field textarea:focus { border-color: var(--accent); }
+.field textarea { resize: vertical; }
+.field input::placeholder, .field textarea::placeholder { color: #796b5e; }
+.session-field { margin: 0; padding: 0; border: 0; min-width: 0; }
+.session-field legend { font-size: 17px; margin-bottom: 9px; }
+.session-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.session-options label { position: relative; cursor: pointer; }
+.session-options input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.session-options span { display: flex; flex-direction: column; gap: 4px; border: 1px solid #b6a995; border-radius: 4px; padding: 11px 12px; background: #fffdf8; }
+.session-options strong { font-weight: 400; font-family: 'Brother', sans-serif; }
+.session-options small { font-size: 13px; }
+.session-options input:checked + span { border-color: var(--accent); background: #f7e8de; color: #8d291c; box-shadow: inset 0 0 0 1px var(--accent); }
+.session-options input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 4px; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.section-heading > span { font-size: 14px; color: #6b6056; }
+.ticket-type { display: grid; grid-template-columns: minmax(0, 1fr) 100px 68px; align-items: center; gap: 18px; border-top: 1px solid var(--rule); padding: 20px 0; }
+.ticket-type label { font: 17px/1.4 'Brother', sans-serif; }
+.ticket-type p { margin: 7px 0 0; font-size: 14px; color: #6b6056; line-height: 1.5; }
+.ticket-type strong { font-weight: 400; text-align: right; white-space: nowrap; font-size: 17px; font-variant-numeric: tabular-nums; }
+.ticket-type input { width: 68px; height: 46px; border: 1px solid #b6a995; border-radius: 4px; padding: 8px; color: #382f26; background: #fffdf8; font: 17px 'Proxima', sans-serif; }
+.ticket-type input::-webkit-inner-spin-button { opacity: 1; }
+.field-error { color: #a42f21; font-size: 14px; margin: 0; line-height: 1.5; }
+.field-error:empty { display: none; }
+.consent { display: flex; align-items: flex-start; gap: 12px; margin: 24px 0 16px; font-size: 16px; line-height: 1.5; cursor: pointer; }
+.consent input { width: 18px; height: 18px; margin: 3px 0 0; flex-shrink: 0; accent-color: var(--accent); }
+.ticket-notice { color: #6b6056; font-size: 15px; line-height: 1.6; margin: 0 0 22px; }
+.ticket-submit, .ticket-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 52px; border-radius: 4px; padding: 14px 22px; font: 16px/1.4 'Brother', sans-serif; border: 1px solid var(--accent); }
+.ticket-submit { background: var(--accent); color: white; }
+.ticket-submit:hover { background: #8f2c1d; }
+.ticket-submit svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.ticket-secondary { background: transparent; color: var(--accent); }
+.ticket-secondary:hover { background: #f7e8de; }
+.ticket-aside { position: sticky; top: 24px; }
+.booking-summary { background: #fffdf8; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+.summary-photo { width: 100%; height: 180px; object-fit: cover; object-position: center 55%; }
+.summary-content { padding: 24px; }
+.summary-name { font: 700 22px/1.35 'Uber Move', sans-serif; margin: 0 0 8px; }
+.summary-address { font-size: 15px; line-height: 1.5; margin: 0 0 22px; color: #6b6056; }
+.summary-visit { margin: 0; padding: 20px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.summary-visit > div { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; line-height: 1.5; }
+.summary-visit > div + div { margin-top: 12px; }
+.summary-visit dt { color: #6b6056; }
+.summary-visit dd { text-align: right; margin: 0; }
+.summary-lines { list-style: none; padding: 0; margin: 22px 0; }
+.summary-lines li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; line-height: 1.5; margin-bottom: 12px; }
+.summary-lines li > span:last-child { white-space: nowrap; }
+.summary-total { display: flex; justify-content: space-between; align-items: center; gap: 16px; border-top: 1px dashed var(--rule); padding-top: 22px; }
+.summary-total strong { color: var(--accent); font: 700 28px/1.3 'Uber Move', sans-serif; white-space: nowrap; }
+.summary-status { color: #6b6056; font-size: 13px; line-height: 1.5; margin: 12px 0 0; }
+.booking-contact { margin: 26px 0 0; }
+.booking-contact h2 { font: 700 18px/1.4 'Uber Move', sans-serif; margin: 0 0 8px; }
+.booking-contact > a { font: 20px/1.5 'Brother', sans-serif; color: var(--accent); }
+.booking-contact p { color: #6b6056; font-size: 15px; line-height: 1.7; margin-bottom: 0; }
+.booking-dialog { width: min(580px, calc(100% - 32px)); max-height: calc(100dvh - 40px); padding: 0; border: 1px solid var(--rule); border-radius: 8px; color: #382f26; background: var(--paper); }
+.booking-dialog::backdrop { background: rgb(25 20 14 / 55%); }
+.dialog-content { padding: 32px; }
+.dialog-content h2 { margin: 0 0 12px; font: 700 27px/1.3 'Uber Move', sans-serif; }
+.dialog-content p { font-size: 16px; line-height: 1.6; }
+.dialog-notice { color: #a42f21; }
+.dialog-content dl { border-block: 1px solid var(--rule); padding: 18px 0; }
+.dialog-content dl > div { display: grid; grid-template-columns: 135px minmax(0, 1fr); gap: 12px; padding: 8px 0; line-height: 1.5; }
+.dialog-content dt { color: #6b6056; }
+.dialog-content dd { margin: 0; overflow-wrap: anywhere; }
+.dialog-content a { color: var(--accent); text-decoration: underline; }
+.dialog-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 12px; margin-top: 24px; }
+@media (max-width: 1050px) { .ticket-layout { grid-template-columns: minmax(0, 1fr) 320px; gap: 32px; } .visit-fields { grid-template-columns: 1fr; } .ticket-heading h1 { font-size: 72px; } }
+@media (max-width: 760px) { .ticket-main { width: 88%; padding-top: 28px; } .ticket-heading { align-items: flex-start; flex-direction: column; gap: 12px; margin-bottom: 30px; } .ticket-heading h1 { font-size: 64px; } .ticket-heading p { font-size: 17px; } .ticket-layout { grid-template-columns: 1fr; gap: 36px; } .ticket-aside { position: static; } .ticket-section h2 { font-size: 22px; } .ticket-submit { width: 100%; } }
+@media (max-width: 420px) { .contact-fields { grid-template-columns: 1fr; } .ticket-type { grid-template-columns: minmax(0, 1fr) 68px; gap: 10px; } .ticket-type > div { grid-column: 1; grid-row: 1; } .ticket-type strong { grid-column: 1; grid-row: 2; text-align: left; } .ticket-type input { grid-column: 2; grid-row: 1 / 3; } .summary-content { padding: 20px; } .dialog-content { padding: 24px; } .dialog-content dl > div { grid-template-columns: 1fr; gap: 4px; } .dialog-actions > button { width: 100%; } }

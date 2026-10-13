@@ -13,11 +13,13 @@ export const headerTemplate = `
               <circle cx="11" cy="11" r="7"></circle>
               <path d="m20 20-3.5-3.5"></path>
             </svg>
-            <span>Tìm Kiếm</span>
+            <span>Tìm kiếm</span>
           </a>
-          <a href="#">Tham Quan</a>
-          <a href="#">Hiện Vật</a>
-          <a href="#">Chuyện Bảo Tàng</a>
+          <a href="#">Tham quan</a>
+          <div class="nav__dropdown"><a href="#">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="#">Chuyện bảo tàng</a>
         </div>
 
         <a class="nav__logo" href="#" aria-label="Bảo Tàng Văn Học Việt Nam">
@@ -25,11 +27,11 @@ export const headerTemplate = `
         </a>
 
         <div class="nav__group nav__group--right">
-          <a href="#">Tin Tức</a>
-          <a href="#">Khám Phá</a>
+          <a href="#">Tin tức</a>
+          <a href="#">Khám phá</a>
           <a href="#">Media</a>
           <a class="nav__ticket" href="#">
-            <span>Mua Vé</span>
+            <span>Mua vé</span>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M9 18l6-6-6-6"></path>
             </svg>
@@ -37,7 +39,7 @@ export const headerTemplate = `
         </div>
 
         <a class="nav__ticket nav__ticket--mobile" href="#">
-          <span>Mua Vé</span>
+          <span>Mua vé</span>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M9 18l6-6-6-6"></path>
           </svg>
@@ -45,12 +47,14 @@ export const headerTemplate = `
       </nav>
 
       <div class="mobile-menu" id="mobileMenu">
-        <a href="#">Tìm Kiếm</a>
-        <a href="#">Tham Quan</a>
-        <a href="#">Hiện Vật</a>
-        <a href="#">Chuyện Bảo Tàng</a>
-        <a href="#">Tin Tức</a>
-        <a href="#">Khám Phá</a>
+        <a href="#">Tìm kiếm</a>
+        <a href="#">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="#">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="#">Chuyện bảo tàng</a>
+        <a href="#">Tin tức</a>
+        <a href="#">Khám phá</a>
         <a href="#">Media</a>
       </div>
     </header>

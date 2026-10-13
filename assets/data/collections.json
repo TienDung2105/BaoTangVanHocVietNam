@@ -1,0 +1,522 @@
+{
+  "explore": {
+    "title": "Khám Phá",
+    "file": "kham-pha.html",
+    "intro": "Một góc nhìn mới. Một cuộc hẹn với văn chương.",
+    "section": "THÊM NHỮNG CUỘC HẸN",
+    "unit": "bài viết",
+    "cta": "Đọc bài viết",
+    "featuredCta": "Khám phá bài viết",
+    "items": [
+      {
+        "id": "don-thu",
+        "title": "Đón thu Hà Nội tại Bảo tàng Văn học Việt Nam",
+        "displayTitle": "Đón thu Hà Nội<br>tại Bảo tàng<br>Văn học Việt Nam",
+        "category": "TRẢI NGHIỆM / BÀI NỔI BẬT",
+        "image": "story-garden.webp",
+        "imagePosition": "35% center",
+        "temporaryImage": true,
+        "imageAlt": "Khu vườn của Bảo tàng Văn học Việt Nam"
+      },
+      {
+        "id": "dong-phuc",
+        "title": "Khoác lại đồng phục, trở về tiết Văn năm ấy",
+        "image": "news-group.webp",
+        "temporaryImage": true,
+        "imageAlt": "Một đoàn khách trước bảo tàng"
+      },
+      {
+        "id": "check-in",
+        "title": "Những góc check-in “lowkey” tại bảo tàng",
+        "image": "explore-listen.webp",
+        "imagePosition": "center 35%",
+        "temporaryImage": true,
+        "imageAlt": "Khách tham quan bên không gian xanh của bảo tàng"
+      },
+      {
+        "id": "lowkey",
+        "title": "Bảo tàng “lowkey” giữa lòng Hà Nội",
+        "image": "intro-right.webp",
+        "temporaryImage": true,
+        "imageAlt": "Không gian trưng bày tại bảo tàng"
+      },
+      {
+        "id": "solo-date",
+        "title": "Một buổi solo date tại Bảo tàng Văn học",
+        "image": "explore-solo.webp",
+        "temporaryImage": true,
+        "imageAlt": "Một buổi đọc sách trong khuôn viên bảo tàng"
+      },
+      {
+        "id": "song-cham",
+        "title": "Sống chậm tại Bảo tàng Văn học",
+        "image": "explore-slow.webp",
+        "temporaryImage": true,
+        "imageAlt": "Khách ngồi đọc trong không gian văn học"
+      },
+      {
+        "id": "outfit",
+        "title": "3 outfit đi bảo tàng cực “ăn ảnh”",
+        "image": "explore-outfit.webp",
+        "imagePosition": "center 45%",
+        "temporaryImage": true,
+        "imageAlt": "Khách tham quan trên lối đi của bảo tàng"
+      }
+    ]
+  },
+  "exhibitions": {
+    "title": "Hiện Vật",
+    "file": "trung-bay.html",
+    "intro": "Chạm vào ký ức qua từng hiện vật.",
+    "section": "NHỮNG CÂU CHUYỆN TỪ HIỆN VẬT",
+    "unit": "bài viết",
+    "cta": "Đọc bài viết",
+    "items": [
+      {
+        "id": "lop-hoc",
+        "title": "Mô hình dạy học thời phong kiến",
+        "image": "intro-right.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "van-hoc-tran",
+        "title": "Văn học đời Trần",
+        "image": "intro-center.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "chu-viet",
+        "title": "Chữ viết được thể hiện trên chất liệu gì?",
+        "image": "intro-center.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "tho-chuc-tet",
+        "title": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
+        "image": "intro-left.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "giay-do",
+        "title": "Làm giấy dó thủ công",
+        "image": "story-archive.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "nguyen-cong-hoan",
+        "title": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
+        "image": "statue.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "may-danh-chu",
+        "title": "Những chiếc máy đánh chữ quen thuộc một thời",
+        "image": "typewriter.jpg",
+        "imagePosition": "center 75%",
+        "temporaryImage": true
+      },
+      {
+        "id": "nhan-chung",
+        "title": "Những nhân chứng lịch sử",
+        "image": "bicycle.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "co-trung-dai-chu-viet",
+        "title": "Chữ viết được thể hiện trên chất liệu gì?",
+        "imageAlt": "Chữ viết trên những tập lá được xâu lại",
+        "image": "assets/images/artifacts/ancient/chu-viet.webp",
+        "imageFit": "contain",
+        "topic": "co-trung-dai",
+        "category": "Văn học Việt Nam thời kỳ cổ trung đại",
+        "documentPage": "pages/hien-vat/chu-viet.html"
+      },
+      {
+        "id": "co-trung-dai-giay-do",
+        "title": "Làm giấy dó thủ công",
+        "imageAlt": "Bể và dụng cụ làm giấy dó trong không gian trưng bày",
+        "image": "assets/images/artifacts/ancient/giay-do.webp",
+        "imageFit": "contain",
+        "topic": "co-trung-dai",
+        "category": "Văn học Việt Nam thời kỳ cổ trung đại",
+        "documentPage": "pages/hien-vat/giay-do.html"
+      },
+      {
+        "id": "co-trung-dai-van-hoc-tran",
+        "title": "Văn học đời Trần",
+        "imageAlt": "Tượng và tư liệu trong không gian trưng bày văn học đời Trần",
+        "image": "assets/images/artifacts/ancient/van-hoc-tran.webp",
+        "imageFit": "contain",
+        "topic": "co-trung-dai",
+        "category": "Văn học Việt Nam thời kỳ cổ trung đại",
+        "documentPage": "pages/hien-vat/van-hoc-tran.html"
+      },
+      {
+        "id": "co-trung-dai-lop-hoc",
+        "title": "Mô hình dạy học thời phong kiến",
+        "imageAlt": "Mô hình thầy đồ và học trò trong lớp học thời phong kiến",
+        "image": "assets/images/artifacts/ancient/lop-hoc.webp",
+        "imageFit": "contain",
+        "topic": "co-trung-dai",
+        "category": "Văn học Việt Nam thời kỳ cổ trung đại",
+        "documentPage": "pages/hien-vat/lop-hoc.html"
+      },
+      {
+        "id": "ho-chi-minh-nguyen-cong-hoan",
+        "title": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
+        "image": "assets/images/artifacts/ho-chi-minh/nguyen-cong-hoan.webp",
+        "imageAlt": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
+        "imagePosition": "center 15%",
+        "topic": "ho-chi-minh",
+        "documentPage": "pages/hien-vat/nguyen-cong-hoan.html"
+      },
+      {
+        "id": "ho-chi-minh-tho-chuc-tet",
+        "title": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
+        "image": "assets/images/artifacts/ho-chi-minh/tho-chuc-tet.webp",
+        "imageAlt": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
+        "imagePosition": "center 8%",
+        "topic": "ho-chi-minh",
+        "documentPage": "pages/hien-vat/tho-chuc-tet.html"
+      }
+    ]
+  },
+  "media": {
+    "title": "Media",
+    "file": "media.html",
+    "intro": "Văn chương qua những thước phim.",
+    "section": "THƯ VIỆN MEDIA",
+    "unit": "nội dung",
+    "cta": "Đọc bài viết",
+    "featuredCta": "Xem video",
+    "items": [
+      {
+        "id": "toan-canh",
+        "title": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam",
+        "displayTitle": "Khám phá toàn cảnh<br>Bảo tàng Văn học<br>Việt Nam",
+        "category": "VIDEO NỔI BẬT / TOÀN CẢNH",
+        "image": "visiting.webp",
+        "temporaryImage": true,
+        "video": null
+      },
+      {
+        "id": "vu-tu-nam",
+        "title": "“Trứng bọ ngựa nở” - Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam",
+        "image": "intro-left.webp",
+        "temporaryImage": true,
+        "video": null
+      },
+      {
+        "id": "nguyen-my",
+        "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ",
+        "image": "story-archive.webp",
+        "temporaryImage": true,
+        "video": null
+      },
+      {
+        "id": "thu-hoc-sinh",
+        "title": "“Thư gửi các học sinh” - Lời Bác dặn mỗi mùa khai trường",
+        "image": "news-visit.webp",
+        "temporaryImage": true,
+        "video": null
+      },
+      {
+        "id": "ba-huyen-thanh-quan",
+        "title": "Tượng nữ sĩ Bà Huyện Thanh Quan",
+        "image": "story-garden.webp",
+        "temporaryImage": true,
+        "model": "bhtq"
+      },
+      {
+        "id": "le-quy-don",
+        "title": "Tượng nhà bác học Lê Quý Đôn",
+        "image": "statue.webp",
+        "temporaryImage": true,
+        "model": "le-quy-don"
+      },
+      {
+        "id": "nguyen-khuyen",
+        "title": "Tượng nhà thơ Nguyễn Khuyến",
+        "image": "story-garden.webp",
+        "temporaryImage": true,
+        "model": "nguyen-khuyen"
+      },
+      {
+        "id": "nguyen-du",
+        "title": "Mô hình không gian sống và làm việc của đại thi hào Nguyễn Du.",
+        "image": "intro-right.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "lop-hoc",
+        "title": "Mô hình lớp học thời phong kiến",
+        "image": "intro-center.webp",
+        "temporaryImage": true
+      },
+      {
+        "id": "xom-choi",
+        "title": "Mô hình Xóm Chòi - Căn cứ văn nghệ kháng chiến",
+        "image": "hero-history.webp",
+        "temporaryImage": true
+      }
+    ]
+  },
+  "news": {
+    "title": "Tin Tức",
+    "file": "tin-tuc.html",
+    "intro": "Nhịp sống bảo tàng. Những chuyển động văn chương.",
+    "section": "DÒNG TIN VĂN HỌC & BẢO TÀNG",
+    "unit": "bài viết",
+    "cta": "Đọc bài viết",
+    "featuredCta": "Đọc bài viết",
+    "items": [
+      {
+        "id": "btxb-k43",
+        "title": "Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam",
+        "category": "HOẠT ĐỘNG BẢO TÀNG",
+        "image": "assets/images/news/btxb-k43.webp",
+        "imageAlt": "Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam",
+        "imagePosition": "center 55%",
+        "documentPage": "pages/tin-tuc/btxb-k43.html"
+      },
+      {
+        "id": "anne-carson",
+        "title": "Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026",
+        "category": "VĂN HỌC THẾ GIỚI",
+        "image": "assets/images/news/anne-carson.webp",
+        "imageAlt": "Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026",
+        "imagePosition": "center 35%",
+        "documentPage": "pages/tin-tuc/anne-carson.html"
+      },
+      {
+        "id": "sv-van-hoc",
+        "title": "Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam",
+        "category": "HOẠT ĐỘNG BẢO TÀNG",
+        "image": "assets/images/news/sv-van-hoc.webp",
+        "imageAlt": "Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam",
+        "imagePosition": "center",
+        "documentPage": "pages/tin-tuc/sv-van-hoc.html"
+      },
+      {
+        "id": "ha-thanh",
+        "title": "Hà Thành trong thơ Việt",
+        "category": "VĂN HỌC",
+        "image": "assets/images/news/ha-thanh.webp",
+        "imageAlt": "Hà Thành trong thơ Việt",
+        "imagePosition": "center",
+        "documentPage": "pages/tin-tuc/ha-thanh.html"
+      },
+      {
+        "id": "dai-su-an-do",
+        "title": "Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam",
+        "category": "GIAO LƯU",
+        "image": "assets/images/news/dai-su-an-do.webp",
+        "imageAlt": "Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam",
+        "imagePosition": "center",
+        "documentPage": "pages/tin-tuc/dai-su-an-do.html"
+      },
+      {
+        "id": "sv-thai-nguyen",
+        "title": "Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam",
+        "category": "HOẠT ĐỘNG BẢO TÀNG",
+        "image": "assets/images/news/sv-thai-nguyen.webp",
+        "imageAlt": "Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam",
+        "imagePosition": "center 70%",
+        "documentPage": "pages/tin-tuc/sv-thai-nguyen.html"
+      },
+      {
+        "id": "newton",
+        "title": "Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam",
+        "category": "HỌC TẬP & TRẢI NGHIỆM",
+        "image": "assets/images/news/newton.webp",
+        "imageAlt": "Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam",
+        "imagePosition": "center 30%",
+        "documentPage": "pages/tin-tuc/newton.html"
+      }
+    ]
+  },
+  "visiting": {
+    "title": "Tham Quan",
+    "file": "tham-quan.html",
+    "intro": "Chuẩn bị cho một cuộc hẹn với văn chương.",
+    "section": "LÊN KẾ HOẠCH THAM QUAN",
+    "unit": "nội dung",
+    "cta": "Đọc bài viết",
+    "featuredCta": "Tìm hiểu đường đi",
+    "items": [
+      {
+        "id": "vi-tri",
+        "title": "Bảo tàng Văn học Việt Nam ở đâu?",
+        "displayTitle": "Bảo tàng<br>Văn học Việt Nam<br>ở đâu?",
+        "category": "BẮT ĐẦU CHUYẾN THAM QUAN",
+        "image": "visiting.webp",
+        "imageAlt": "Không gian Bảo tàng Văn học Việt Nam",
+        "destination": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o+t%C3%A0ng+V%C4%83n+h%E1%BB%8Dc+Vi%E1%BB%87t+Nam+275+%C3%82u+C%C6%A1+H%C3%A0+N%E1%BB%99i",
+        "temporaryImage": true
+      },
+      {
+        "id": "gio-mo-cua",
+        "title": "Giờ mở cửa, giá vé và những điều cần biết",
+        "category": "THÔNG TIN THAM QUAN",
+        "image": "news-visit.webp",
+        "imageAlt": "Khách tham quan bảo tàng",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "body": [
+          "THỜI GIAN MỞ CỬA:",
+          "Sáng: Từ 8h00 - 12h00.",
+          "Chiều: Từ 13h30 - 17h00.",
+          "Ngày hoạt động: Từ thứ Hai đến thứ Sáu.",
+          "VÉ VÀ LỆ PHÍ:",
+          "Người lớn: 40.000 VNĐ",
+          "Học sinh cấp 3, sinh viên (có thẻ): 30.000 VNĐ",
+          "Học sinh cấp 1 - cấp 2: 20.000 VNĐ",
+          "ĐỊA CHỈ:",
+          "275 đường Âu Cơ, phường Tây Hồ, Hà Nội"
+        ]
+      },
+      {
+        "id": "ban-do",
+        "title": "Bản đồ tham quan Bảo tàng Văn học Việt Nam",
+        "category": "SƠ ĐỒ & LỘ TRÌNH",
+        "image": "story-garden.webp",
+        "imageAlt": "Lối đi trong khu vườn bảo tàng",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "body": [
+          "Sơ đồ các tầng và lộ trình tham quan đang được cập nhật.",
+          "Địa chỉ: 275 đường Âu Cơ, phường Tây Hồ, Hà Nội."
+        ]
+      },
+      {
+        "id": "gioi-thieu",
+        "title": "Giới thiệu chung",
+        "category": "VỀ BẢO TÀNG",
+        "image": "intro-right.webp",
+        "imageAlt": "Không gian trưng bày trong bảo tàng",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "body": [
+          "Bảo tàng Văn học Việt Nam tọa lạc tại địa chỉ 275 Âu Cơ, phường Tây Hồ, Hà Nội.",
+          "Bảo tàng lưu giữ các hiện vật gắn liền với các nhà văn và nền văn học Việt Nam, từ thời kỳ cổ trung đại cho tới nay."
+        ]
+      },
+      {
+        "id": "quy-dinh",
+        "title": "Quy định khi tham quan bảo tàng",
+        "category": "HƯỚNG DẪN THAM QUAN",
+        "image": "intro-left.webp",
+        "imageAlt": "Tủ trưng bày sách và tư liệu văn học",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "body": [
+          "Quy định tham quan chi tiết đang được cập nhật. Vui lòng liên hệ bảo tàng hoặc hỏi nhân viên tại quầy trước chuyến tham quan."
+        ]
+      },
+      {
+        "id": "theo-doan",
+        "title": "Đăng ký tham quan theo đoàn",
+        "category": "ĐĂNG KÝ THAM QUAN",
+        "image": "news-group.webp",
+        "imageAlt": "Một đoàn khách tại bảo tàng",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "body": [
+          "Vui lòng liên hệ bảo tàng để trao đổi lịch tham quan, số lượng khách và nhu cầu hướng dẫn.",
+          "Email: baotangvanhocvietnam275auco@gmail.com",
+          "Điện thoại: 0865051179"
+        ],
+        "actions": [
+          {
+            "label": "Liên hệ đăng ký theo đoàn",
+            "href": "mailto:baotangvanhocvietnam275auco@gmail.com?subject=Đăng%20ký%20tham%20quan%20theo%20đoàn"
+          }
+        ]
+      },
+      {
+        "id": "cong-nghe-so",
+        "title": "Tham quan bảo tàng bằng công nghệ số",
+        "category": "TRẢI NGHIỆM SỐ",
+        "image": "explore-listen.webp",
+        "imageAlt": "Khách khám phá không gian trưng bày",
+        "temporaryImage": true,
+        "cta": "Đọc bài viết",
+        "destination": "media.html"
+      }
+    ]
+  },
+  "stories": {
+    "title": "Chuyện Bảo Tàng",
+    "file": "chuyen-bao-tang.html",
+    "intro": "Lắng nghe những câu chuyện<br>sau mỗi không gian trưng bày.",
+    "section": "NHỮNG CÂU CHUYỆN ĐƯỢC KỂ",
+    "unit": "bài viết",
+    "cta": "Đọc bài viết",
+    "featuredCta": "Đọc câu chuyện",
+    "items": [
+      {
+        "id": "den-hung",
+        "title": "Từ Đền Hùng đến Bảo tàng Văn học",
+        "displayTitle": "Từ Đền Hùng<br>đến Bảo tàng<br>Văn học",
+        "category": "HÀNH TRÌNH VĂN HÓA",
+        "image": "intro-center.webp",
+        "imageAlt": "Tư liệu văn học được trưng bày trong bảo tàng",
+        "temporaryImage": true
+      },
+      {
+        "id": "tagore",
+        "title": "Rabindranath Tagore giữa không gian văn học Việt Nam",
+        "category": "GIAO THOA VĂN HỌC",
+        "image": "story-archive.webp",
+        "imageAlt": "Ảnh minh họa không gian trưng bày tư liệu văn học",
+        "temporaryImage": true
+      },
+      {
+        "id": "tang-ba",
+        "title": "Tầng 3 Bảo tàng Văn học Việt Nam",
+        "category": "KHÔNG GIAN TRƯNG BÀY",
+        "image": "intro-right.webp",
+        "imageAlt": "Ảnh minh họa một không gian trưng bày bảo tàng",
+        "temporaryImage": true
+      },
+      {
+        "id": "quang-ba",
+        "title": "Từ Trường viết văn Quảng Bá đến Bảo tàng Văn học Việt Nam",
+        "category": "DẤU ẤN QUẢNG BÁ",
+        "image": "hero-history.webp",
+        "imageAlt": "Ảnh tư liệu lịch sử văn học",
+        "temporaryImage": true
+      },
+      {
+        "id": "danh-nhan",
+        "title": "Những danh nhân văn học đứng giữa khu vườn bảo tàng",
+        "category": "CON NGƯỜI & KHU VƯỜN",
+        "image": "story-garden.webp",
+        "imageAlt": "Các pho tượng trong khu vườn bảo tàng",
+        "body": [
+          "Giữa không gian xanh của bảo tàng, những pho tượng danh nhân văn học hiện diện như những người kể chuyện không lời."
+        ],
+        "temporaryImage": true
+      },
+      {
+        "id": "ngoi-nha",
+        "title": "Hành trình đi tìm một “ngôi nhà” cho văn chương Việt",
+        "category": "HÀNH TRÌNH BẢO TÀNG",
+        "image": "story-archive.webp",
+        "imageAlt": "Sách và tư liệu văn học trong tủ trưng bày",
+        "body": [
+          "Văn chương Việt không chỉ tồn tại trên những trang sách. Đó còn là ký ức, con người và những dấu mốc làm nên diện mạo văn học qua nhiều thế hệ."
+        ],
+        "temporaryImage": true
+      },
+      {
+        "id": "leu-chong",
+        "title": "Từ lều chõng đến bảng vàng",
+        "category": "KÝ ỨC KHOA CỬ",
+        "image": "intro-left.webp",
+        "imageAlt": "Ảnh minh họa các tư liệu sách trong bảo tàng",
+        "temporaryImage": true
+      }
+    ]
+  }
+}

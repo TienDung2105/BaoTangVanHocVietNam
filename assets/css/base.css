@@ -8,7 +8,7 @@
 @font-face { font-family: 'Vellago'; src: url('../fonts/vellago.ttf') format('truetype'); font-display: swap; }
 :root { --paper: #fbf5e7; --ink: #45392f; --accent: #ae3625; --gold: #c49815; --ivory: #fff; --gold-soft: #e8c979; --umber: #2c1c05; --black: #19140e; --font-scale: 1; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scrollbar-gutter: stable; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: 'Proxima', Arial, sans-serif; }
 a { color: inherit; text-decoration: none; }
 button { color: inherit; font: inherit; cursor: pointer; }

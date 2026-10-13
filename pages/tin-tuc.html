@@ -4,16 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tin Tức | Bảo Tàng Văn Học Việt Nam</title>
+  <meta name="description" content="Nhịp sống bảo tàng. Những chuyển động văn chương.">
+  <link rel="preload" as="font" href="../assets/fonts/qalogre-italic.ttf" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/home/logo.png">
+  <link rel="modulepreload" href="../src/components/site-header.js">
+  <link rel="modulepreload" href="../src/components/header-template.js">
+  <link rel="modulepreload" href="../src/data/navigation.js">
+  <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
+  <link rel="stylesheet" href="../assets/css/pages/news.css">
 </head>
-<body class="content-page" data-page="news">
-  <museum-header></museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Tin Tức</span></nav>
-    <h1>Tin Tức</h1>
-  </main>
-  <script type="module" src="../src/main.js"></script>
+<body class="collection-page" data-page="news">
+<museum-header>
+<header class="site-header">
+      <nav class="nav" aria-label="Điều hướng chính">
+        <button class="nav__menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__group nav__group--left">
+          <a class="nav__search" href="../pages/tim-kiem.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <span>Tìm kiếm</span>
+          </a>
+          <a href="../pages/tham-quan.html">Tham quan</a>
+          <div class="nav__dropdown"><a href="../pages/trung-bay.html">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        </div>
+
+        <a class="nav__logo" href="../index.html" aria-label="Bảo Tàng Văn Học Việt Nam">
+          <img data-site-image="assets/images/home/logo.png" width="76" height="76" alt="Bảo tàng Văn học Việt Nam" src="../assets/images/home/logo.png" fetchpriority="high">
+        </a>
+
+        <div class="nav__group nav__group--right">
+          <a href="../pages/tin-tuc.html" aria-current="page">Tin tức</a>
+          <a href="../pages/kham-pha.html">Khám phá</a>
+          <a href="../pages/media.html">Media</a>
+          <a class="nav__ticket" href="../pages/mua-ve.html">
+            <span>Mua vé</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+
+        <a class="nav__ticket nav__ticket--mobile" href="../pages/mua-ve.html">
+          <span>Mua vé</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../pages/tim-kiem.html">Tìm kiếm</a>
+        <a href="../pages/tham-quan.html">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="../pages/trung-bay.html">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        <a href="../pages/tin-tuc.html" aria-current="page">Tin tức</a>
+        <a href="../pages/kham-pha.html">Khám phá</a>
+        <a href="../pages/media.html">Media</a>
+      </div>
+    </header>
+</museum-header>
+<main class="collection-main" id="mainContent">
+<nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Tin Tức</span></nav>
+<header class="collection-heading"><h1>Tin Tức</h1><p>Nhịp sống bảo tàng. Những chuyển động văn chương.</p></header>
+<section class="collection-featured" aria-label="Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam"><a class="collection-photo" href="tin-tuc/btxb-k43.html"><img data-content-id="btxb-k43" src="../assets/images/news/btxb-k43.webp" width="1000" height="606" alt="Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam" style="object-position:center 55%" fetchpriority="high"></a><div class="featured-copy"><h2><a href="tin-tuc/btxb-k43.html">Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam</a></h2><div class="featured-rule" aria-hidden="true"></div><a class="collection-link" href="tin-tuc/btxb-k43.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></section>
+<section class="collection-list" aria-labelledby="collectionListTitle">
+<div class="collection-list-heading"><h2 id="collectionListTitle">DÒNG TIN VĂN HỌC &amp; BẢO TÀNG</h2><p class="collection-count">07 bài viết</p></div>
+<div class="collection-grid"><article class="listing-card"><a class="collection-photo" href="tin-tuc/anne-carson.html"><img data-content-id="anne-carson" src="../assets/images/news/anne-carson.webp" width="1000" height="606" alt="Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026" style="object-position:center 35%" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/anne-carson.html">Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026</a></h3><a class="collection-link" href="tin-tuc/anne-carson.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="tin-tuc/sv-van-hoc.html"><img data-content-id="sv-van-hoc" src="../assets/images/news/sv-van-hoc.webp" width="1000" height="606" alt="Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam" style="object-position:center" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/sv-van-hoc.html">Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam</a></h3><a class="collection-link" href="tin-tuc/sv-van-hoc.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="tin-tuc/ha-thanh.html"><img data-content-id="ha-thanh" src="../assets/images/news/ha-thanh.webp" width="1000" height="606" alt="Hà Thành trong thơ Việt" style="object-position:center" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/ha-thanh.html">Hà Thành trong thơ Việt</a></h3><a class="collection-link" href="tin-tuc/ha-thanh.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="tin-tuc/dai-su-an-do.html"><img data-content-id="dai-su-an-do" src="../assets/images/news/dai-su-an-do.webp" width="1000" height="606" alt="Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam" style="object-position:center" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/dai-su-an-do.html">Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam</a></h3><a class="collection-link" href="tin-tuc/dai-su-an-do.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="tin-tuc/sv-thai-nguyen.html"><img data-content-id="sv-thai-nguyen" src="../assets/images/news/sv-thai-nguyen.webp" width="1000" height="606" alt="Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam" style="object-position:center 70%" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/sv-thai-nguyen.html">Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam</a></h3><a class="collection-link" href="tin-tuc/sv-thai-nguyen.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+<article class="listing-card"><a class="collection-photo" href="tin-tuc/newton.html"><img data-content-id="newton" src="../assets/images/news/newton.webp" width="1000" height="606" alt="Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam" style="object-position:center 30%" loading="lazy" decoding="async"></a><div class="listing-card-body"><h3><a href="tin-tuc/newton.html">Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam</a></h3><a class="collection-link" href="tin-tuc/newton.html">Đọc bài viết<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article></div>
+<p class="collection-end">Bạn đã xem 7 / 7 bài viết</p>
+</section>
+</main>
+<museum-footer></museum-footer>
+<script type="module" src="../src/pages/collection.js"></script>
 </body>
 </html>

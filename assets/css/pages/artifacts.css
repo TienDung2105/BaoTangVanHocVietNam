@@ -1,0 +1,31 @@
+.artifact-panel { outline-offset: 8px; }
+.artifact-intro { min-height: 0; padding-bottom: 0; }
+.artifact-intro-heading { margin-bottom: 12px; padding-bottom: 0; border-bottom: 0; }
+.artifact-intro-heading h2 { text-transform: uppercase; }
+.artifact-intro-description { margin: 0; max-width: 85ch; font: calc(25px * var(--collection-scale))/1.6 'Proxima', sans-serif; }
+.artifact-panel[hidden] { display: none; }
+.artifact-list { margin-top: 24px; }
+.artifact-list-meta { display: flex; justify-content: flex-end; margin-bottom: 16px; }
+@media (max-width:1024px) {
+  .artifact-intro-description { font-size: 20px; }
+}
+@media (max-width:640px) {
+  .artifact-intro-description { font-size: 18px; }
+}
+
+.artifact-list[hidden] { display: none; }
+.artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+.artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-photo { aspect-ratio: 16 / 10; }
+.artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-photo img { object-fit: cover; }
+.artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) img[data-content-id='co-trung-dai-van-hoc-tran'] { object-position: center 40%; }
+.artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .listing-card-body { min-height: 0; padding-top: 22px; padding-bottom: 16px; }
+@media (max-width:640px) {
+  .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-grid { gap: 24px 16px; }
+  .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .listing-card-body { padding-top: 14px; }
+  .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .listing-card h3 { font-size: 18px; line-height: 1.35; margin-bottom: 12px; }
+  .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-link { font-size: 14px; gap: 8px; margin-top: auto; }
+  .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-link svg { width: 18px; height: 18px; }
+}

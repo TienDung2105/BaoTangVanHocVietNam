@@ -3,17 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mua Vé | Bảo Tàng Văn Học Việt Nam</title>
+  <title>Mua vé | Bảo tàng Văn học Việt Nam</title>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/home/logo.png">
+  <link rel="modulepreload" href="../src/components/site-header.js">
+  <link rel="modulepreload" href="../src/components/header-template.js">
+  <link rel="modulepreload" href="../src/data/navigation.js">
+  <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
+  <link rel="stylesheet" href="../assets/css/pages/tickets.css">
+  <link rel="stylesheet" href="../assets/css/pages/tickets.css">
 </head>
-<body class="content-page" data-page="tickets">
-  <museum-header></museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Mua Vé</span></nav>
-    <h1>Mua Vé</h1>
+<body class="collection-page tickets-page" data-page="tickets">
+<museum-header>
+<header class="site-header">
+      <nav class="nav" aria-label="Điều hướng chính">
+        <button class="nav__menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__group nav__group--left">
+          <a class="nav__search" href="../pages/tim-kiem.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <span>Tìm kiếm</span>
+          </a>
+          <a href="../pages/tham-quan.html">Tham quan</a>
+          <div class="nav__dropdown"><a href="../pages/trung-bay.html">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        </div>
+
+        <a class="nav__logo" href="../index.html" aria-label="Bảo Tàng Văn Học Việt Nam">
+          <img data-site-image="assets/images/home/logo.png" width="76" height="76" alt="Bảo tàng Văn học Việt Nam" src="../assets/images/home/logo.png" fetchpriority="high">
+        </a>
+
+        <div class="nav__group nav__group--right">
+          <a href="../pages/tin-tuc.html">Tin tức</a>
+          <a href="../pages/kham-pha.html">Khám phá</a>
+          <a href="../pages/media.html">Media</a>
+          <a class="nav__ticket" href="../pages/mua-ve.html" aria-current="page">
+            <span>Mua vé</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+
+        <a class="nav__ticket nav__ticket--mobile" href="../pages/mua-ve.html" aria-current="page">
+          <span>Mua vé</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../pages/tim-kiem.html">Tìm kiếm</a>
+        <a href="../pages/tham-quan.html">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="../pages/trung-bay.html">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        <a href="../pages/tin-tuc.html">Tin tức</a>
+        <a href="../pages/kham-pha.html">Khám phá</a>
+        <a href="../pages/media.html">Media</a>
+      </div>
+    </header>
+</museum-header>
+  <!-- Ticket selection and visitor information. -->
+  <main class="ticket-main" id="mainContent">
+    <nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Mua vé</span></nav>
+    <div class="ticket-heading"><h1>Mua vé</h1><p>Hẹn một ngày với văn chương.</p></div>
+    <div class="ticket-layout">
+      <form id="ticketForm" class="ticket-form">
+        <section class="ticket-section" aria-labelledby="visitHeading">
+          <h2 id="visitHeading">Ngày tham quan</h2>
+          <div class="visit-fields">
+            <label class="field">Ngày đến <input id="visitDate" name="date" type="date" required aria-describedby="dateHelp dateError"><span id="dateHelp" class="field-help">Mở cửa từ thứ Hai đến thứ Sáu.</span><span id="dateError" class="field-error" aria-live="polite"></span></label>
+            <fieldset class="session-field"><legend>Khung giờ</legend><div class="session-options"><label><input type="radio" name="session" value="morning" checked><span><strong>Sáng</strong><small>8h00 – 12h00</small></span></label><label><input type="radio" name="session" value="afternoon"><span><strong>Chiều</strong><small>13h30 – 17h00</small></span></label></div></fieldset>
+          </div>
+        </section>
+        <section class="ticket-section" aria-labelledby="typeHeading">
+          <div class="section-heading"><h2 id="typeHeading">Chọn vé</h2><span>VNĐ / người</span></div>
+          <div class="ticket-types">
+            <div class="ticket-type"><div><label for="adult">Người lớn</label><p>Vé tham quan bảo tàng</p></div><strong>40.000 ₫</strong><input id="adult" name="adult" type="number" min="0" max="50" step="1" value="1" required aria-label="Số vé người lớn"></div>
+            <div class="ticket-type"><div><label for="student">Học sinh cấp 3, sinh viên</label><p>Xuất trình thẻ khi đến bảo tàng</p></div><strong>30.000 ₫</strong><input id="student" name="student" type="number" min="0" max="50" step="1" value="0" required aria-label="Số vé học sinh cấp 3, sinh viên"></div>
+            <div class="ticket-type"><div><label for="child">Học sinh cấp 1 – cấp 2</label><p>Vé dành cho học sinh</p></div><strong>20.000 ₫</strong><input id="child" name="child" type="number" min="0" max="50" step="1" value="0" required aria-label="Số vé học sinh cấp 1, cấp 2"></div>
+          </div>
+          <p id="quantityError" class="field-error" aria-live="polite"></p>
+        </section>
+        <section class="ticket-section" aria-labelledby="contactHeading">
+          <h2 id="contactHeading">Thông tin liên hệ</h2>
+          <div class="contact-fields"><label class="field field-wide">Họ và tên <input name="fullName" autocomplete="name" maxlength="100" required placeholder="Nguyễn Văn An"></label><label class="field">Số điện thoại <input name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="25" required placeholder="Số điện thoại liên hệ"></label><label class="field"><span>Email <span class="optional">(không bắt buộc)</span></span><input name="email" type="email" autocomplete="email" maxlength="150" placeholder="ban@example.com"></label><label class="field field-wide"><span>Lời nhắn <span class="optional">(không bắt buộc)</span></span><textarea name="note" rows="3" maxlength="500" placeholder="Thông tin đoàn hoặc yêu cầu hỗ trợ"></textarea></label></div>
+          <label class="consent"><input name="consent" type="checkbox" required><span>Tôi đã kiểm tra ngày, số lượng vé và thông tin liên hệ.</span></label>
+          <p class="ticket-notice">Phiếu đăng ký chưa được gửi tới bảo tàng. Vui lòng liên hệ bảo tàng để xác nhận lịch tham quan và thanh toán.</p>
+          <button class="ticket-submit" type="submit">Xem lại đăng ký <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          <noscript><p>Vui lòng bật JavaScript để lập phiếu đăng ký hoặc gọi <a href="tel:+84865051179">086 505 1179</a>.</p></noscript>
+        </section>
+      </form>
+      <!-- Live booking summary, kept separate from the form. -->
+      <aside class="ticket-aside" aria-label="Tóm tắt đăng ký">
+        <div class="booking-summary">
+          <img class="summary-photo" src="../assets/images/home/story-garden.webp" width="800" height="600" alt="Khu vườn và tượng danh nhân tại Bảo tàng Văn học Việt Nam" decoding="async">
+          <div class="summary-content"><p class="summary-name">Bảo tàng Văn học Việt Nam</p><p class="summary-address">275 Âu Cơ, phường Tây Hồ, Hà Nội</p><dl class="summary-visit"><div><dt>Ngày tham quan</dt><dd id="summaryDate">Chưa chọn ngày</dd></div><div><dt>Khung giờ</dt><dd id="summarySession">8h00 – 12h00</dd></div></dl><ul class="summary-lines" id="summaryLines"><li><span>Người lớn × 1</span><span>40.000 ₫</span></li></ul><div class="summary-total"><span>Tổng cộng</span><strong id="summaryTotal" aria-live="polite">40.000 ₫</strong></div><p class="summary-status">Thanh toán sau khi bảo tàng xác nhận.</p></div>
+        </div>
+        <div class="booking-contact"><h2>Cần hỗ trợ?</h2><a href="tel:+84865051179">086 505 1179</a><p>Sáng 8h00 – 12h00<br>Chiều 13h30 – 17h00</p></div>
+      </aside>
+    </div>
   </main>
-  <script type="module" src="../src/main.js"></script>
+  <!-- Review is a local draft, not a confirmed ticket. -->
+  <dialog id="reviewDialog" class="booking-dialog" aria-labelledby="reviewTitle"><div class="dialog-content"><h2 id="reviewTitle">Xem lại đăng ký</h2><p class="dialog-notice">Chưa gửi yêu cầu · Chưa thanh toán</p><dl id="reviewDetails"></dl><p>Liên hệ <a href="tel:+84865051179">086 505 1179</a> để xác nhận với bảo tàng.</p><div class="dialog-actions"><button id="editBooking" type="button" class="ticket-secondary">Chỉnh sửa</button><button id="downloadBooking" type="button" class="ticket-submit">Tải phiếu đăng ký</button></div><p id="downloadStatus" class="field-help" role="status"></p></div></dialog>
+  <museum-footer></museum-footer>
+  <script type="module" src="../src/pages/tickets.js"></script>
 </body>
 </html>

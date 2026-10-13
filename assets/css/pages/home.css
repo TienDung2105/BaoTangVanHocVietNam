@@ -35,6 +35,10 @@
 .intro__name { font-family: 'Uber Move', sans-serif; color: var(--accent); font-weight: 700; white-space: nowrap; }
 .intro__statement { font-family: 'Uber Move', sans-serif; font-weight: 700; }
 .intro__copy { font-family: 'Nexa', sans-serif; font-style: italic; }
+.intro__copy:not(.intro__lead), .intro__statement {
+  text-align: justify;
+  text-align-last: left;
+}
 /* Text determines row heights; images must never cover wrapped copy. */
 @media (min-width: 1025px) {
   .intro {

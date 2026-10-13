@@ -4,16 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media | Bảo Tàng Văn Học Việt Nam</title>
+  <meta name="description" content="Văn chương qua những thước phim.">
+  <link rel="preload" as="font" href="../assets/fonts/qalogre-italic.ttf" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/home/logo.png">
+  <link rel="modulepreload" href="../src/components/site-header.js">
+  <link rel="modulepreload" href="../src/components/header-template.js">
+  <link rel="modulepreload" href="../src/data/navigation.js">
+  <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
+  <link rel="stylesheet" href="../assets/css/pages/media.css">
+  <script type="importmap">{"imports":{"three":"../src/vendor/three/three.module.min.js"}}</script>
 </head>
-<body class="content-page" data-page="media">
-  <museum-header></museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Media</span></nav>
-    <h1>Media</h1>
-  </main>
-  <script type="module" src="../src/main.js"></script>
+<body class="collection-page media-page" data-page="media">
+<museum-header>
+<header class="site-header">
+      <nav class="nav" aria-label="Điều hướng chính">
+        <button class="nav__menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__group nav__group--left">
+          <a class="nav__search" href="../pages/tim-kiem.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <span>Tìm kiếm</span>
+          </a>
+          <a href="../pages/tham-quan.html">Tham quan</a>
+          <div class="nav__dropdown"><a href="../pages/trung-bay.html">Hiện vật</a><div class="nav__submenu" aria-label="Chủ đề hiện vật"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+          <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        </div>
+
+        <a class="nav__logo" href="../index.html" aria-label="Bảo Tàng Văn Học Việt Nam">
+          <img data-site-image="assets/images/home/logo.png" width="76" height="76" alt="Bảo tàng Văn học Việt Nam" src="../assets/images/home/logo.png" fetchpriority="high">
+        </a>
+
+        <div class="nav__group nav__group--right">
+          <a href="../pages/tin-tuc.html">Tin tức</a>
+          <a href="../pages/kham-pha.html">Khám phá</a>
+          <a href="../pages/media.html" aria-current="page">Media</a>
+          <a class="nav__ticket" href="../pages/mua-ve.html">
+            <span>Mua vé</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+
+        <a class="nav__ticket nav__ticket--mobile" href="../pages/mua-ve.html">
+          <span>Mua vé</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../pages/tim-kiem.html">Tìm kiếm</a>
+        <a href="../pages/tham-quan.html">Tham quan</a>
+        <div class="mobile-artifacts"><div class="mobile-artifacts__row"><a href="../pages/trung-bay.html">Hiện vật</a><button class="mobile-artifacts__toggle" type="button" aria-label="Mở chủ đề hiện vật" aria-expanded="false" aria-controls="artifactSubmenuMobile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div><div class="mobile-artifacts__submenu" id="artifactSubmenuMobile"><a data-artifact-topic="co-trung-dai" href="../pages/trung-bay.html?topic=co-trung-dai">Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)</a>
+<a data-artifact-topic="ho-chi-minh" href="../pages/trung-bay.html?topic=ho-chi-minh">Các nhà văn Giải thưởng Hồ Chí Minh</a>
+<a data-artifact-topic="nha-nuoc" href="../pages/trung-bay.html?topic=nha-nuoc">Các nhà văn Giải thưởng Nhà nước</a></div></div>
+        <a href="../pages/chuyen-bao-tang.html">Chuyện bảo tàng</a>
+        <a href="../pages/tin-tuc.html">Tin tức</a>
+        <a href="../pages/kham-pha.html">Khám phá</a>
+        <a href="../pages/media.html" aria-current="page">Media</a>
+      </div>
+    </header>
+</museum-header>
+<!-- Media library: native tabs share one stable browsing surface. -->
+<main class="media-main" id="mainContent">
+  <nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Media</span></nav>
+  <header class="media-heading"><h1>Media</h1><p>Văn chương qua những góc nhìn.</p></header>
+  <div class="media-tabs" role="tablist" aria-label="Loại nội dung"><button role="tab" id="tab-videos" aria-controls="panel-videos" aria-selected="true" data-tab="videos"><span data-icon="clapperboard"></span>Video <span class="tab-count">04</span></button><button role="tab" id="tab-models" aria-controls="panel-models" aria-selected="false" tabindex="-1" data-tab="models"><span data-icon="box"></span>Hiện vật 3D <span class="tab-count">03</span></button><button role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="false" tabindex="-1" data-tab="photos"><span data-icon="images"></span>Ảnh mô hình <span class="tab-count">03</span></button></div>
+  <!-- Native video controls become available when a source is supplied. -->
+  <section id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" class="media-panel">
+    <div class="video-stage"><video id="mediaVideo" controls playsinline preload="none" hidden></video><div id="videoCover" class="video-cover"><img id="videoPoster" src="../assets/images/home/visiting.webp" width="1600" height="900" alt="Bảo tàng Văn học Việt Nam"><span class="video-state"><span data-icon="film"></span>Video đang được cập nhật</span></div></div>
+    <div class="media-caption"><div><h2 id="videoTitle">Khám phá toàn cảnh Bảo tàng Văn học Việt Nam</h2><p id="videoStatus">Chưa có video</p></div><span class="caption-kind">Video</span></div>
+    <div class="media-section-heading"><h2>Thư viện video</h2><span>04 video</span></div><div class="media-items" id="videoItems"></div>
+  </section>
+  <!-- The 3D scene spans the viewing area; models load only on demand. -->
+  <section id="panel-models" role="tabpanel" aria-labelledby="tab-models" class="media-panel" hidden>
+    <div class="model-stage" id="modelStage"><div id="modelCanvas" class="model-canvas" aria-label="Khung xem tượng 3D"></div><img id="modelPoster" src="../assets/images/media/ba-huyen-thanh-quan.webp" class="model-poster" alt="Tượng nữ sĩ Bà Huyện Thanh Quan" width="1200" height="800"><div class="model-loader" id="modelLoader"><button id="loadModel" class="media-command" type="button"><span data-icon="box"></span>Mở hiện vật 3D</button><p id="modelStatus" role="status"></p><progress id="modelProgress" max="100" value="0" hidden aria-label="Tiến độ tải mô hình"></progress></div><div class="viewer-tools" aria-label="Công cụ 3D"><button type="button" data-model-action="in" title="Phóng to" aria-label="Phóng to" disabled><span data-icon="zoom-in"></span></button><button type="button" data-model-action="out" title="Thu nhỏ" aria-label="Thu nhỏ" disabled><span data-icon="zoom-out"></span></button><button type="button" data-model-action="reset" title="Góc nhìn ban đầu" aria-label="Góc nhìn ban đầu" disabled><span data-icon="rotate-ccw"></span></button><button type="button" data-model-action="rotate" title="Tự xoay" aria-label="Tự xoay" aria-pressed="false" disabled><span data-icon="rotate-3d"></span></button><button type="button" data-fullscreen="modelStage" title="Toàn màn hình" aria-label="Toàn màn hình"><span data-icon="maximize"></span></button></div></div>
+    <div class="media-caption"><div><h2 id="modelTitle">Tượng nữ sĩ Bà Huyện Thanh Quan</h2></div><span class="caption-kind">3D</span></div>
+    <div class="media-section-heading"><h2>Danh nhân trong khu vườn</h2><span>03 hiện vật</span></div><div class="media-items" id="modelItems"></div>
+  </section>
+  <!-- Image inspection supports zoom, pan, reset and fullscreen. -->
+  <section id="panel-photos" role="tabpanel" aria-labelledby="tab-photos" class="media-panel" hidden>
+    <div class="photo-stage" id="photoStage"><div class="photo-viewport" id="photoViewport" tabindex="0" aria-label="Ảnh mô hình"><img id="inspectPhoto" src="../assets/images/home/intro-right.webp" alt="Ảnh minh họa không gian trưng bày bảo tàng" draggable="false"></div><div class="viewer-tools" aria-label="Công cụ ảnh"><button type="button" data-photo-action="in" title="Phóng to" aria-label="Phóng to"><span data-icon="zoom-in"></span></button><output id="photoScale" aria-label="Mức phóng to">100%</output><button type="button" data-photo-action="out" title="Thu nhỏ" aria-label="Thu nhỏ"><span data-icon="zoom-out"></span></button><button type="button" data-photo-action="reset" title="Kích thước ban đầu" aria-label="Kích thước ban đầu"><span data-icon="rotate-ccw"></span></button><button type="button" data-fullscreen="photoStage" title="Toàn màn hình" aria-label="Toàn màn hình"><span data-icon="maximize"></span></button></div></div>
+    <div class="media-caption"><div><h2 id="photoTitle"></h2><p id="photoStatus"></p></div><span class="caption-kind">Ảnh</span></div>
+    <div class="media-section-heading"><h2>Không gian qua mô hình</h2><span>03 ảnh</span></div><div class="media-items" id="photoItems"></div>
+  </section>
+  <p id="libraryError" class="library-error" role="alert" hidden></p>
+  <noscript><p>Bật JavaScript để xem thư viện tương tác. <a href="hien-vat/lop-hoc.html">Xem mô hình lớp học thời phong kiến</a>.</p></noscript>
+</main>
+<museum-footer></museum-footer>
+<script type="module" src="../src/pages/media.js"></script>
 </body>
 </html>

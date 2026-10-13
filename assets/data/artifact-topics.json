@@ -1,0 +1,38 @@
+{
+  "topics": [
+    {
+      "id": "co-trung-dai",
+      "title": "Văn học Việt Nam thời kỳ cổ trung đại (từ thế kỷ 10 đến thế kỷ 19)",
+      "description": "Chiêm ngưỡng những tác phẩm văn học của nhiều nhà thơ nổi tiếng như nhà thơ Nguyễn Trãi, nhà thơ Hồ Xuân Hương, đại thi hào Nguyễn Du,..; lịch sử chữ viết của dân tộc trên các loại chất liệu.",
+      "itemIds": [
+        "co-trung-dai-chu-viet",
+        "co-trung-dai-giay-do",
+        "co-trung-dai-van-hoc-tran",
+        "co-trung-dai-lop-hoc"
+      ]
+    },
+    {
+      "id": "ho-chi-minh",
+      "title": "Các nhà văn Giải thưởng Hồ Chí Minh",
+      "description": "Chiêm ngưỡng những hiện vật, tư liệu về những tên tuổi lớn của văn học Việt Nam đầu thế kỷ 20 và các nhà văn đoạt giải thưởng Hồ Chí Minh về văn học nghệ thuật.",
+      "itemIds": [
+        "ho-chi-minh-nguyen-cong-hoan",
+        "ho-chi-minh-tho-chuc-tet"
+      ]
+    },
+    {
+      "id": "nha-nuoc",
+      "title": "Các nhà văn Giải thưởng Nhà nước",
+      "description": "Các tác phẩm được trưng bày, tái hiện hình ảnh các kỳ đại hội Hội nhà văn Việt Nam.",
+      "itemIds": []
+    }
+  ],
+  "availableItemIds": [
+    "chu-viet",
+    "tho-chuc-tet",
+    "giay-do",
+    "nguyen-cong-hoan",
+    "may-danh-chu",
+    "nhan-chung"
+  ]
+}
