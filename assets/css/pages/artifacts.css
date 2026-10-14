@@ -1,4 +1,17 @@
 .artifact-panel { outline-offset: 8px; }
+.artifact-overview { margin-top: 0; }
+.artifact-overview[hidden] { display: none; }
+.artifact-overview .collection-photo { aspect-ratio: 16 / 10; }
+.artifact-overview .listing-card-body { min-height: 160px; padding-top: 20px; padding-bottom: 16px; }
+.artifact-overview .listing-card h3 { font-size: 26px; margin-bottom: 12px; }
+.artifact-overview .collection-grid { gap: 28px 32px; }
+@media (max-width:1024px) {
+  .artifact-overview .listing-card h3 { font-size: 24px; }
+}
+@media (max-width:640px) {
+  .artifact-overview .listing-card-body { min-height: 0; padding-top: 14px; }
+  .artifact-overview .listing-card h3 { font-size: 22px; }
+}
 .artifact-intro { min-height: 0; padding-bottom: 0; }
 .artifact-intro-heading { margin-bottom: 12px; padding-bottom: 0; border-bottom: 0; }
 .artifact-intro-heading h2 { text-transform: uppercase; }
@@ -29,3 +42,10 @@
   .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-link { font-size: 14px; gap: 8px; margin-top: auto; }
   .artifact-list:is([data-artifact-list='co-trung-dai'], [data-artifact-list='ho-chi-minh']) .collection-link svg { width: 18px; height: 18px; }
 }
+
+/* One supplied article in the State Prize topic. */
+.artifact-list[data-artifact-list="nha-nuoc"] .collection-grid { grid-template-columns: minmax(0,880px); justify-content: center; }
+.artifact-list[data-artifact-list="nha-nuoc"] .collection-photo { aspect-ratio: 3 / 2; }
+.artifact-list[data-artifact-list="nha-nuoc"] .collection-photo img { width: 100%; height: 100%; object-fit: cover; }
+.artifact-list[data-artifact-list="nha-nuoc"] .listing-card-body { min-height: 0; padding-top: 20px; padding-bottom: 16px; }
+.artifact-list[data-artifact-list="nha-nuoc"] .listing-card h3 { margin-bottom: 12px; }

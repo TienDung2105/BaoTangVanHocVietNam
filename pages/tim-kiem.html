@@ -6,7 +6,10 @@
   <title>Tìm Kiếm | Bảo Tàng Văn Học Việt Nam</title>
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
-  <link rel="stylesheet" href="../assets/css/pages/content.css">
+  <link rel="stylesheet" href="../assets/css/pages/collection.css">
+  <link rel="stylesheet" href="../assets/css/pages/search.css">
+  <meta name="description" content="Tìm bài viết, hiện vật, tư liệu và trải nghiệm tại Bảo tàng Văn học Việt Nam.">
+  <link rel="preload" as="font" href="../assets/fonts/qalogre-italic.ttf" type="font/ttf" crossorigin>
   <link rel="preload" as="font" href="../assets/fonts/nexa-light.ttf" type="font/ttf" crossorigin>
   <link rel="preload" as="image" href="../assets/images/home/logo.png">
   <link rel="modulepreload" href="../src/components/site-header.js">
@@ -14,7 +17,7 @@
   <link rel="modulepreload" href="../src/data/navigation.js">
   <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
 </head>
-<body class="content-page" data-page="search">
+<body class="collection-page search-page" data-page="search">
   <museum-header>
 <header class="site-header">
       <nav class="nav" aria-label="Điều hướng chính">
@@ -76,10 +79,37 @@
       </div>
     </header>
 </museum-header>
-  <main class="page-content" id="mainContent">
-    <nav class="breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a> / <span aria-current="page">Tìm Kiếm</span></nav>
-    <h1>Tìm Kiếm</h1>
+  <main class="collection-main search-main" id="mainContent">
+    <nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Tìm kiếm</span></nav>
+    <header class="collection-heading"><h1>Tìm kiếm</h1><p>Một từ khóa, nhiều câu chuyện.</p></header>
+    <!-- Search controls and the collection filters share a single result list. -->
+    <form class="search-form" id="searchForm" role="search" action="tim-kiem.html" method="get">
+      <label class="sr-only" for="searchInput">Từ khóa tìm kiếm</label>
+      <input type="search" id="searchInput" name="q" maxlength="250" placeholder="Tác giả, hiện vật, bài viết…" autocomplete="off">
+      <button class="search-submit" type="submit" title="Tìm kiếm" aria-label="Tìm kiếm"><span data-icon="scan-search"></span></button>
+    </form>
+    <div class="search-suggestions"><span>Gợi ý:</span><button type="button" data-search-term="Nguyễn Du">Nguyễn Du</button><button type="button" data-search-term="giấy dó">Giấy dó</button><button type="button" data-search-term="Hồ Chí Minh">Hồ Chí Minh</button><button type="button" data-search-term="tham quan">Tham quan</button></div>
+    <div class="search-layout">
+      <fieldset class="search-filters"><legend>Trong bảo tàng</legend><div class="search-filter-list">
+        <label class="search-filter"><input type="radio" name="category" value="all" checked><span>Tất cả</span><span data-filter-count="all">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="exhibitions"><span>Hiện vật</span><span data-filter-count="exhibitions">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="news"><span>Tin tức</span><span data-filter-count="news">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="explore"><span>Khám phá</span><span data-filter-count="explore">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="visiting"><span>Tham quan</span><span data-filter-count="visiting">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="stories"><span>Chuyện bảo tàng</span><span data-filter-count="stories">0</span></label>
+        <label class="search-filter"><input type="radio" name="category" value="media"><span>Media</span><span data-filter-count="media">0</span></label>
+      </div></fieldset>
+      <section aria-labelledby="searchResultsTitle">
+        <header class="search-results-header"><h2 id="searchResultsTitle">Gợi ý khám phá</h2><label class="search-sort" for="searchSort">Sắp xếp<select id="searchSort"><option value="relevance">Phù hợp nhất</option><option value="title">Tên A–Z</option></select></label></header>
+        <p id="searchAnnouncement" class="sr-only" role="status" aria-live="polite"></p>
+        <div id="searchResults" aria-busy="true"></div>
+        <div id="searchMessage" class="search-message" hidden></div>
+        <button id="searchMore" class="search-more" type="button" hidden>Xem thêm</button>
+      </section>
+    </div>
+    <noscript><p>Tìm kiếm cần JavaScript. Bạn có thể xem <a href="trung-bay.html">Hiện vật</a> hoặc <a href="tin-tuc.html">Tin tức</a>.</p></noscript>
   </main>
-  <script type="module" src="../src/main.js"></script>
+  <museum-footer></museum-footer>
+  <script type="module" src="../src/pages/search.js"></script>
 </body>
 </html>

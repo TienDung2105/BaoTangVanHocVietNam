@@ -16,6 +16,7 @@
   <link rel="modulepreload" href="../src/data/navigation.js">
   <link rel="modulepreload" href="../src/features/navigation-prefetch.js">
   <link rel="stylesheet" href="../assets/css/pages/media.css">
+  <link rel="stylesheet" href="../assets/css/pages/photo-gallery.css">
   <script type="importmap">{"imports":{"three":"../src/vendor/three/three.module.min.js"}}</script>
 </head>
 <body class="collection-page media-page" data-page="media">
@@ -84,24 +85,53 @@
 <main class="media-main" id="mainContent">
   <nav class="collection-breadcrumb" aria-label="Đường dẫn"><a href="../index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Media</span></nav>
   <header class="media-heading"><h1>Media</h1><p>Văn chương qua những góc nhìn.</p></header>
-  <div class="media-tabs" role="tablist" aria-label="Loại nội dung"><button role="tab" id="tab-videos" aria-controls="panel-videos" aria-selected="true" data-tab="videos"><span data-icon="clapperboard"></span>Video <span class="tab-count">04</span></button><button role="tab" id="tab-models" aria-controls="panel-models" aria-selected="false" tabindex="-1" data-tab="models"><span data-icon="box"></span>Hiện vật 3D <span class="tab-count">03</span></button><button role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="false" tabindex="-1" data-tab="photos"><span data-icon="images"></span>Ảnh mô hình <span class="tab-count">03</span></button></div>
+  <div class="media-tabs" role="tablist" aria-label="Loại nội dung"><button role="tab" id="tab-videos" aria-controls="panel-videos" aria-selected="true" data-tab="videos"><span data-icon="clapperboard"></span>Video <span class="tab-count">04</span></button><button role="tab" id="tab-models" aria-controls="panel-models" aria-selected="false" tabindex="-1" data-tab="models"><span data-icon="box"></span>Hiện vật 3D <span class="tab-count">03</span></button><button role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="false" tabindex="-1" data-tab="photos"><span data-icon="images"></span>Ảnh mô hình <span class="tab-count">04</span></button></div>
   <!-- Native video controls become available when a source is supplied. -->
-  <section id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" class="media-panel">
+  <section id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" class="media-panel gallery-split video-split">
+    <div class="gallery-primary">
     <div class="video-stage"><video id="mediaVideo" controls playsinline preload="none" hidden></video><div id="videoCover" class="video-cover"><img id="videoPoster" src="../assets/images/home/visiting.webp" width="1600" height="900" alt="Bảo tàng Văn học Việt Nam"><span class="video-state"><span data-icon="film"></span>Video đang được cập nhật</span></div></div>
     <div class="media-caption"><div><h2 id="videoTitle">Khám phá toàn cảnh Bảo tàng Văn học Việt Nam</h2><p id="videoStatus">Chưa có video</p></div><span class="caption-kind">Video</span></div>
-    <div class="media-section-heading"><h2>Thư viện video</h2><span>04 video</span></div><div class="media-items" id="videoItems"></div>
+    </div>
+    <aside class="gallery-information video-list" aria-label="Danh sách video"><div class="media-section-heading"><h2>Danh sách video</h2><span>04 video</span></div><div class="media-items" id="videoItems"></div></aside>
   </section>
   <!-- The 3D scene spans the viewing area; models load only on demand. -->
-  <section id="panel-models" role="tabpanel" aria-labelledby="tab-models" class="media-panel" hidden>
+  <section id="panel-models" role="tabpanel" aria-labelledby="tab-models" class="media-panel gallery-split model-split" hidden>
+    <div class="gallery-primary model-primary">
     <div class="model-stage" id="modelStage"><div id="modelCanvas" class="model-canvas" aria-label="Khung xem tượng 3D"></div><img id="modelPoster" src="../assets/images/media/ba-huyen-thanh-quan.webp" class="model-poster" alt="Tượng nữ sĩ Bà Huyện Thanh Quan" width="1200" height="800"><div class="model-loader" id="modelLoader"><button id="loadModel" class="media-command" type="button"><span data-icon="box"></span>Mở hiện vật 3D</button><p id="modelStatus" role="status"></p><progress id="modelProgress" max="100" value="0" hidden aria-label="Tiến độ tải mô hình"></progress></div><div class="viewer-tools" aria-label="Công cụ 3D"><button type="button" data-model-action="in" title="Phóng to" aria-label="Phóng to" disabled><span data-icon="zoom-in"></span></button><button type="button" data-model-action="out" title="Thu nhỏ" aria-label="Thu nhỏ" disabled><span data-icon="zoom-out"></span></button><button type="button" data-model-action="reset" title="Góc nhìn ban đầu" aria-label="Góc nhìn ban đầu" disabled><span data-icon="rotate-ccw"></span></button><button type="button" data-model-action="rotate" title="Tự xoay" aria-label="Tự xoay" aria-pressed="false" disabled><span data-icon="rotate-3d"></span></button><button type="button" data-fullscreen="modelStage" title="Toàn màn hình" aria-label="Toàn màn hình"><span data-icon="maximize"></span></button></div></div>
-    <div class="media-caption"><div><h2 id="modelTitle">Tượng nữ sĩ Bà Huyện Thanh Quan</h2></div><span class="caption-kind">3D</span></div>
-    <div class="media-section-heading"><h2>Danh nhân trong khu vườn</h2><span>03 hiện vật</span></div><div class="media-items" id="modelItems"></div>
+    <p class="model-gesture">Kéo để xoay · Cuộn để phóng to</p>
+    </div>
+    <aside class="gallery-information model-information" aria-label="Thông tin hiện vật">
+      <p class="model-space-label">KHÔNG GIAN 3D</p>
+      <h2 id="modelTitle">Tượng nữ sĩ Bà Huyện Thanh Quan</h2>
+      <p class="model-category">Danh nhân trong khu vườn</p>
+      <p id="modelDescription" class="model-description" hidden></p>
+      <dl id="modelFacts" class="model-facts" hidden></dl>
+      <button type="button" class="model-explore" data-fullscreen="modelStage" disabled><span data-icon="box"></span>Khám phá hiện vật<span data-icon="arrow-up-right"></span></button>
+      <div class="media-section-heading"><h2>Hiện vật liên quan</h2><span>03 hiện vật</span></div><div class="media-items" id="modelItems"></div>
+    </aside>
   </section>
-  <!-- Image inspection supports zoom, pan, reset and fullscreen. -->
+  <!-- Album gallery: cover strip opens the selected collection without navigation. -->
   <section id="panel-photos" role="tabpanel" aria-labelledby="tab-photos" class="media-panel" hidden>
-    <div class="photo-stage" id="photoStage"><div class="photo-viewport" id="photoViewport" tabindex="0" aria-label="Ảnh mô hình"><img id="inspectPhoto" src="../assets/images/home/intro-right.webp" alt="Ảnh minh họa không gian trưng bày bảo tàng" draggable="false"></div><div class="viewer-tools" aria-label="Công cụ ảnh"><button type="button" data-photo-action="in" title="Phóng to" aria-label="Phóng to"><span data-icon="zoom-in"></span></button><output id="photoScale" aria-label="Mức phóng to">100%</output><button type="button" data-photo-action="out" title="Thu nhỏ" aria-label="Thu nhỏ"><span data-icon="zoom-out"></span></button><button type="button" data-photo-action="reset" title="Kích thước ban đầu" aria-label="Kích thước ban đầu"><span data-icon="rotate-ccw"></span></button><button type="button" data-fullscreen="photoStage" title="Toàn màn hình" aria-label="Toàn màn hình"><span data-icon="maximize"></span></button></div></div>
-    <div class="media-caption"><div><h2 id="photoTitle"></h2><p id="photoStatus"></p></div><span class="caption-kind">Ảnh</span></div>
-    <div class="media-section-heading"><h2>Không gian qua mô hình</h2><span>03 ảnh</span></div><div class="media-items" id="photoItems"></div>
+    <div id="photoGalleryHome" class="photo-gallery-home">
+      <div class="photo-gallery-bar"><h2>Không gian qua mô hình</h2><button id="photoMotion" class="photo-motion" type="button" aria-pressed="false">Dừng chuyển động</button></div>
+      <div id="photoGalleryRail" class="photo-gallery-rail" tabindex="0" role="region" aria-label="Bốn bộ ảnh mô hình"></div>
+    </div>
+    <div id="photoGalleryDetail" class="photo-gallery-detail" hidden>
+      <div class="photo-gallery-bar"><button id="photoGalleryBack" class="photo-gallery-back" type="button"><span data-icon="arrow-up-right"></span>Tất cả bộ ảnh</button><output id="photoCounter" class="photo-counter" aria-live="polite"></output></div>
+      <div id="photoDetailRail" class="photo-gallery-rail photo-detail-rail" tabindex="0" role="region" aria-label="Ảnh trong bộ sưu tập"></div>
+      <dialog class="photo-stage" id="photoStage" tabindex="-1" aria-label="Xem chi tiết ảnh mô hình">
+        <div class="photo-inspect-frame" id="photoInspectFrame">
+        <button type="button" class="photo-inspect-close" id="photoInspectClose">Đóng ảnh</button>
+        <div class="photo-viewport" id="photoViewport" tabindex="0" aria-label="Ảnh mô hình"><img id="inspectPhoto" alt="" draggable="false"></div>
+        <p id="photoImageState" class="photo-image-state" role="status"></p>
+        <button class="photo-step photo-step--prev" type="button" data-gallery-step="-1" title="Ảnh trước" aria-label="Ảnh trước"><span data-icon="arrow-up-right"></span></button>
+        <button class="photo-step photo-step--next" type="button" data-gallery-step="1" title="Ảnh tiếp theo" aria-label="Ảnh tiếp theo"><span data-icon="arrow-up-right"></span></button>
+        <div class="viewer-tools" aria-label="Công cụ ảnh"><button type="button" data-photo-action="in" title="Phóng to" aria-label="Phóng to"><span data-icon="zoom-in"></span></button><output id="photoScale" aria-label="Mức phóng to">100%</output><button type="button" data-photo-action="out" title="Thu nhỏ" aria-label="Thu nhỏ"><span data-icon="zoom-out"></span></button><button type="button" data-photo-action="reset" title="Kích thước ban đầu" aria-label="Kích thước ban đầu"><span data-icon="rotate-ccw"></span></button><button type="button" data-fullscreen="photoInspectFrame" title="Toàn màn hình" aria-label="Toàn màn hình"><span data-icon="maximize"></span></button></div>
+        </div>
+      </dialog>
+      <div class="media-caption"><div><h2 id="photoTitle"></h2><p id="photoStatus"></p></div><span class="caption-kind">Ảnh</span></div>
+      <div class="media-items" id="photoItems" aria-label="Ảnh trong bộ sưu tập"></div>
+    </div>
   </section>
   <p id="libraryError" class="library-error" role="alert" hidden></p>
   <noscript><p>Bật JavaScript để xem thư viện tương tác. <a href="hien-vat/lop-hoc.html">Xem mô hình lớp học thời phong kiến</a>.</p></noscript>

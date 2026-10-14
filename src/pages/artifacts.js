@@ -6,13 +6,24 @@ registerSiteHeader();
 registerSiteFooter();
 
 const panels = [...document.querySelectorAll('.artifact-panel')];
+const lists = [...document.querySelectorAll('[data-artifact-list]')];
+const overview = document.querySelector('[data-artifact-overview]');
+const overviewGrid = overview.querySelector('.collection-grid');
+
+// Reuse the topic cards so the overview always matches their images and links.
+lists.forEach(list => {
+  list.querySelectorAll('.listing-card').forEach(card => overviewGrid.append(card.cloneNode(true)));
+});
+const total = overviewGrid.children.length;
+overview.querySelector('.collection-count').textContent = `${total} bài viết`;
+overview.querySelector('.collection-end').textContent = `Bạn đã xem ${total} / ${total} bài viết`;
 
 function activate(id, push = false) {
-  if (!panels.some(panel => panel.id === id)) return;
+  if (id !== 'overview' && !panels.some(panel => panel.id === id)) return;
+  overview.hidden = id !== 'overview';
   panels.forEach(panel => { panel.hidden = panel.id !== id; });
-  const listId = id === 'nha-nuoc' ? 'shared' : id;
-  document.querySelectorAll('[data-artifact-list]').forEach(list => {
-    list.hidden = list.dataset.artifactList !== listId;
+  lists.forEach(list => {
+    list.hidden = list.dataset.artifactList !== id;
   });
   document.querySelectorAll('museum-header a[data-artifact-topic]').forEach(link => {
     if (link.dataset.artifactTopic === id) link.setAttribute('aria-current', 'true');
@@ -23,7 +34,7 @@ function activate(id, push = false) {
 
 function restoreTopic() {
   const requested = location.hash.slice(1) || new URLSearchParams(location.search).get('topic');
-  activate(panels.some(panel => panel.id === requested) ? requested : panels[0].id);
+  activate(panels.some(panel => panel.id === requested) ? requested : 'overview');
 }
 window.addEventListener('hashchange', restoreTopic);
 window.addEventListener('popstate', restoreTopic);

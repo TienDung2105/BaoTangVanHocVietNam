@@ -111,9 +111,13 @@
       {
         "id": "may-danh-chu",
         "title": "Những chiếc máy đánh chữ quen thuộc một thời",
-        "image": "typewriter.jpg",
-        "imagePosition": "center 75%",
-        "temporaryImage": true
+        "image": "assets/images/artifacts/nha-nuoc/may-danh-chu.webp",
+        "imagePosition": "center",
+        "imageAlt": "Các máy đánh chữ trong không gian trưng bày của bảo tàng",
+        "imageFit": "cover",
+        "topic": "nha-nuoc",
+        "category": "Các nhà văn Giải thưởng Nhà nước",
+        "documentPage": "pages/hien-vat/may-danh-chu.html"
       },
       {
         "id": "nhan-chung",

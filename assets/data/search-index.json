@@ -1,0 +1,513 @@
+{
+  "items": [
+    {
+      "title": "Đón thu Hà Nội tại Bảo tàng Văn học Việt Nam",
+      "url": "pages/bai-viet.html?collection=explore&id=don-thu",
+      "category": "explore",
+      "image": "assets/images/home/story-garden.webp",
+      "imageAlt": "Khu vườn của Bảo tàng Văn học Việt Nam",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Khoác lại đồng phục, trở về tiết Văn năm ấy",
+      "url": "pages/bai-viet.html?collection=explore&id=dong-phuc",
+      "category": "explore",
+      "image": "assets/images/home/news-group.webp",
+      "imageAlt": "Một đoàn khách trước bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Những góc check-in “lowkey” tại bảo tàng",
+      "url": "pages/bai-viet.html?collection=explore&id=check-in",
+      "category": "explore",
+      "image": "assets/images/home/explore-listen.webp",
+      "imageAlt": "Khách tham quan bên không gian xanh của bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Bảo tàng “lowkey” giữa lòng Hà Nội",
+      "url": "pages/bai-viet.html?collection=explore&id=lowkey",
+      "category": "explore",
+      "image": "assets/images/home/intro-right.webp",
+      "imageAlt": "Không gian trưng bày tại bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Một buổi solo date tại Bảo tàng Văn học",
+      "url": "pages/bai-viet.html?collection=explore&id=solo-date",
+      "category": "explore",
+      "image": "assets/images/home/explore-solo.webp",
+      "imageAlt": "Một buổi đọc sách trong khuôn viên bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Sống chậm tại Bảo tàng Văn học",
+      "url": "pages/bai-viet.html?collection=explore&id=song-cham",
+      "category": "explore",
+      "image": "assets/images/home/explore-slow.webp",
+      "imageAlt": "Khách ngồi đọc trong không gian văn học",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "3 outfit đi bảo tàng cực “ăn ảnh”",
+      "url": "pages/bai-viet.html?collection=explore&id=outfit",
+      "category": "explore",
+      "image": "assets/images/home/explore-outfit.webp",
+      "imageAlt": "Khách tham quan trên lối đi của bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Những chiếc máy đánh chữ quen thuộc một thời",
+      "url": "pages/hien-vat/may-danh-chu.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/nha-nuoc/may-danh-chu.webp",
+      "imageAlt": "Các máy đánh chữ trong không gian trưng bày của bảo tàng",
+      "description": "Từng là công cụ gắn bó với nhiều thế hệ tác giả, máy đánh chữ mang dấu ấn của một thời kỳ sáng tác văn học đáng nhớ. Tại Bảo tàng Văn học Việt Nam, những chiếc máy đánh chữ được trưng bày cùng nhiều hiện vật liên quan, qua đó giúp công chúng hình dung rõ hơn v",
+      "text": "Từng là công cụ gắn bó với nhiều thế hệ tác giả, máy đánh chữ mang dấu ấn của một thời kỳ sáng tác văn học đáng nhớ. Tại Bảo tàng Văn học Việt Nam, những chiếc máy đánh chữ được trưng bày cùng nhiều hiện vật liên quan, qua đó giúp công chúng hình dung rõ hơn về điều kiện làm việc và quá trình sáng tác của các nhà thơ, nhà văn Việt Nam trong những giai đoạn trước. Không gian trưng bày các máy đánh chữ tại tầng 5 của Bảo tàng Văn học Việt Nam Máy đánh chữ hiệu Facit của nhà thơ Trần Đăng Khoa Máy đánh chữ hiệu Olivetti Dora của nhà văn Triệu Bôn Máy đánh chữ của nhà văn Thái Vũ Máy đánh chữ hiệu Olympia và Royal 200 của nhà văn Trần Thanh Giang Máy đánh chữ của nhà thơ Thanh Thảo Máy đánh chữ của nhà văn Xuân Đức Máy đánh chữ hiệu Hermes của nhà văn Nguyễn Minh Châu Máy đánh chữ hiệu Olympia Splendid của nhà văn Hồ Phương Máy đánh chữ của nhà văn Phùng Quán Máy đánh chữ hiệu Olympia Traveller của nhà văn Nguyễn Khắc Phục Máy đánh chữ hiệu Olympia Splendid của nhà văn Ma Văn Kháng Máy đánh chữ hiệu Daro Erika của nhà văn Kiều Vượng Bảo tàng Văn học Việt Nam",
+      "topic": "nha-nuoc"
+    },
+    {
+      "title": "Chữ viết được thể hiện trên chất liệu gì?",
+      "url": "pages/hien-vat/chu-viet.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ancient/chu-viet.webp",
+      "imageAlt": "Chữ viết trên những tập lá được xâu lại",
+      "description": "Trước khi giấy trở thành chất liệu phổ biến để lưu giữ tri thức, nhiều cộng đồng dân tộc ở Việt Nam đã sáng tạo những cách thức riêng để bảo tồn chữ viết của dân tộc. Từ lá cây Pơ-lang, lá buông đến ván gỗ, giấy dó hay vải, mỗi chất liệu đều gắn với một kỹ thu",
+      "text": "Trước khi giấy trở thành chất liệu phổ biến để lưu giữ tri thức, nhiều cộng đồng dân tộc ở Việt Nam đã sáng tạo những cách thức riêng để bảo tồn chữ viết của dân tộc. Từ lá cây Pơ-lang, lá buông đến ván gỗ, giấy dó hay vải, mỗi chất liệu đều gắn với một kỹ thuật chế tác và phản ánh đời sống văn hóa riêng. Qua những trang sách, tấm lá và nét chữ, lịch sử văn học - chữ viết Việt Nam hiện lên phong phú, đa dạng và giàu bản sắc. Chất liệu vượt qua dòng thời gian Chữ viết ra đời không chỉ để ghi lại lời nói mà còn giúp con người lưu giữ ký ức, tri thức và những giá trị tinh thần qua nhiều thế hệ. Để một nét chữ tồn tại lâu dài, con người cần tìm được những chất liệu phù hợp với điều kiện tự nhiên, tập quán sinh hoạt và trình độ kỹ thuật của từng thời kỳ. Trong lịch sử Việt Nam, sự đa dạng về cộng đồng các dân tộc đã tạo nên một bức tranh đặc biệt phong phú về vật liệu dùng để ghi chép. Nếu chữ Hán, chữ Nôm thường được biết đến qua các văn bản trên giấy dó, ván gỗ thì ở nhiều cộng đồng dân tộc thiểu số, lá cây , vải và những nguyên liệu có sẵn trong tự nhiên lại trở thành chất liệu để lưu giữ kinh sách, nghi lễ và kiến thức cổ truyền. Ván gỗ có độ chắc chắn, phù hợp với việc khắc chữ và in ấn. Giấy dó mỏng, nhẹ nhưng bền, có khả năng tồn tại lâu dài khi được bảo quản tốt. Vải thuận tiện trong việc lưu giữ và di chuyển. Trong khi đó, lá cây Pơ lang và lá buông là những chất liệu tự nhiên đặc biệt, được con người xử lý bằng nhiều phương pháp công phu để tạo thành những trang sách có khả năng lưu truyền qua nhiều thế hệ. Sách lá – những trang sách đặc biệt của các dân tộc Việt Nam Sách lá được chế tác từ lá Buông (đối với người Chăm, Khmer) và lá Pơ-lang (đối với người Thái). Với các cộng đồng này, sách lá không chỉ là phương tiện lưu truyền chữ viết mà còn là “ký ức sống” của tôn giáo, lịch sử và đời sống tinh thần được gìn giữ qua nhiều thế kỷ. Sách lá được trưng bày tại Bảo tàng Văn học Việt Nam Quy trình làm sách lá đòi hỏi sự công phu và tỉ mỉ. Lá sau khi được tuyển chọn sẽ trải qua các công đoạn xử lý như phơi sương, hong khô, ép phẳng để tăng độ bền và chống mối mọt. Người xưa dùng kim hoặc vật nhọn nung nóng để khắc chữ lên bề mặt lá, sau đó bôi mực, mật cá hoặc nhựa cây để làm nổi nét chữ. Các lá được xâu lại thành tập, kẹp giữa hai thanh gỗ hoặc bảo quản trong điều kiện đặc biệt như treo trên gác bếp (với người Thái) hay cất trong hòm, bọc vải (với người Chăm, Khmer). Nội dung ghi chép trong sách lá thường là kinh điển, giới luật Phật giáo, các tri thức thiêng liêng, nghi lễ và tín ngưỡng truyền thống. Vì vậy, việc sáng tạo sách lá thường diễn ra trong không gian tôn giáo. Chữ Hán trên ván gỗ và giấy dó C hữ Hán từng được sử dụng rộng rãi trong hành chính, giáo dục, tôn giáo và sáng tác văn chương. Người Việt đã phát triển nhiều phương thức ghi chép và nhân bản văn bản, nổi bật là khắc chữ trên ván gỗ và viết, in trên giấy dó. Ván gỗ được lựa chọn và xử lý cẩn thận trước khi người thợ tiến hành khắc chữ ngược lên bề mặt. Sau khi hoàn thành, bản khắc có thể được phủ mực rồi in nhiều lần trên giấy, giúp văn bản được nhân bản và truyền bá rộng rãi hơn. Đây là một phương pháp lưu truyền sách vở, văn chương và các tài liệu cổ. Ván gỗ được khắc chữ ngược Con người sử dụng bản khắc gỗ để tạo bản in và dùng giấy dó để in chữ từ ván gỗ. Được làm từ nguyên liệu thực vật bằng kỹ thuật thủ công, giấy dó có đặc tính nhẹ và tương đối bền. Ván gỗ và giấy dó Chữ viết của người Thái trên lá Pơ lang Đối với một bộ phận cộng đồng người Thái, lá Pơ lang là chất liệu được sử dụng để tạo nên những bộ sách cổ. Để có thể tồn tại tro ng thời gian dài, lá không được sử dụng ngay sau khi hái. Người làm sách phải trải qua nhiều công đoạn như lựa chọn những chiếc lá phù hợp, phơi sương, hong khô và ép phẳng. Những thao tác tưởng chừng đơn giản nhưng đòi hỏi kinh nghiệm để lá vừa giữ được độ dai, vừa hạn chế mục nát hay bị côn trùng phá hoại. Sách lá cây Pơ-lang của người dân tộc Thái Sau khi hoàn thiện phần lá, người viết sử dụng kim hoặc dụng cụ nhọn để tạo chữ trên bề mặt. Những đường khắc sau đó được làm nổi bằng các chất liệu tạo màu thích hợp. Nhờ vậy, từng nét chữ hiện lên rõ ràng trên lá. Một nét đáng chú ý trong cách bảo quản sách lá của người Thái là treo sách trên gác bếp. Khói ở bếp góp phần hạn chế độ ẩm và côn trùng, giúp những trang lá tồn tại lâu hơn. Qua đó có thể thấy việc lưu giữ chữ viết không tách rời khỏi kinh nghiệm sống và tri thức dân gian của cộng đồng. Chữ viết của người Chăm và Khmer trên lá buông Đ ối với người Chăm và Khmer, lá buông là m ột chất liệu quen thuộc để chế tác sách lá. Lá buông có cấu tạo phù hợp để xử lý thành những dải lá dài, tương đối phẳng, có thể khắc chữ và xâu thành tập. Sau khi được lựa chọn kỹ, lá phải trải qua nhiều bước xử lý nhằm tăng độ bền trước khi trở thành bề mặt ghi chép. Kỹ thuật tạo chữ trên lá buông khác với cách viết bằng bút và mực trên giấy. Người xưa thường dùng kim hoặc một dụng cụ có đầu nhọn để rạch, khắc từng nét chữ vào bề mặt lá. Một số dụng cụ có thể được nung nóng để thao tác thuận lợi hơn. Sau đó, những chất tạo màu như mực, nhựa cây hoặc các vật liệu truyền thống khác được bôi lên bề mặt rồi lau đi. Phần màu còn lại trong các rãnh khắc giúp chữ hiện lên rõ nét. Chữ viết của dân tộc Khơ-me trên lá cây buông Đối với người Khmer, sách lá thường gắn chặt với đời sống Phật giáo. Nhiều nội dung liên quan đến kinh điển, giáo lý, giới luật và nghi lễ được lưu giữ bằng hình thức này. Vì thế, hoạt động tạo tác, sao chép và gìn giữ sách lá thường diễn ra trong những không gian tôn giáo và gắn với những người có kiến thức về chữ viết, kinh sách. Trong văn hóa Chăm, chữ viết trên lá cây cũng góp phần lưu giữ nhiều lớp tri thức về tín ngưỡng, nghi lễ và đời sống tinh thần. Ngoài lá Buông, chữ Chăm còn được thể hiện trên vải. Sự đa dạng về vật liệu cho thấy chữ viết đã hiện diện trong nhiều không gian sinh hoạt khác nhau và được cộng đồng gìn giữ bằng những phương thức linh hoạt. Chữ viết của dân tộc Chăm trên lá cây buông, trên vải, trên giấy Chữ Nôm của người Dao, Tày trên giấy dó Đối với người Dao và người Tày, các văn bản chữ Nôm được viết trên giấy dó là những tư liệu quý, phản ánh đời sống ngôn ngữ và văn hóa của cộng đồng. Chữ Nôm được viết trên giấy dó của dân tộc Dao Những tài liệu như vậy đặc biệt có ý nghĩa đối với việc nghiên cứu lịch sử văn học và ngôn ngữ các dân tộc. Bởi phía sau mỗi trang giấy là cả một quá trình giao lưu văn hóa, sáng tạo chữ viết và gìn giữ bản sắc. Chữ dân tộc Chăm trên vải Một điểm đáng chú ý khác là chữ Chăm không chỉ xuất hiện trên lá cây mà còn được ghi trên vải. Vải mềm, có thể cuộn, gấp và di chuyển thuận tiện. Sự xuất hiện của chữ viết trên vải một lần nữa cho thấy khả năng sáng tạo của các cộng đồng dân tộc trong việc lựa chọn chất liệu để lưu truyền chữ viết. Hiện tại Bảo tàng Văn học Việt Nam trưng bày ba bộ sách lá của người Thái, Chăm, Khơme, góp phần làm phong phú bức tranh di sản văn học – chữ viết Việt Nam, đồng thời khẳng định mối liên hệ văn hóa sâu sắc giữa Việt Nam và khu vực Đông Nam Á. Bảo tàng Văn học Việt Nam",
+      "topic": "co-trung-dai"
+    },
+    {
+      "title": "Làm giấy dó thủ công",
+      "url": "pages/hien-vat/giay-do.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ancient/giay-do.webp",
+      "imageAlt": "Bể và dụng cụ làm giấy dó trong không gian trưng bày",
+      "description": "Giấy dó là chất liệu gắn bó với lịch sử chữ viết, văn chương và nghệ thuật dân gian Việt Nam. Mỗi tờ giấy dó thủ công đòi hỏi sự kiên nhẫn, kinh nghiệm cùng đôi tay khéo léo của người thợ. Tại Bảo tàng Văn học Việt Nam, không gian trưng bày nghề làm giấy dó tá",
+      "text": "Giấy dó là chất liệu gắn bó với lịch sử chữ viết, văn chương và nghệ thuật dân gian Việt Nam. Mỗi tờ giấy dó thủ công đòi hỏi sự kiên nhẫn, kinh nghiệm cùng đôi tay khéo léo của người thợ. Tại Bảo tàng Văn học Việt Nam, không gian trưng bày nghề làm giấy dó tái hiện những công đoạn làm giấy, giúp người xem hiểu hơn về quá trình tạo nên một chất liệu đã lưu giữ nhiều giá trị văn hóa qua các thế hệ. Giấy dó – chất liệu truyền thống của văn hóa Việt Nam N ghề làm giấy dó ở Việt Nam xuất hiện từ khoảng thế kỷ III–IV. Làng Yên Thái, thuộc khu vực Tây Hồ, Hà Nội, từng là một trung tâm sản xuất giấy nổi tiếng. Trong Dư địa chí (1435), Nguyễn Trãi cũng ghi nhận hoạt động làm giấy tại phường Yên Thái, cho thấy nghề thủ công này đã có vị trí quan trọng nhất định trong đời sống văn hóa từ nhiều thế kỷ trước. Giấy dó được làm chủ yếu từ vỏ cây, trải qua nhiều công đoạn xử lý để tạo thành những tờ giấy bền. Chất liệu giấy này phù hợp với việc viết chữ, vẽ tranh và in mộc bản. Trong lịch sử, giấy dó được sử dụng để ghi chép văn bản, lưu giữ tác phẩm văn học, in kinh sách và sáng tác tranh dân gian. Sự phát triển của nghề làm giấy còn gắn với nhu cầu giáo dục và truyền bá tri thức. Khi giấy được sản xuất trong nước, hoạt động ghi chép, biên soạn và in ấn có thêm nguồn vật liệu phục vụ đời sống văn hóa. Nhiều văn bản cổ còn được lưu giữ đến ngày nay nhờ sự kết hợp giữa chất liệu giấy, kỹ thuật chế tác và điều kiện bảo quản phù hợp. Quy trình làm giấy dó thủ công Để làm giấy dó, người ta thường sử dụng các loại cây chính: dó, bo, cãnh, dướng, mật và mộc. Để làm giấy gió lụa, người ta chỉ sử dụng vỏ cây cãnh, còn vỏ cây mộc là loại vỏ xấu và thô nhất, lại thường được dùng làm giấy gói hàng. Bước 1: Ngâm và xử lý vỏ cây. Vỏ cây sau khi thu gom được bó thành từng nhóm nhỏ, ngâm trong nước sạch để loại bỏ bụi bẩn và tạp chất. Tiếp đó, nguyên liệu được ngâm trong nước vôi loãng để tiến hành muối vôi vỏ cây. Công đoạn này giúp vỏ cây mềm hơn, tạo điều kiện thuận lợi cho việc tách và làm tơi sợi. Công đoạn xử lý nguyên liệu này thường mất từ hai đến ba ngày và có một gia đình trong làng chuyên nhận đảm trách công việc này. Thời kỳ nghề giấy thịnh vượng nhất ở làng có tận bốn cái lò đồ vỏ được đặt ngay bên ao làng, làm suốt ngày đêm mà vẫn không đủ nguyên liệu cho làng dùng. Bước 2: Giã và làm tơi sợi. Sau khi xử lý, vỏ cây được rửa sạch, để ráo rồi giã hoặc đập cho các sợi tách ra (nếu là vỏ cây dó thì lột). Người thợ tiếp tục loại bỏ phần xơ thô, tạp chất để thu được nguyên liệu phù hợp. Những sợi mịn được giữ lại để tạo nên chất giấy có bề mặt đẹp. Bước 3: Chuẩn bị bột giấy. Phần sợi đã xử lý được hòa vào bể vôi để đảm bảo đủ độ bở của tơ, sau đó đem phá bìa, đánh tơ vào trang giấy. Người thợ sử dụng chất nhớt lấy từ cây mò để tạo độ kết dính và giúp bột giấy phân tán đều, hạn chế vón cục. Đây là khâu quan trọng, ảnh hưởng đến sự đồng đều của tờ giấy sau khi hình thành. Bước 4: Seo giấy. Người thợ sử dụng dụng cụ gọi là liềm seo , được tạo từ những nan tre hoặc đồng đan thành khung lưới. Người thợ dùng liềm seo cho vào bể bột giấy và tiến hành tráng giấy, những sợi tơ bám vào các mắt lưới ngang, dọc trồng chéo khác nhau tạo nên một lớp giấy mỏng, dai như lụa. Đây là công đoạn đòi hỏi nhiều kinh nghiệm. Nếu thao tác không đều, bột giấy sẽ khiến cho tờ giấy có độ dày mỏng khác nhau. Vì vậy, người thợ phải phối hợp nhịp tay, lực chuyển động và độ nghiêng của khung để tạo ra lớp giấy đạt yêu cầu. Bước 5: Ép và làm khô. Sau khi seo, các tờ giấy được xếp chồng, ép uốn, cho vào lò can giấy để loại bỏ bớt nước rồi tách ra và đưa đi sấy hoặc làm khô. Khi hoàn tất, giấy được kiểm tra, phân loại và xếp thành từng tập. Khám phá nghề làm giấy dó tại Bảo tàng Văn học Việt Nam Nổi bật trong khu vực trưng bày là các đoạn thân cây, vỏ cây và dụng cụ gắn với quá trình chế biến nguyên liệu. Bể chứa nước dùng trong công đoạn làm giấy cùng những dụng cụ giúp tái hiện phần nào môi trường lao động của làng nghề xưa. Những vật dụng mộc mạc này cho thấy nghề làm giấy phải phụ thuộc nhiều vào sức người và kinh nghiệm truyền lại qua nhiều thế hệ. Trưng bày dụng cụ làm giấy dó Bể nước hòa với vôi để ngâm vỏ cây Bên cạnh đó, bảo tàng còn trưng bày những tờ giấy dó thành phẩm với bề mặt màu ngà tự nhiên, có độ mỏng và những nếp gấp đặc trưng, sử dụng trong những bức tranh dân gian hoặc lưu truyền kiến thức, chữ viết. Thành phẩm giấy dó được trưng bày tại Bảo tàng Văn học Việt Nam Giấy dó không chỉ đơn thuần là vật liệu phục vụ viết, vẽ và in ấn mà còn là một phần của di sản văn hóa Việt Nam. Nghề làm giấy truyền thống phản ánh sự hiểu biết của người xưa về nguyên liệu tự nhiên, khả năng tổ chức lao động và kỹ thuật chế tác được tích lũy qua nhiều thế hệ. Qua các hiện vật ở không gian trưng bày tại Bảo tàng Văn học Việt Nam, người xem có thêm cơ hội khám phá nghề giấy dó và hiểu hơn ý nghĩa của việc gìn giữ di sản thủ công Việt Nam. Bảo tàng Văn học Việt Nam",
+      "topic": "co-trung-dai"
+    },
+    {
+      "title": "Văn học đời Trần",
+      "url": "pages/hien-vat/van-hoc-tran.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ancient/van-hoc-tran.webp",
+      "imageAlt": "Tượng và tư liệu trong không gian trưng bày văn học đời Trần",
+      "description": "Văn học đời Trần là dấu mốc nổi bật của văn học trung đại Việt Nam, gắn liền với hào khí Đông A, tinh thần yêu nước và sự phát triển của tư tưởng, văn hóa dân tộc. Khám phá khu trưng bày Văn học đời Trần Nổi bật ở trung tâm không gian trưng bày là tượng của vu",
+      "text": "Văn học đời Trần là dấu mốc nổi bật của văn học trung đại Việt Nam, gắn liền với hào khí Đông A, tinh thần yêu nước và sự phát triển của tư tưởng, văn hóa dân tộc. Khám phá khu trưng bày Văn học đời Trần Nổi bật ở trung tâm không gian trưng bày là tượng của vua Trần Nhân Tông, phía sau là những bức ảnh về di tích, trang sách chữ Hán và các ấn phẩm được trưng bày giúp người xem hình dung hành trình lưu truyền văn chương qua nhiều thế hệ. Tượng vua Trần Nhân Tông được trưng bày tại khu trưng bày văn học nhà Trần Bảng trưng bày hiện vật và ảnh di tích gắn liền với vua Trần Nhân Tông Đặc biệt, tác phẩm Tụng giá hoàn kinh sư của Trần Quang Khải và Cư trần lạc đạo phú của Trần Nhân Tông được trình bày bằng nguyên văn chữ Hán cùng phần diễn giải tiếng Việt. Cách trưng bày này giúp khách tham quan tiếp cận cả hình thức văn tự cổ lẫn nội dung tư tưởng của tác phẩm. Tác phẩm “Tụng giá hoàn kinh sư” của Trần Quang Khải và “Cư trần lạc đạo” phú của Trần Nhân Tông Văn học đời Trần phong phú đủ các loại như: văn chính trị, văn khảo cứu, văn sáng tác. Văn chính trị như: “Hịch tướng sĩ văn” của Trần Quốc Tuấn, “Thất Trảm Sớ” của Chu An, “Sớ” của Lê Tích, của Trương Đỗ, “Vạn Ngôn thư” của Lê Cảnh Tuân. Văn khảo cứu về binh học như: “Vạn kiếp tông bí truyền thư” của Trần Quốc Tuấn, về nho học như: “Tứ thư” của Chu An, “Minh Đạo” của Hồ Quý Ly, về phật học như: \"Khóa hư lục\" và \"Thiền tông chi nam\" của Trần Thái Tông... Về thần tích và truyện cổ như: “Việt điện u linh”, “Lĩnh nam chích quái”... So với văn học thời Lý, văn học đời Trần đã có một bước tiến rõ rệt, khá phong phú về nội dung cũng như hình thức, phần nổi bật trong văn học lúc này là văn học yêu nước thời thịnh Trần. Tinh thần quật khởi kháng Nguyên của dân tộc ta được thể hiện quá đậm đà trong những bài thơ của Trần Quang Khải, Phạm Ngũ Lão, trong bài “Hịch” của Trần Quốc Tuấn hay trong bài “Phú” của Trương Hán Siêu... Quý tộc nhà Trần đã tỏ rõ vai trò tích cực của mình trong giai đoạn lịch sử này. Có thể nói nếu thơ văn thời này biểu hiện được truyền thống anh dũng của dân tộc, thì đồng thời cũng biểu hiện được cái hào khí “Đông A”. Ngoài ra, thơ văn thời này còn có các khía cạnh khác như; ca tụng cảnh trí thiên nhiên, ca tụng tư tưởng nhàn tản hay nói lên nỗi niềm cảm than thời thế. Đặc biệt, đã xuất hiện loại văn bút chiến và phê bình như chỉ trích tinh thần sùng bái đạo Nho một cách mù quáng hay là bài xích đạo Phật, bài xích nhà chùa… Nhìn chung văn học thời này đã phát triển tương xứng với sự trưởng thành của dân tộc, nội dung có nhiều khía cạnh, lời văn có nhiều hình tượng. Ta có thể tự hào đã có một nền văn học viết thích đáng. Văn học đời Trần là di sản quý giá, kết tinh hào khí dân tộc, chiều sâu tư tưởng và sự phong phú của văn hóa Đại Việt. Qua các tác phẩm tiêu biểu và tư liệu trưng bày tại Bảo tàng Văn học Việt Nam, người xem có cơ hội khám phá những giá trị văn chương, lịch sử và nhân văn đã được lưu truyền qua nhiều thế hệ. Bảo tàng Văn học Việt Nam",
+      "topic": "co-trung-dai"
+    },
+    {
+      "title": "Mô hình dạy học thời phong kiến",
+      "url": "pages/hien-vat/lop-hoc.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ancient/lop-hoc.webp",
+      "imageAlt": "Mô hình thầy đồ và học trò trong lớp học thời phong kiến",
+      "description": "Tại Bảo tàng Văn học Việt Nam, mô hình dạy học thời phong kiến tái hiện sinh động nếp học Nho học và con đường khoa cử từng giữ vai trò quan trọng trong đời sống xã hội. Qua đó, người xem có dịp tìm hiểu cách người xưa học chữ, rèn luyện đạo đức và nuôi dưỡng ",
+      "text": "Tại Bảo tàng Văn học Việt Nam, mô hình dạy học thời phong kiến tái hiện sinh động nếp học Nho học và con đường khoa cử từng giữ vai trò quan trọng trong đời sống xã hội. Qua đó, người xem có dịp tìm hiểu cách người xưa học chữ, rèn luyện đạo đức và nuôi dưỡng khát vọng lập thân bằng tri thức. Mô hình lớp học thời phong kiến: Bức tranh sinh động về trường học xưa Bước vào không gian trưng bày, người xem sẽ thấy một lớp học truyền thống. Thầy đồ ngồi trên chiếc phản gỗ, trước mặt đặt sách vở và những vật dụng phục vụ việc dạy học. Xung quanh, các học trò ngồi trên chiếu đan, hướng về phía thầy, chăm chú theo dõi bài giảng. Trang phục áo dài truyền thống, mái nhà, cột gỗ và những vật dụng mộc mạc góp phần tái hiện không khí của một lớp học xưa. Khu vực trưng bày mô hình lớp học thời phong kiến Mô hình cũng giúp người xem hình dung rõ hơn mối quan hệ giữa thầy và trò trong nền giáo dục truyền thống. Người thầy không chỉ truyền đạt kiến thức mà còn hướng dẫn học trò tu dưỡng đạo đức, rèn cách ứng xử và hình thành nhân cách. Trong quan niệm Nho học, việc học vì thế không đơn thuần là tiếp thu chữ nghĩa, mà còn gắn với quá trình sửa mình và thực hành những chuẩn mực đạo đức được đề cao trong xã hội. Hệ thống giáo dục và khoa cử dựa trên Nho học đã tồn tại ở Việt Nam gần 1000 năm, từ năm 1075, dưới triều vua Lý Nhân Tông cho đến năm 1919 đời vua Khải Định nhà Nguyễn mới chấm dứt. Khoảng thời gian đó đã là một định chế bình đẳng cho mọi nhân tài có cơ hội thăng tiến trên đường hoan lộ, cũng như đã đào tạo được một tầng lớp sĩ phu có khí tiết và đức độ rất có uy tín trong dân gian. Từ tuổi vỡ lòng đến kinh sử Việc học hành ngày xưa được bắt đầu từ lúc đứa trẻ khoảng 6, 7 tuổi, được gọi là giai đoạn sơ học. Đây là giai đoạn làm quen với chữ nghĩa, ghi nhớ những văn bản nhập môn và rèn luyện những kỹ năng cơ bản để tiếp tục học lên cao. Tài liệu học tập được giới thiệu gồm Tam tự kinh , Tứ tự kinh , Ngũ ngôn cùng những bài tập làm văn, câu đối hai chữ. Khi đã có nền tảng ban đầu, học trò tiếp tục tiếp cận những nội dung khó hơn. Khoảng 10 tuổi trở lên, các em được học Ngũ kinh, lịch sử Trung Hoa, lịch sử Việt Nam và tập làm những bài văn, câu đối dài hơn, có cấu trúc bảy hoặc tám chữ. Một loại tài liệu học tập viết bằng chữ Nôm Dao được trưng bày tại khu vực Những người học giỏi có thể được lựa chọn cho về kinh học tại Quốc Tử Giám, cùng với con em hoàng tộc, con của các quan lại và một số đối tượng được tuyển nhận theo quy định của từng thời kỳ. Đây là môi trường đào tạo quan trọng của nền giáo dục Nho học, gắn với việc bồi dưỡng nhân tài và chuẩn bị Mô hình dạy học thời phong kiến tại Bảo tàng Văn học Việt Nam đã mở ra góc nhìn trực quan về nền giáo dục Nho học, quá trình học tập của học trò xưa và vai trò của khoa cử trong lịch sử dân tộc. Qua không gian lớp học được tái hiện, người xem có thêm cơ hội tìm hiểu di sản giáo dục, văn hóa và văn học Việt Nam, đồng thời cảm nhận rõ hơn truyền thống hiếu học đã được gìn giữ qua nhiều thế hệ. Bảo tàng Văn học Việt Nam",
+      "topic": "co-trung-dai"
+    },
+    {
+      "title": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
+      "url": "pages/hien-vat/nguyen-cong-hoan.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ho-chi-minh/nguyen-cong-hoan.webp",
+      "imageAlt": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
+      "description": "Những kỷ vật của nhà văn Nguyễn Công Hoan đang được trưng bày tại Bảo tàng Văn học Việt Nam mở ra một góc nhìn gần gũi về cuộc đời và sự nghiệp của một cây bút tiêu biểu. Mỗi hiện vật góp phần giúp công chúng hiểu thêm về con người, dấu ấn của nhà văn qua nhữn",
+      "text": "Những kỷ vật của nhà văn Nguyễn Công Hoan đang được trưng bày tại Bảo tàng Văn học Việt Nam mở ra một góc nhìn gần gũi về cuộc đời và sự nghiệp của một cây bút tiêu biểu. Mỗi hiện vật góp phần giúp công chúng hiểu thêm về con người, dấu ấn của nhà văn qua những dấu tích còn được lưu giữ. Bức tượng chân dung nhà văn Nguyễn Công Hoan Khu trưng bày kỷ vật của nhà văn Nguyễn Công Hoan Lọ gốm, bao đựng kính, ấm nước - những vật dụng trong đời sống sinh hoạt của nhà văn Nguyễn Công Hoan Huân chương lao động của nhà văn Nguyễn Công Hoan Huy hiệu Đại hội 4 của Đảng Cộng sản Việt Nam của nhà văn Nguyễn Công Hoan Bảo tàng Văn học Việt Nam",
+      "topic": "ho-chi-minh"
+    },
+    {
+      "title": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
+      "url": "pages/hien-vat/tho-chuc-tet.html",
+      "category": "exhibitions",
+      "image": "assets/images/artifacts/ho-chi-minh/tho-chuc-tet.webp",
+      "imageAlt": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
+      "description": "Những bài thơ chúc Tết của Chủ tịch Hồ Chí Minh được lưu giữ và trưng bày tại Bảo tàng Văn học Việt Nam là những tư liệu giàu giá trị lịch sử và văn hóa. Qua từng bài thơ được viết vào mỗi dịp năm mới, có thể thấy rõ tình cảm của Người dành cho đồng bào, chiến",
+      "text": "Những bài thơ chúc Tết của Chủ tịch Hồ Chí Minh được lưu giữ và trưng bày tại Bảo tàng Văn học Việt Nam là những tư liệu giàu giá trị lịch sử và văn hóa. Qua từng bài thơ được viết vào mỗi dịp năm mới, có thể thấy rõ tình cảm của Người dành cho đồng bào, chiến sĩ, đồng thời cảm nhận tinh thần lạc quan, ý chí đấu tranh và niềm tin vào thắng lợi của dân tộc. Thơ chúc Tết của Chủ tịch Hồ Chí Minh, Tết Tân Mão năm 1951 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1953 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1954 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1960 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1961 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1962 Thơ chúc Tết của Chủ tịch Hồ Chí Minh năm 1966 Bảo tàng Văn học Việt Nam",
+      "topic": "ho-chi-minh"
+    },
+    {
+      "title": "Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam",
+      "url": "pages/tin-tuc/btxb-k43.html",
+      "category": "news",
+      "image": "assets/images/news/btxb-k43.webp",
+      "imageAlt": "Sinh viên lớp Biên tập xuất bản K43 Học viện Báo chí và Tuyên truyền tham quan Bảo tàng Văn học Việt Nam",
+      "description": "Sáng ngày 7/10/2026, đoàn sinh viên lớp Biên tập xuất bản K43, Khoa Xuất bản Học viện Báo chí và Tuyên truyền, do TS. Trần Thị Hồng Hoa làm trưởng đoàn, đã đến tham quan và tìm hiểu về lịch sử văn học Việt Nam tại Bảo tàng Văn học Việt Nam. Tập thể sinh viên l",
+      "text": "Sáng ngày 7/10/2026, đoàn sinh viên lớp Biên tập xuất bản K43, Khoa Xuất bản Học viện Báo chí và Tuyên truyền, do TS. Trần Thị Hồng Hoa làm trưởng đoàn, đã đến tham quan và tìm hiểu về lịch sử văn học Việt Nam tại Bảo tàng Văn học Việt Nam. Tập thể sinh viên lớp Biên tập xuất bản K43, Học viện Báo chí và Tuyên truyền chụp ảnh lưu niệm tại Bảo tàng. Tại đây, các sinh viên được tìm hiểu về tiến trình phát triển của văn học Việt Nam qua các thời kỳ; cuộc đời, sự nghiệp và những đóng góp của nhiều nhà văn, nhà thơ tiêu biểu. Thông qua hệ thống hiện vật, tư liệu, hình ảnh và phần thuyết minh, những kiến thức văn học vốn quen thuộc trên giảng đường trở nên trực quan, sinh động, giúp sinh viên hiểu sâu hơn về các tác giả, tác phẩm và bối cảnh lịch sử gắn liền với sự phát triển của nền văn học dân tộc. Các bạn sinh viên lắng nghe thuyết minh tại khu trưng bày Chuyến tham quan mang đến cho sinh viên những kiến thức bổ ích về lịch sử văn học Việt Nam và góp phần tạo cơ hội kết nối tri thức trên giảng đường với trải nghiệm thực tế; đồng thời hiểu thêm về vai trò của công tác lưu giữ, bảo tồn và phát huy giá trị các tư liệu văn học. Đặc biệt, đối với sinh viên ngành Biên tập xuất bản, việc trực tiếp tiếp cận di sản văn học, tư liệu và hiện vật về các tác giả, tác phẩm có ý nghĩa thiết thực, giúp các em thêm trân trọng giá trị của văn chương và có thêm tài nguyên phục vụ quá trình học tập, nghiên cứu, sáng tạo. Chuyến đi khép lại với nhiều ấn tượng và cảm xúc, để lại trong mỗi sinh viên những hiểu biết sâu sắc hơn về hành trình của văn học Việt Nam cũng như giá trị của việc gìn giữ, phát huy di sản văn học dân tộc. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026",
+      "url": "pages/tin-tuc/anne-carson.html",
+      "category": "news",
+      "image": "assets/images/news/anne-carson.webp",
+      "imageAlt": "Nữ văn sĩ Anne Carson đoạt giải Nobel Văn học 2026",
+      "description": "Ảnh: Ngày 8/10/2026, Viện Hàn lâm Thụy Điển công bố nhà thơ, nhà văn Canada Anne Carson là chủ nhân giải Nobel Văn học 2026. Với phong cách sáng tác độc đáo, kết hợp thơ ca, văn xuôi và đối thoại với văn học cổ điển, bà được vinh danh vì những đóng góp sáng tạ",
+      "text": "Ảnh: Ngày 8/10/2026, Viện Hàn lâm Thụy Điển công bố nhà thơ, nhà văn Canada Anne Carson là chủ nhân giải Nobel Văn học 2026. Với phong cách sáng tác độc đáo, kết hợp thơ ca, văn xuôi và đối thoại với văn học cổ điển, bà được vinh danh vì những đóng góp sáng tạo, góp phần mở ra những hình thức biểu đạt mới cho văn học đương đại. Anne Carson là nhà thơ, nhà văn, dịch giả và học giả văn học cổ điển người Canada, sinh năm 1950 tại Toronto. Bà được biết đến là một nhà văn có khả năng kết hợp nhiều thể loại, từ thơ, tiểu luận đến dịch thuật và các tác phẩm mang hình thức thử nghiệm. Những sáng tác của bà thường khai thác văn học Hy Lạp cổ đại, đặt các câu chuyện và tư tưởng cổ điển trong mối liên hệ với trải nghiệm của con người hiện đại. Nhà thơ, nhà văn và dịch giả người Canada Anne Carson được trao Giải Nobel Văn học năm 2026 Theo công bố của Viện Hàn lâm Thụy Điển, Anne Carson nhận giải Nobel Văn học 2026 nhờ sự nghiệp sáng tác táo bạo, giàu tính sáng tạo, qua đó tạo ra những hình thức mới cho văn học đương đại trong cuộc đối thoại đầy tinh thần khám phá với truyền thống cổ điển. Điểm nổi bật trong sáng tác của Anne Carson là cách bà vượt qua những ranh giới của sự an toàn, những b thể loại quen thuộc. Thơ ca, văn xuôi, kịch và dịch thuật không tồn tại tách biệt mà có thể đan xen. Với nền tảng nghiên cứu văn học cổ điển, bà tiếp cận các tác phẩm xưa như một nguồn cảm hứng để đặt ra những câu hỏi mới về tình yêu, ký ức, bản sắc và thân phận con người. Bà từng giảng dạy ngành nghiên cứu cổ điển tại nhiều trường đại học, trong đó có Princeton, Đại học New York và Đại học McGill ở Montreal. Chiến thắng của Carson đưa bà trở thành người phụ nữ thứ 19 trong tổng số 123 chủ nhân Giải Nobel Văn học. Việc Anne Carson đoạt giải Nobel Văn học 2026 tiếp tục khẳng định sức sống của những sáng tạo văn chương vượt qua giới hạn thể loại và thời đại. Bà là gương mặt tiêu biểu của văn học đương đại với phong cách sáng tác giàu tính thử nghiệm và chiều sâu tư tưởng. Giải thưởng là sự ghi nhận cho hành trình sáng tạo độc đáo của nữ văn sĩ, đồng thời khơi gợi sự quan tâm của độc giả đối với những cách biểu đạt mới trong văn chương thế giới. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam",
+      "url": "pages/tin-tuc/sv-van-hoc.html",
+      "category": "news",
+      "image": "assets/images/news/sv-van-hoc.webp",
+      "imageAlt": "Sinh viên ngành Văn học, trường Đại học Khoa học Xã hội và Nhân văn tham quan Bảo tàng Văn học Việt Nam",
+      "description": "Ngày 9/10/2026, gần 80 sinh viên lớp Văn học K71B, Trường Đại học Khoa học Xã hội và Nhân văn, đã có chuyến tham quan, tìm hiểu lịch sử văn học dân tộc tại Bảo tàng Văn học Việt Nam. Chuyến đi mang đến những trải nghiệm trực quan, sinh động, giúp các bạn sinh ",
+      "text": "Ngày 9/10/2026, gần 80 sinh viên lớp Văn học K71B, Trường Đại học Khoa học Xã hội và Nhân văn, đã có chuyến tham quan, tìm hiểu lịch sử văn học dân tộc tại Bảo tàng Văn học Việt Nam. Chuyến đi mang đến những trải nghiệm trực quan, sinh động, giúp các bạn sinh viên kết nối kiến thức học thuật với thực tiễn, đồng thời nuôi dưỡng tình yêu và niềm say mê đối với văn chương. Tập thể lớp Văn học K71B - Trường Đại học Khoa học Xã hội và Nhân văn chụp ảnh lưu niệm tại Bảo tàng Văn học Việt Nam Trong không gian trưng bày của Bảo tàng, dưới sự hướng dẫn của thuyết minh viên, các sinh viên được tìm hiểu khái quát tiến trình phát triển của văn học Việt Nam qua các thời kỳ, từ văn học cổ – trung đại đến văn học hiện đại, văn học thời kỳ kháng chiến.Thông qua hệ thống tư liệu, hiện vật cùng những câu chuyện về cuộc đời, sự nghiệp của các tác giả, sinh viên có cơ hội khám phá những giá trị tư tưởng và nghệ thuật được gửi gắm trong các tác phẩm, qua đó cảm nhận lịch sử văn học một cách gần gũi và sinh động hơn. Các bạn sinh viên chăm chú lắng nghe thuyết minh viên và tìm hiểu hiện vật tại Bảo tàng Sau chuyến tham quan, nhiều sinh viên bày tỏ sự xúc động và ấn tượng trước những câu chuyện văn học. Đặc biệt, câu chuyện về những lần Tổng thống Hoa Kỳ Bill Clinton đến Việt Nam và nhắc đến thơ Nguyễn Du, Truyện Kiều đã để lại nhiều ấn tượng đối với các bạn trẻ. Bên cạnh đó, những câu chuyện về cuộc đời, tình yêu và sự nghiệp sáng tác của các văn nghệ sĩ như Lưu Quang Vũ – Xuân Quỳnh cũng góp phần giúp sinh viên cảm nhận sâu sắc hơn mối liên hệ giữa văn chương và đời sống. Chuyến tham quan góp phần củng cố kiến thức chuyên ngành và mở ra cơ hội để sinh viên tiếp cận văn học bằng nhiều giác quan, cảm xúc và trải nghiệm. Qua đó, Bảo tàng Văn học Việt Nam tiếp tục khẳng định vai trò là không gian giáo dục di sản, nơi kết nối quá khứ với hiện tại, đưa những giá trị văn chương đến gần hơn với thế hệ trẻ. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Hà Thành trong thơ Việt",
+      "url": "pages/tin-tuc/ha-thanh.html",
+      "category": "news",
+      "image": "assets/images/news/ha-thanh.webp",
+      "imageAlt": "Hà Thành trong thơ Việt",
+      "description": "Đã là người Việt Nam, chắc chắn, ai cũng có một niềm tự hào sâu sắc về Hà Nội. Mỗi người Việt đều thể hiện tình yêu với Hà Nội theo một cách riêng, song với người nghệ sĩ thì tình yêu ấy được bộc lộ qua những tác phẩm nghệ thuật, mà ở bài này, chúng tôi dành r",
+      "text": "Đã là người Việt Nam, chắc chắn, ai cũng có một niềm tự hào sâu sắc về Hà Nội. Mỗi người Việt đều thể hiện tình yêu với Hà Nội theo một cách riêng, song với người nghệ sĩ thì tình yêu ấy được bộc lộ qua những tác phẩm nghệ thuật, mà ở bài này, chúng tôi dành riêng cho việc nói về Hà Nội trong thơ, theo một dòng chảy từ truyền thống tới hiện đại. 1. Không biết tự bao giờ, Hà Nội đã đi vào nhiều bài ca dao. Ở đó, đất kinh kỳ hiện lên trong vẻ đẹp của sự sống động, từ con người tới phố phường, danh lam thắng cảnh, các di tích văn hóa, sản vật, ẩm thực: “Dưa La, húng Láng, ngổ Đầm/ Cá rô đầm Sét, sâm cầm Hồ Tây”. Bài ca dao Hà Nội 36 phố phường trở thành niềm tự hào chung của người Việt Nam: “Rủ nhau chơi khắp Long thành/ Ba mươi sáu phố rành rành chẳng sai/Hàng Bồ, Hàng Bạc, Hàng Gai/ Hàng Buồm, Hàng Thiếc, Hàng Hài, Hàng Khay/Mã Vĩ, Hàng Điếu, Hàng Giày/Hàng Lờ, Hàng Cót, Hàng Mây, Hàng Đàn (…) Người về nhớ cảnh ngẩn ngơ/Bút hoa xin chép nên thơ lưu truyền”. Không chỉ tự hào về vẻ đẹp phố phường, người Hà Nội còn tự hào về cốt cách riêng của mình: “Chẳng thơm cũng thể hoa nhài/Dẫu không thanh lịch cũng người Tràng An”. Có những thi phẩm vốn ban đầu xác định được danh tính người viết rõ ràng, nhưng với một sức lan tỏa và cuốn hút rộng rãi, nó đã trở thành tài sản chung của nhân dân và được người Việt coi đó là ca dao. Bài thơ của Dương Khuê chính là một trong những trường hợp như vậy: “Gió đưa cành trúc la đà/Tiếng chuông Trấn Vũ, canh gà Thọ Xương/ Mịt mù khói tỏa ngàn sương/ Nhịp chày Yên Thái mặt gương Tây Hồ”… Tình yêu đôi lứa cũng gắn với những địa danh thuộc Hà Nội: “Ước gì anh lấy được nàng/ Để anh mua gạch Bát Tràng về xây/ Xây dọc rồi lại xây ngang/ Xây hồ bán nguyệt cho nàng rửa chân”… Ảnh minh họa. 2. Trước khi mang tên Hà Nội, thủ đô đã trải qua các tên gọi: Thăng Long (1010 - 1399), Đông Đô (1400 - 1406), Đông Quan (1407 - 1428), Đông Kinh (1430 - 1786). Trong thi ca Việt Nam thời trung đại, Thăng Long là cái tên được nhắc đến nhiều hơn cả và thậm chí đã trở thành biểu tượng về một thời kỳ phồn thịnh, vàng son của dân tộc, gắn với hai triều đại Lý - Trần kéo dài gần 4 thế kỷ với nhiều thành tựu, chiến công rực rỡ. Một loạt thi phẩm của các danh gia giai đoạn nửa cuối thế kỷ XVIII - nửa đầu thế kỷ XIX đều sử dụng địa danh Thăng Long như hồi ức về một thời kỳ không thể nào quên. Một trong những thi phẩm nổi tiếng nhất của Bà huyện Thanh Quan có ngay hai chữ Thăng Long từ nhan đề - Thăng Long thành hoài cổ - với những lời thơ day dứt, đầy hoài niệm tiếc nuối: “Lối xưa xe ngựa hồn thu thảo/ Nền cũ lâu đài bóng tịch dương”. Đại thi hào Nguyễn Du cũng có một chùm hai bài thơ mang tên Thăng Long với những câu: “Tản Lĩnh Lô Giang tuế tuế đồng/ Bạch đầu do đắc kiến Thăng Long” (Núi Tản, sông Lô dạo khắp vùng/ Bạc đầu còn được thấy Thăng Long) và “Cổ thời minh nguyệt chiếu tân thành/ Do thị Thăng Long cựu đế kinh” (Tân thành trăng cũ sáng ngời soi/ Thăng Long kinh cũ trải bao đời). Cao Bá Quát thì có bài thơ mang tựa đề Thăng Long thành lãm thắng hữu cảm (Cảm xúc khi lên thành Thăng Long ngắm cảnh) cũng với niềm hoài niệm mênh mang: “Bậc nhất phồn hoa kinh khuyết cũ/ Cao sâu Nùng, Nhị vẫn sơn hà/Thành trì trơ mấy hồi kim cổ/Phường phố thay bao lớp trẻ già”… (Hoàng Tạo dịch) Sang đến thế kỷ XX, vẫn còn những bài thơ nổi tiếng sử dụng địa danh Thăng Long. Thi phẩm đề đời của tướng Huỳnh Văn Nghệ với hai câu tuyệt tác đã in sâu vào tâm hồn bao thế hệ: “Từ thuở mang gươm đi mở cõi/ Trời Nam thương nhớ đất Thăng Long” (Nhớ Bắc). Nhà thơ Đỗ Trung Lai trong những năm đầu của thế kỷ XXI đã viết bài thơ Thăng Long (13 khổ, mỗi khổ 4 câu 5 chữ) với điệp khúc “Có một Thăng Long” trở đi trở lại trong câu thứ nhất và câu thứ ba mỗi khổ, tạo thành một điểm nhấn đặc biệt cho toàn thi phẩm: “Có một Thăng Long huyền thoại/ Rồng lên từ phía sông Hồng/ Có một Thăng Long áo mỏng/ Gió đùa quanh tấm lưng ong/ Có một Thăng Long sát thát/ Tinh kỳ rợp Đông Bộ Đầu/ Có một Thăng Long thơm ngát/ Mặt hoa nồng nàn đêm sâu”. Hào hùng và hào hoa như hai phẩm chất song hành sóng đôi trong từng khổ thơ, khiến bài thơ cất cánh bay lên. Nhà thơ Đỗ Trung Lai 3. Sang thời kỳ 1945 - 1975, hiện lên hình ảnh của một Hà Nội kháng chiến với rất nhiều cung bậc cảm xúc. Thời kỳ chống Pháp, có không ít những câu thơ lãng mạn hào hoa: “Đêm Hà Nội buốt tê/ Mái buồn nghe sấu rụng” (Chính Hữu), “Sáng chớm lạnh trong lòng Hà Nội/ Những phố dài xao xác hơi may/Người ra đi đầu không ngoảnh lại/ Sau lưng thềm nắng lá rơi đầy” (Đất nước - Nguyễn Đình Thi). Nhưng cùng với lãng mạn hào hoa còn có cả một Hà Nội rực lửa kháng chiến, một Hà Nội quyết tử cho tổ quốc quyết sinh: “Thôi nhé miền xuôi thôi tạm biệt/ Cống Chéo, Đồng Xuân thề một chết/Hàng Gai tay bỏng trục ba càng/Đất cũ Thăng Long người lẫm liệt” (Những làng đi qua - Quang Dũng), “Trước đau thương Hà Nội không buồn/ Hà Nội rắn như thanh sắt nguội (…) Ta mang ba mươi sáu phố phường đi kháng chiến/ Chín năm rừng lòng vẫn thủ đô” (Nhớ ngày thủ đô kháng chiến - Hoài Anh). Cái hào khí đánh giặc ấy phải chăng đã được hun đúc từ những áng thơ thời Trần: “Đoạt sóc Chương Dương độ/ Cầm Hồ Hàm Tử quan/ Thái bình tu trí lực/ Vạn cổ thử giang san” (Tụng giá hoàn kinh sư - Trần Quang Khải). Thời chống Mỹ, không thể không nhắc đến trường ca nổi tiếng Em ơi Hà Nội phố gồm 23 khúc của nhà thơ Phan Vũ, viết năm 1972, trong những ngày cả Hà Nội làm cuộc Điện Biên Phủ trên không chống lại đế quốc Mỹ. Gần 500 dòng thơ khắc khoải, đắm say, xa xót, nghẹn ngào đã mang đến cho người đọc một Hà Nội với bao nỗi niềm, như thể ngàn năm cùng đọng lại trong một khoảnh khắc. Hà Nội vừa đẹp dịu dàng của những hẹn thề thiêng liêng long lanh ký ức, Hà Nội vừa buồn thương của những biệt ly chưa hẹn ngày trở lại, Hà Nội có những mất mát không gì bù đắp nổi như những vết thương nhức nhối muôn đời: “Em ơi Hà Nội phố/ Ta còn em mùi hoàng lan/ Ta còn em mùi hoa sữa/ Tiếng giày ai gõ nhịp đường khuya/ Cọt kẹt bước chân quen/ Thang gác thời gian/ Mòn thang gỗ/ Ngôi sao lẻ lạc vào căn xép nhỏ (…) Tháng Chạp/ Đôi tân hôn chưa kịp nằm chiếu hoa/ Đã có tên trong vòng hoa tưởng niệm/ Một tháng Chạp/ Trắng khăn xô, khói hương dài theo phố/ Một tháng Chạp/ Thâu đêm/ Mẹ thức hóa vàng”… Nhưng Hà Nội anh hùng bất khuất đã kiên cường vượt qua mọi khó khăn gian khổ để chiến đấu và chiến thắng. Nhà thơ người dân tộc Dao - Bàn Tài Đoàn đã có những câu thơ thật mộc mạc mà tha thiết như tiếng reo vui tự hào cất lên rất đỗi tự nhiên: “Súng sẵn trong tay chờ giặc đến/ Giặc đến lúc nào, súng nổ vang/ Súng to, súng nhỏ tranh nhau nổ/ Nghe như pháo Tết đón xuân sang…/ Hà Nội hôm nay lại thắng lớn/ Tin vui vang dội khắp bốn phương/ Rừng núi ta nghe lòng vui sướng/ Thật là Hà Nội đất anh hùng” (Hà Nội đất anh hùng). 4. Sau 1975 cho tới nay, Hà Nội trở về với thời bình, gắn với những câu chuyện, cảm xúc, tâm sự riêng của từng cá nhân. Và chỉ có sự chân thành trong tình yêu Hà Nội là nguồn cơn duy nhất khiến những bài thơ, câu thơ lưu luyến mãi trong lòng người đọc. Có những bài thơ, câu thơ không có từ Hà Nội nào nhưng vẫn đầy ắp vẻ đẹp và hồn cốt của Hà Nội: “Trong thành phố có một vườn cây mát/ Trong triệu người có em của ta/ Buổi trưa nắng bầy ong đi kiếm mật/ Vào vườn rồi ong chẳng nhớ lối ra” (Vườn trong phố - Lưu Quang Vũ), “Ở một góc phố nào đôi mắt ấy nhìn ra/ Em đi qua và thế thôi cũng đủ” (Đôi mắt anh nhìn - Lữ Huy Nguyên). Có những bài thơ vỏn vẹn bốn câu, chỉ mang một chữ “phố” duy nhất mà đọc lên vẫn thấy thăm thẳm ắp đầy một Hà Nội trong vùng ký ức thanh xuân: “Anh tìm về địa chỉ tuổi thơ/Nhà số lẻ phố trò chơi bỏ dở/Mộng anh hường tìm môi em bói đỏ/Giàn trầu già khua những át cơ rơi”… (Át cơ - Lê Đạt). Có một Hà Nội gắn với những mối tình đầu không thể nguôi quên trong trái tim mỗi người, có cả một Hà Nội gắn với ân tình bao bạn bè một thuở: “Cây đại già làm một chứng nhân/Số nhà các anh chúng tôi đến ở/Căn phòng cũ mấy lần thay ổ khóa/ Trái tim các anh vùi dưới đất rừng không hóa đá/ Trái tim đập phập phồng trên trang sách chẳng bình yên” (Hà Nội chiều nay - Nguyễn Đức Mậu). Nếu có một lý do khiến bàn chân phải rời xa Hà Nội thì cảm xúc bao giờ cũng là những quyến luyến không nguôi, giây phút bước chân đi cũng là khi thầm nhủ trong lòng một ngày về: “Em xao xuyến trong lòng/Nhớ về nơi ta ở/ Mùa thu vàng đường phố/ Lá bay đầy lối qua/ Ngọn đèn và trang thơ/ Tiếng thở đều con nhỏ/ Màu hoa trên cửa sổ/ Quán nước chè mùa đông/ Con tàu với dòng sông/ Ra đi và trở lại/ Hà Nội ơi Hà Nội/ Sân ga chiều em đi” (Sân ga chiều em đi - Xuân Quỳnh). Chẳng phải phải ngẫu nhiên mà một loạt bài thơ về Hà Nội đều được các nhạc sĩ phổ nhạc thành những ca khúc nổi tiếng, đi vào lòng công chúng, chắp thêm một đời sống nữa cho tác phẩm. Có thể kể đến các ca khúc Hà Nội ngày trở về (Phú Quang phổ thơ Thanh Tùng), Tôi muốn mang Hồ Gươm đi (Phú Quang phổ thơ Trần Mạnh Hảo), Có phải em mùa thu Hà Nội (Trần Quang Lộc phổ thơ Tô Như Châu), Hà Nội mùa này vắng những cơn mưa (Trương Quý Hải phổ thơ Bùi Thanh Tuấn), đều đã chứng tỏ được sức sống bền bỉ của mình qua thử thách thời gian… Những cây bút thuộc thế hệ 7X, 8X vẫn tiếp tục viết về Hà Nội với nhiều mê đắm. Tập Nhiên sơ (NXB Văn học, 2011) của Đặng Hà My có 46 bài thì đã có tới hơn một phần ba trong số đó viết về Hà Nội hoặc có những câu thơ về Hà Nội. Nỗi nhớ của người con gái sinh ra và lớn lên ở Hà Nội, nay phải bôn ba nơi góc bể chân trời dễ khiến bất cứ ai trong chúng ta nao lòng: “Em chưa thể cùng anh về với biển/ Bởi nơi em chưa dịu sóng Tây Hồ/ Cát nơi ấy trùng khơi nơi ấy/ Em mang về vời vợi chiết vào thơ/ Chẳng có ngôi sao nào giấu được vào tay áo/ Cho thiên đường thơm thảo giấc yêu/ Em vẫn thế nghiêng mây đường Yên Phụ/ Ươm vu vơ tóc hương ngát mây chiều” (Nghiêng xuống Tây Hồ). Phải yêu Hà Nội thế nào, phải yêu sông Hồng biết bao nhiêu, Vi Thùy Linh mới viết được những câu thơ thế này, mang trong đó không ít nhưng lo lắng về sự tác động của đô thị hiện đại đến vẻ đẹp tự nhiên có tự ngàn đời: “Ngồi trên bờ cao nhìn sông Hồng thở/Rặng liễu bơ phờ chìa vôi ngái ngủ/Buồn ơi những chiều đò dọc, xà lan/Sành, gốm, cát, than đi về hoang mang/Sông ngày một cạn, hẹp lại hai bờ/Còn đâu hướng gió cho thuyền lên thơ” (Thương sông Hồng). Nhưng tôi tin rằng, mỗi con người bằng tình yêu với Hà Nội, tình yêu với từng góc phố, mỗi ngôi nhà sẽ có cách giữ gìn Hà Nội cho riêng mình. Tình yêu với Hà Nội sẽ luôn là một dòng chảy, một đồng vọng, một nối tiếp qua nhiều thế hệ, qua bao đôi lứa, qua bao trái tim, như những gì mà Đinh Vũ Hoàng Nguyên đã nói giùm chúng ta: “Ta bên nhau trên phố của bao người/ Bao ân tình vừa đi qua phố/ Có một phố vừa đi qua phố/ Có một người lắng phố, bên em/ Em hồn nhiên cho phố hồn nhiên/ Tóc phả mái bên chiều phai phai nắng ngói…/Thân thương quá! Lòng sao chợt hỏi/ Phố của mình có nối… phố trong em” (Có một phố vừa đi qua phố). Hay như thi sĩ Bằng Việt đã hơn một lần khẳng định: “Dù nhiều điều tôi nhớ tôi quên/ Nhưng Hà Nội trong tôi là vĩnh viễn” (Trở lại trái tim mình). Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam",
+      "url": "pages/tin-tuc/dai-su-an-do.html",
+      "category": "news",
+      "image": "assets/images/news/dai-su-an-do.webp",
+      "imageAlt": "Ngài Tshering W.Sherpa, Đại sứ đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam thăm Bảo tàng Văn học Việt Nam",
+      "description": "Chiều ngày 30/9/2026, Ngài TShering W. Sherpa, Đại sứ Đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam, đến thăm Bảo tàng Văn học Việt Nam. Chuyến thăm là dịp để Ngài Đại sứ tìm hiểu sâu hơn về lịch sử hình thành, diện mạo và những giá trị đặc sắc của nền văn h",
+      "text": "Chiều ngày 30/9/2026, Ngài TShering W. Sherpa, Đại sứ Đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam, đến thăm Bảo tàng Văn học Việt Nam. Chuyến thăm là dịp để Ngài Đại sứ tìm hiểu sâu hơn về lịch sử hình thành, diện mạo và những giá trị đặc sắc của nền văn học Việt Nam, từ đó mở ra những triển vọng kết nối, giao lưu văn hóa giữa hai quốc gia có truyền thống văn hóa lâu đời. Trong không khí thân mật, Ngài Đại sứ TShering W. Sherpa đã tham quan các không gian trưng bày của Bảo tàng, lắng nghe giới thiệu về những dấu mốc quan trọng trong tiến trình phát triển của văn học Việt Nam qua các thời kỳ. Từ văn học cổ – trung đại đến văn học hiện đại, hệ thống trưng bày tại Bảo tàng không chỉ giới thiệu các tác giả, tác phẩm tiêu biểu mà còn góp phần khắc họa những giá trị tư tưởng, tinh thần và bản sắc văn hóa Việt Nam được kết tinh qua nhiều thế hệ. Ngài TShering W. Sherpa, Đại sứ Đặc mệnh toàn quyền Cộng hòa Ấn Độ tại Việt Nam tham quan không gian trưng bày các hiện vật tại Bảo tàng Điểm nhấn trong chuyến tham quan là tượng nhà thơ Rabindranath Tagore, tác gia lớn của văn học Ấn Độ và là một trong những gương mặt văn hóa có ảnh hưởng sâu rộng trên thế giới. Bức tượng do Đại sứ quán Ấn Độ trao tặng Hội Nhà văn Việt Nam và được đặt tại Bảo tàng nhân dịp kỷ niệm 150 năm năm sinh của Rabindranath Tagore. Sự hiện diện của tượng nhà thơ Tagore tại Bảo tàng là một dấu ấn văn hóa giàu ý nghĩa và thể hiện mối giao lưu, đồng cảm giữa hai nền văn học Việt Nam và Ấn Độ. Ngài TShering W. Sherpa ghé thăm khu trưng bày tượng nhà thơ Rabindranath Tagore, tác gia lớn của văn học Ấn Độ Chia sẻ cảm nhận sau chuyến tham quan: Ngài Đại sứ bày tỏ sự trân trọng đối với những giá trị phong phú của văn học Việt Nam, đồng thời đánh giá cao việc Bảo tàng lưu giữ, giới thiệu những di sản văn học có giá trị của dân tộc. Trong số các tác giả được giới thiệu tại Bảo tàng, nhiều tên tuổi đã vượt ra ngoài phạm vi quốc gia, có vị trí và ảnh hưởng trong đời sống văn hóa thế giới. Đề cập đến năm 2027, kỷ niệm 55 năm thiết lập quan hệ ngoại giao Việt Nam – Ấn Độ, Ngài Đại sứ cho biết sẽ có nhiều hoạt động được tổ chức nhằm đánh dấu chặng đường hợp tác giữa hai nước. Trong đó, giao lưu nhân dân và trao đổi văn hóa được xác định là những lĩnh vực có ý nghĩa quan trọng trong việc tăng cường sự hiểu biết và gắn kết giữa hai dân tộc. Từ những điểm tương đồng và tiềm năng phong phú của đời sống văn hóa hai nước, Ngài Đại sứ đề xuất Đại sứ quán Ấn Độ và Bảo tàng Văn học Việt Nam có thể nghiên cứu, phối hợp tổ chức các hoạt động giao lưu trong thời gian tới, như hội thảo với sự tham gia của các học giả, nhà văn Việt Nam và Ấn Độ; các chương trình giới thiệu văn học, tác giả, tác phẩm; đồng thời nghiên cứu khả năng xây dựng một không gian hoặc góc giới thiệu văn hóa, văn học Ấn Độ tại Bảo tàng Văn học Việt Nam. Đây có thể trở thành một điểm kết nối ý nghĩa, góp phần đưa những giá trị văn học và văn hóa đặc sắc của Ấn Độ đến gần hơn với công chúng Việt Nam. Đại sứ quán Ấn Độ sẽ trao tặng Bảo tàng một số đầu sách phù hợp để phục vụ công tác trưng bày, giới thiệu. Chuyến thăm của Ngài Đại sứ TShering W. Sherpa không những thể hiện sự quan tâm đối với văn hóa, văn học Việt Nam mà còn mở ra những cơ hội hợp tác thiết thực trong lĩnh vực văn hóa, văn học giữa Việt Nam và Ấn Độ. Bảo tàng Văn học Việt Nam trân trọng cảm ơn Ngài Đại sứ TShering W. Sherpa đã dành thời gian thăm Bảo tàng, đồng thời bày tỏ mong muốn tiếp tục phối hợp với Đại sứ quán Ấn Độ triển khai những hoạt động giao lưu, kết nối văn hóa và văn học trong thời gian tới, đặc biệt hướng tới các hoạt động kỷ niệm 55 năm thiết lập quan hệ ngoại giao Việt Nam – Ấn Độ vào năm 2027. Qua đó, góp phần làm sâu sắc hơn tình hữu nghị, sự hiểu biết và những kết nối văn hóa bền chặt giữa hai quốc gia. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam",
+      "url": "pages/tin-tuc/sv-thai-nguyen.html",
+      "category": "news",
+      "image": "assets/images/news/sv-thai-nguyen.webp",
+      "imageAlt": "Sinh viên ngành Văn học – Trường Đại học Khoa học, Đại học Thái Nguyên tham quan Bảo Tàng Văn Học Việt Nam",
+      "description": "Ảnh: Ngày 17/9/2026, đoàn sinh viên ngành Văn học, Trường Đại học Khoa học – Đại học Thái Nguyên đã có chuyến tham quan, học tập thực tế tại Bảo tàng Văn học Việt Nam. Đây là dịp để các bạn sinh viên trực tiếp tìm hiểu về lịch sử văn học dân tộc, thông qua nhữ",
+      "text": "Ảnh: Ngày 17/9/2026, đoàn sinh viên ngành Văn học, Trường Đại học Khoa học – Đại học Thái Nguyên đã có chuyến tham quan, học tập thực tế tại Bảo tàng Văn học Việt Nam. Đây là dịp để các bạn sinh viên trực tiếp tìm hiểu về lịch sử văn học dân tộc, thông qua những tư liệu, hiện vật gắn với cuộc đời và sự nghiệp của các thế hệ nhà văn, nhà thơ Việt Nam. Trong hành trình tham quan, sinh viên được khám phá không gian trưng bày từ văn học cổ – trung đại đến văn học Việt Nam hiện đại; tìm hiểu những tác giả, tác phẩm tiêu biểu và những câu chuyện phía sau các trang viết. Cùng với đó các bạn được xem bộ phim tư liệu “Lửa thiêng” về nhà thơ Huy Cận. Chia sẻ sau chuyến tham quan, sinh viên Trần Thư Kỳ bày tỏ niềm vui và sự xúc động khi được trực tiếp nhìn thấy những hiện vật gắn với các tác giả mà mình đang quan tâm nghiên cứu. Đặc biệt, với một sinh viên đang thực hiện khóa luận, việc được tìm hiểu trực tiếp về nhà thơ Lê Anh Xuân và Thanh Thảo mang đến những trải nghiệm quý giá, góp phần mở rộng góc nhìn và khơi gợi thêm cảm hứng nghiên cứu. Từ trải nghiệm tại Bảo tàng, Thư Kỳ nhắc đến câu nói “Văn học là nhân học”, đồng thời cảm nhận sâu sắc hơn mối quan hệ giữa văn học, con người và lịch sử. Theo em, văn học không chỉ đồng hành cùng những chặng đường của dân tộc mà còn lưu giữ những vẻ đẹp của cuộc sống và con người qua mỗi thời đại. Trong tương lai, khi tiếp nối nghề giáo viên, Thư Kỳ mong muốn sẽ đưa những thế hệ học sinh của mình đến với Bảo tàng Văn học Việt Nam để các em thêm yêu văn chương và tự hào về lịch sử dân tộc. Cùng chung niềm hứng thú, sinh viên Nguyễn Hoài Nam cho biết chuyến đi giúp em có thêm nhiều kiến thức và trải nghiệm bổ ích. Những tên tuổi như Nguyễn Du, Kim Lân, Nam Cao để lại trong em những ấn tượng đặc biệt, đồng thời khơi dậy mong muốn học hỏi nhiều hơn để xứng đáng với tư cách một sinh viên ngành Văn học. Các bạn sinh viên tham quan khu trưng bày hiện vật Đối với Hoài Nam, chuyến tham quan không chỉ là một hoạt động ngoại khóa mà còn có ý nghĩa thiết thực đối với việc học tập chuyên ngành. Những kiến thức được tiếp nhận từ các hiện vật, tư liệu và câu chuyện tại Bảo tàng giúp sinh viên có cơ hội kết nối kiến thức trên giảng đường với những dấu tích cụ thể của đời sống văn học. Em cũng bày tỏ mong muốn có thêm thời gian để trở lại Bảo tàng, tìm hiểu sâu hơn về các tác giả, nhân vật và những cuốn sách đang được lưu giữ tại đây. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam",
+      "url": "pages/tin-tuc/newton.html",
+      "category": "news",
+      "image": "assets/images/news/newton.webp",
+      "imageAlt": "Học sinh khối 7 Trường Liên cấp Newton tham quan, học tập và trải nghiệm tại Bảo tàng Văn học Việt Nam",
+      "description": "Ngày 24/9/2026, học sinh khối 7 trường THCS - THPT Newton đã có một hành trình học tập đầy ý nghĩa tại Bảo tàng Văn học Việt Nam - nơi những trang văn, vần thơ và các nhân vật được kể lại trong dòng chảy lịch sử dân tộc. Ngay tại không gian trung tâm tầng 1, c",
+      "text": "Ngày 24/9/2026, học sinh khối 7 trường THCS - THPT Newton đã có một hành trình học tập đầy ý nghĩa tại Bảo tàng Văn học Việt Nam - nơi những trang văn, vần thơ và các nhân vật được kể lại trong dòng chảy lịch sử dân tộc. Ngay tại không gian trung tâm tầng 1, các em được tìm hiểu về hòn đá hình cây bút - biểu tượng gắn với hành trình gìn giữ và tôn vinh văn chương Việt Nam, được rước về từ Khu di tích lịch sử Đền Hùng. Các em lần lượt được giới thiệu về những dấu mốc, tác giả và tác phẩm tiêu biểu, trong đó có “Nam Quốc Sơn Hà” và “Bình Ngô Đại Cáo” - những áng văn chương gắn với tinh thần độc lập, tự chủ và ý thức về non sông, dân tộc. Không chỉ đọc và lắng nghe, học sinh còn được theo dõi bộ phim tài liệu “Cậu bé cờ lau”, tái hiện những năm tháng tuổi thơ của Đinh Bộ Lĩnh, qua đó hình dung rõ hơn về một giai đoạn lịch sử và cách văn học, nghệ thuật lưu giữ ký ức dân tộc. Từ những điều mắt thấy, tai nghe, các bạn học sinh tiếp tục tham quan hệ thống trưng bày về các tác giả, tác phẩm, chủ động thu thập thông tin và hệ thống hóa kiến thức bằng sơ đồ tư duy. Mỗi nhánh thông tin, mỗi nhân vật, mỗi tác phẩm trở thành một “mảnh ghép” giúp các em nhìn văn học không còn là những bài học nằm trên trang sách, mà là một phần của lịch sử và đời sống. Đặc biệt, trải nghiệm làm giấy Dó đã mang đến cho các con cơ hội được tự tay khám phá một công đoạn gắn với truyền thống làm giấy của người Việt. Từ những vật liệu giản dị, các em cảm nhận rõ hơn sự công phu, khéo léo và giá trị của những sản phẩm được tạo nên bằng bàn tay, trí tuệ và sự kiên nhẫn. Các bạn học sinh trải nghiệm làm giấy Dó tại Bảo tàng Một ngày trải nghiệm khép lại, các bạn học sinh khối 7 trường THCS - THPT Newton đã có cơ hội chạm vào văn học bằng nhiều giác quan và kết nối kiến thức với trải nghiệm thực tế. Bởi học văn không chỉ để nhớ một tác giả, thuộc một tác phẩm, mà còn để hiểu hơn về con người, quê hương, lịch sử và những giá trị làm nên tâm hồn Việt. Bảo tàng Văn học Việt Nam",
+      "topic": ""
+    },
+    {
+      "title": "Bảo tàng Văn học Việt Nam ở đâu?",
+      "url": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o+t%C3%A0ng+V%C4%83n+h%E1%BB%8Dc+Vi%E1%BB%87t+Nam+275+%C3%82u+C%C6%A1+H%C3%A0+N%E1%BB%99i",
+      "category": "visiting",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Không gian Bảo tàng Văn học Việt Nam",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Giờ mở cửa, giá vé và những điều cần biết",
+      "url": "pages/bai-viet.html?collection=visiting&id=gio-mo-cua",
+      "category": "visiting",
+      "image": "assets/images/home/news-visit.webp",
+      "imageAlt": "Khách tham quan bảo tàng",
+      "description": "THỜI GIAN MỞ CỬA: Sáng: Từ 8h00 - 12h00. Chiều: Từ 13h30 - 17h00. Ngày hoạt động: Từ thứ Hai đến thứ Sáu. VÉ VÀ LỆ PHÍ: Người lớn: 40.000 VNĐ Học sinh cấp 3, sinh viên (có thẻ): 30.000 VNĐ Học sinh cấp 1 - cấp 2: 20.000 VNĐ ĐỊA CHỈ: 275 đường Âu Cơ, phường Tây",
+      "text": "THỜI GIAN MỞ CỬA: Sáng: Từ 8h00 - 12h00. Chiều: Từ 13h30 - 17h00. Ngày hoạt động: Từ thứ Hai đến thứ Sáu. VÉ VÀ LỆ PHÍ: Người lớn: 40.000 VNĐ Học sinh cấp 3, sinh viên (có thẻ): 30.000 VNĐ Học sinh cấp 1 - cấp 2: 20.000 VNĐ ĐỊA CHỈ: 275 đường Âu Cơ, phường Tây Hồ, Hà Nội",
+      "topic": ""
+    },
+    {
+      "title": "Bản đồ tham quan Bảo tàng Văn học Việt Nam",
+      "url": "pages/bai-viet.html?collection=visiting&id=ban-do",
+      "category": "visiting",
+      "image": "assets/images/home/story-garden.webp",
+      "imageAlt": "Lối đi trong khu vườn bảo tàng",
+      "description": "Sơ đồ các tầng và lộ trình tham quan đang được cập nhật. Địa chỉ: 275 đường Âu Cơ, phường Tây Hồ, Hà Nội.",
+      "text": "Sơ đồ các tầng và lộ trình tham quan đang được cập nhật. Địa chỉ: 275 đường Âu Cơ, phường Tây Hồ, Hà Nội.",
+      "topic": ""
+    },
+    {
+      "title": "Giới thiệu chung",
+      "url": "pages/bai-viet.html?collection=visiting&id=gioi-thieu",
+      "category": "visiting",
+      "image": "assets/images/home/intro-right.webp",
+      "imageAlt": "Không gian trưng bày trong bảo tàng",
+      "description": "Bảo tàng Văn học Việt Nam tọa lạc tại địa chỉ 275 Âu Cơ, phường Tây Hồ, Hà Nội. Bảo tàng lưu giữ các hiện vật gắn liền với các nhà văn và nền văn học Việt Nam, từ thời kỳ cổ trung đại cho tới nay.",
+      "text": "Bảo tàng Văn học Việt Nam tọa lạc tại địa chỉ 275 Âu Cơ, phường Tây Hồ, Hà Nội. Bảo tàng lưu giữ các hiện vật gắn liền với các nhà văn và nền văn học Việt Nam, từ thời kỳ cổ trung đại cho tới nay.",
+      "topic": ""
+    },
+    {
+      "title": "Quy định khi tham quan bảo tàng",
+      "url": "pages/bai-viet.html?collection=visiting&id=quy-dinh",
+      "category": "visiting",
+      "image": "assets/images/home/intro-left.webp",
+      "imageAlt": "Tủ trưng bày sách và tư liệu văn học",
+      "description": "Quy định tham quan chi tiết đang được cập nhật. Vui lòng liên hệ bảo tàng hoặc hỏi nhân viên tại quầy trước chuyến tham quan.",
+      "text": "Quy định tham quan chi tiết đang được cập nhật. Vui lòng liên hệ bảo tàng hoặc hỏi nhân viên tại quầy trước chuyến tham quan.",
+      "topic": ""
+    },
+    {
+      "title": "Đăng ký tham quan theo đoàn",
+      "url": "pages/bai-viet.html?collection=visiting&id=theo-doan",
+      "category": "visiting",
+      "image": "assets/images/home/news-group.webp",
+      "imageAlt": "Một đoàn khách tại bảo tàng",
+      "description": "Vui lòng liên hệ bảo tàng để trao đổi lịch tham quan, số lượng khách và nhu cầu hướng dẫn. Email: baotangvanhocvietnam275auco@gmail.com Điện thoại: 0865051179",
+      "text": "Vui lòng liên hệ bảo tàng để trao đổi lịch tham quan, số lượng khách và nhu cầu hướng dẫn. Email: baotangvanhocvietnam275auco@gmail.com Điện thoại: 0865051179",
+      "topic": ""
+    },
+    {
+      "title": "Tham quan bảo tàng bằng công nghệ số",
+      "url": "pages/media.html",
+      "category": "visiting",
+      "image": "assets/images/home/explore-listen.webp",
+      "imageAlt": "Khách khám phá không gian trưng bày",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Từ Đền Hùng đến Bảo tàng Văn học",
+      "url": "pages/bai-viet.html?collection=stories&id=den-hung",
+      "category": "stories",
+      "image": "assets/images/home/intro-center.webp",
+      "imageAlt": "Tư liệu văn học được trưng bày trong bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Rabindranath Tagore giữa không gian văn học Việt Nam",
+      "url": "pages/bai-viet.html?collection=stories&id=tagore",
+      "category": "stories",
+      "image": "assets/images/home/story-archive.webp",
+      "imageAlt": "Ảnh minh họa không gian trưng bày tư liệu văn học",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Tầng 3 Bảo tàng Văn học Việt Nam",
+      "url": "pages/bai-viet.html?collection=stories&id=tang-ba",
+      "category": "stories",
+      "image": "assets/images/home/intro-right.webp",
+      "imageAlt": "Ảnh minh họa một không gian trưng bày bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Từ Trường viết văn Quảng Bá đến Bảo tàng Văn học Việt Nam",
+      "url": "pages/bai-viet.html?collection=stories&id=quang-ba",
+      "category": "stories",
+      "image": "assets/images/home/hero-history.webp",
+      "imageAlt": "Ảnh tư liệu lịch sử văn học",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Những danh nhân văn học đứng giữa khu vườn bảo tàng",
+      "url": "pages/bai-viet.html?collection=stories&id=danh-nhan",
+      "category": "stories",
+      "image": "assets/images/home/story-garden.webp",
+      "imageAlt": "Các pho tượng trong khu vườn bảo tàng",
+      "description": "Giữa không gian xanh của bảo tàng, những pho tượng danh nhân văn học hiện diện như những người kể chuyện không lời.",
+      "text": "Giữa không gian xanh của bảo tàng, những pho tượng danh nhân văn học hiện diện như những người kể chuyện không lời.",
+      "topic": ""
+    },
+    {
+      "title": "Hành trình đi tìm một “ngôi nhà” cho văn chương Việt",
+      "url": "pages/bai-viet.html?collection=stories&id=ngoi-nha",
+      "category": "stories",
+      "image": "assets/images/home/story-archive.webp",
+      "imageAlt": "Sách và tư liệu văn học trong tủ trưng bày",
+      "description": "Văn chương Việt không chỉ tồn tại trên những trang sách. Đó còn là ký ức, con người và những dấu mốc làm nên diện mạo văn học qua nhiều thế hệ.",
+      "text": "Văn chương Việt không chỉ tồn tại trên những trang sách. Đó còn là ký ức, con người và những dấu mốc làm nên diện mạo văn học qua nhiều thế hệ.",
+      "topic": ""
+    },
+    {
+      "title": "Từ lều chõng đến bảng vàng",
+      "url": "pages/bai-viet.html?collection=stories&id=leu-chong",
+      "category": "stories",
+      "image": "assets/images/home/intro-left.webp",
+      "imageAlt": "Ảnh minh họa các tư liệu sách trong bảo tàng",
+      "description": "",
+      "text": "",
+      "topic": ""
+    },
+    {
+      "title": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam",
+      "url": "pages/media.html?video=toan-canh#videos",
+      "category": "media",
+      "image": "assets/images/media/videos/toan-canh.webp",
+      "imageAlt": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam",
+      "description": "Video · Bảo tàng Văn học Việt Nam",
+      "text": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam"
+    },
+    {
+      "title": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam",
+      "url": "pages/media.html?video=vu-tu-nam#videos",
+      "category": "media",
+      "image": "assets/images/media/videos/vu-tu-nam.webp",
+      "imageAlt": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam",
+      "description": "Video · Bảo tàng Văn học Việt Nam",
+      "text": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam"
+    },
+    {
+      "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ",
+      "url": "pages/media.html?video=nguyen-my#videos",
+      "category": "media",
+      "image": "assets/images/media/videos/nguyen-my.webp",
+      "imageAlt": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ",
+      "description": "Video · Bảo tàng Văn học Việt Nam",
+      "text": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ"
+    },
+    {
+      "title": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường",
+      "url": "pages/media.html?video=thu-hoc-sinh#videos",
+      "category": "media",
+      "image": "assets/images/media/videos/thu-hoc-sinh.webp",
+      "imageAlt": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường",
+      "description": "Video · Bảo tàng Văn học Việt Nam",
+      "text": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường"
+    },
+    {
+      "title": "Tượng nữ sĩ Bà Huyện Thanh Quan",
+      "url": "pages/media.html?model=ba-huyen-thanh-quan#models",
+      "category": "media",
+      "image": "assets/images/media/ba-huyen-thanh-quan.webp",
+      "imageAlt": "Tượng nữ sĩ Bà Huyện Thanh Quan",
+      "description": "Hiện vật 3D · Danh nhân trong khu vườn",
+      "text": "Tượng nữ sĩ Bà Huyện Thanh Quan"
+    },
+    {
+      "title": "Tượng nhà bác học Lê Quý Đôn",
+      "url": "pages/media.html?model=le-quy-don#models",
+      "category": "media",
+      "image": "assets/images/media/le-quy-don.webp",
+      "imageAlt": "Tượng nhà bác học Lê Quý Đôn",
+      "description": "Hiện vật 3D · Danh nhân trong khu vườn",
+      "text": "Tượng nhà bác học Lê Quý Đôn"
+    },
+    {
+      "title": "Tượng nhà thơ Nguyễn Khuyến",
+      "url": "pages/media.html?model=nguyen-khuyen#models",
+      "category": "media",
+      "image": "assets/images/media/nguyen-khuyen.webp",
+      "imageAlt": "Tượng nhà thơ Nguyễn Khuyến",
+      "description": "Hiện vật 3D · Danh nhân trong khu vườn",
+      "text": "Tượng nhà thơ Nguyễn Khuyến"
+    },
+    {
+      "title": "Không gian sinh hoạt và sáng tác",
+      "url": "pages/media.html?album=album-1#photos",
+      "category": "media",
+      "image": "assets/images/media/albums/group-1/cover-thumb.webp",
+      "imageAlt": "Không gian sinh hoạt và sáng tác",
+      "description": "Bộ sưu tập 5 ảnh mô hình",
+      "text": "Không gian sinh hoạt và sáng tác"
+    },
+    {
+      "title": "Lớp học thời phong kiến",
+      "url": "pages/media.html?album=album-2#photos",
+      "category": "media",
+      "image": "assets/images/media/albums/group-2/cover-thumb.webp",
+      "imageAlt": "Lớp học thời phong kiến",
+      "description": "Bộ sưu tập 6 ảnh mô hình",
+      "text": "Lớp học thời phong kiến"
+    },
+    {
+      "title": "Không gian trưng bày văn nghệ",
+      "url": "pages/media.html?album=album-3#photos",
+      "category": "media",
+      "image": "assets/images/media/albums/group-3/cover-thumb.webp",
+      "imageAlt": "Không gian trưng bày văn nghệ",
+      "description": "Bộ sưu tập 4 ảnh mô hình",
+      "text": "Không gian trưng bày văn nghệ"
+    },
+    {
+      "title": "Làm giấy dó thủ công",
+      "url": "pages/media.html?album=album-4#photos",
+      "category": "media",
+      "image": "assets/images/media/albums/group-4/cover-thumb.webp",
+      "imageAlt": "Làm giấy dó thủ công",
+      "description": "Bộ sưu tập 5 ảnh mô hình",
+      "text": "Làm giấy dó thủ công"
+    },
+    {
+      "title": "Hiện vật",
+      "url": "pages/trung-bay.html",
+      "category": "exhibitions",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Hiện vật",
+      "description": "Khám phá nội dung tại Bảo tàng Văn học Việt Nam.",
+      "text": "Hiện vật Chạm vào ký ức qua từng hiện vật. 7 bài viết Bạn đã xem 7 / 7 bài viết Chiêm ngưỡng những tác phẩm văn học của nhiều nhà thơ nổi tiếng như nhà thơ Nguyễn Trãi, nhà thơ Hồ Xuân Hương, đại thi hào Nguyễn Du,..; lịch sử chữ viết của dân tộc trên các loại chất liệu. Chiêm ngưỡng những hiện vật, tư liệu về những tên tuổi lớn của văn học Việt Nam đầu thế kỷ 20 và các nhà văn đoạt giải thưởng Hồ Chí Minh về văn học nghệ thuật. Các tác phẩm được trưng bày, tái hiện hình ảnh các kỳ đại hội Hội nhà văn Việt Nam. 4 bài viết Bạn đã xem 4 / 4 bài viết 2 bài viết Bạn đã xem 2 / 2 bài viết 1 bài viết Bạn đã xem 1 / 1 bài viết",
+      "kind": "section"
+    },
+    {
+      "title": "Tin tức",
+      "url": "pages/tin-tuc.html",
+      "category": "news",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Tin tức",
+      "description": "Khám phá nội dung tại Bảo tàng Văn học Việt Nam.",
+      "text": "Tin Tức Nhịp sống bảo tàng. Những chuyển động văn chương. 07 bài viết Bạn đã xem 7 / 7 bài viết",
+      "kind": "section"
+    },
+    {
+      "title": "Khám phá",
+      "url": "pages/kham-pha.html",
+      "category": "explore",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Khám phá",
+      "description": "Khám phá nội dung tại Bảo tàng Văn học Việt Nam.",
+      "text": "Khám Phá MỘT GÓC NHÌN MỚI. Một cuộc hẹn với văn chương. 07 câu chuyện để bắt đầu 01 / CUỘC HẸN MÙA THU Một góc thu dịu dàng. Một lý do để bước chậm hơn. THÁNG 10 / GỢI Ý TRẢI NGHIỆM HẸN NHAU Ở BẢO TÀNG Chọn một câu chuyện hợp với bạn. GÓC NHÌN CỦA BẠN Đi để thấy, ở lại để cảm. 05 / DÀNH MỘT BUỔI CHO MÌNH Không cần đông người. Chỉ cần một chút tò mò và thời gian cho riêng bạn. 06 / NHỊP SỐNG 07 / GỢI Ý NHỎ Bạn đã xem 7 / 7 bài viết",
+      "kind": "section"
+    },
+    {
+      "title": "Tham quan",
+      "url": "pages/tham-quan.html",
+      "category": "visiting",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Tham quan",
+      "description": "Khám phá nội dung tại Bảo tàng Văn học Việt Nam.",
+      "text": "Tham Quan Chuẩn bị cho một cuộc hẹn với văn chương. BẮT ĐẦU CHUYẾN THAM QUAN 07 nội dung THÔNG TIN THAM QUAN SƠ ĐỒ & LỘ TRÌNH VỀ BẢO TÀNG HƯỚNG DẪN THAM QUAN ĐĂNG KÝ THAM QUAN TRẢI NGHIỆM SỐ Bạn đã xem 7 / 7 nội dung",
+      "kind": "section"
+    },
+    {
+      "title": "Chuyện bảo tàng",
+      "url": "pages/chuyen-bao-tang.html",
+      "category": "stories",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Chuyện bảo tàng",
+      "description": "Khám phá nội dung tại Bảo tàng Văn học Việt Nam.",
+      "text": "Chuyện Bảo Tàng Lắng nghe những câu chuyện sau mỗi không gian trưng bày. HÀNH TRÌNH VĂN HÓA 07 bài viết Bạn đã xem 7 / 7 bài viết",
+      "kind": "section"
+    },
+    {
+      "title": "Mua vé tham quan bảo tàng",
+      "url": "pages/mua-ve.html",
+      "category": "visiting",
+      "image": "assets/images/home/visiting.webp",
+      "imageAlt": "Mua vé tham quan bảo tàng",
+      "description": "Chọn ngày tham quan và loại vé.",
+      "text": "Mua vé Hẹn một ngày với văn chương. Vé tham quan bảo tàng Xuất trình thẻ khi đến bảo tàng Vé dành cho học sinh Phiếu đăng ký chưa được gửi tới bảo tàng. Vui lòng liên hệ bảo tàng để xác nhận lịch tham quan và thanh toán. Bảo tàng Văn học Việt Nam 275 Âu Cơ, phường Tây Hồ, Hà Nội Thanh toán sau khi bảo tàng xác nhận. Sáng 8h00 – 12h00 Chiều 13h30 – 17h00",
+      "kind": "section"
+    }
+  ]
+}

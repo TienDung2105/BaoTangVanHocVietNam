@@ -1,9 +1,9 @@
 {
   "videos": [
-    { "id": "toan-canh", "title": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam", "poster": "assets/images/home/visiting.webp", "src": null },
-    { "id": "vu-tu-nam", "title": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam", "poster": "assets/images/home/intro-left.webp", "src": null, "youtubeId": "w0A1BD9CRcE" },
-    { "id": "nguyen-my", "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ", "poster": "assets/images/home/story-archive.webp", "src": null },
-    { "id": "thu-hoc-sinh", "title": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường", "poster": "assets/images/artifacts/ho-chi-minh/tho-chuc-tet.webp", "src": null, "youtubeId": "NcY1AuUy9Po" }
+    { "id": "toan-canh", "title": "Khám phá toàn cảnh Bảo tàng Văn học Việt Nam", "poster": "assets/images/media/videos/toan-canh.webp", "src": null, "youtubeId": "9zQ5C01RHCU" },
+    { "id": "vu-tu-nam", "title": "“Trứng bọ ngựa nở” – Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam", "poster": "assets/images/media/videos/vu-tu-nam.webp", "src": null, "youtubeId": "w0A1BD9CRcE" },
+    { "id": "nguyen-my", "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ", "poster": "assets/images/media/videos/nguyen-my.webp", "src": null, "youtubeId": "dW7K7E8Uhgk" },
+    { "id": "thu-hoc-sinh", "title": "“Thư gửi các học sinh” – Lời Bác dặn mỗi mùa khai trường", "poster": "assets/images/media/videos/thu-hoc-sinh.webp", "src": null, "youtubeId": "NcY1AuUy9Po" }
   ],
   "models": [
     { "id": "ba-huyen-thanh-quan", "title": "Tượng nữ sĩ Bà Huyện Thanh Quan", "src": "assets/models/web/ba-huyen-thanh-quan.glb", "poster": "assets/images/media/ba-huyen-thanh-quan.webp" },
@@ -11,8 +11,181 @@
     { "id": "nguyen-khuyen", "title": "Tượng nhà thơ Nguyễn Khuyến", "src": "assets/models/web/nguyen-khuyen.glb", "poster": "assets/images/media/nguyen-khuyen.webp" }
   ],
   "photos": [
-    { "id": "nguyen-du", "title": "Mô hình không gian sống và làm việc của đại thi hào Nguyễn Du", "src": "assets/images/home/intro-right.webp", "illustration": true },
-    { "id": "lop-hoc", "title": "Mô hình lớp học thời phong kiến", "src": "assets/images/articles/lop-hoc/1.webp", "illustration": false },
-    { "id": "xom-choi", "title": "Mô hình Xóm Chòi – Căn cứ văn nghệ kháng chiến", "src": "assets/images/home/hero-history.webp", "illustration": true }
+    {
+      "id": "album-1",
+      "title": "Không gian sinh hoạt và sáng tác",
+      "poster": "assets/images/media/albums/group-1/cover-thumb.webp",
+      "src": "assets/images/media/albums/group-1/cover.webp",
+      "coverOnly": false,
+      "images": [
+        {
+          "id": "album-1-image-1",
+          "title": "Ảnh 1",
+          "src": "assets/images/media/albums/group-1/image-1.webp",
+          "poster": "assets/images/media/albums/group-1/image-1-thumb.webp",
+          "alt": "Không gian sinh hoạt và sáng tác — ảnh 1"
+        },
+        {
+          "id": "album-1-image-2",
+          "title": "Ảnh 2",
+          "src": "assets/images/media/albums/group-1/image-2.webp",
+          "poster": "assets/images/media/albums/group-1/image-2-thumb.webp",
+          "alt": "Không gian sinh hoạt và sáng tác — ảnh 2"
+        },
+        {
+          "id": "album-1-image-3",
+          "title": "Ảnh 3",
+          "src": "assets/images/media/albums/group-1/image-3.webp",
+          "poster": "assets/images/media/albums/group-1/image-3-thumb.webp",
+          "alt": "Không gian sinh hoạt và sáng tác — ảnh 3"
+        },
+        {
+          "id": "album-1-image-4",
+          "title": "Ảnh 4",
+          "src": "assets/images/media/albums/group-1/image-4.webp",
+          "poster": "assets/images/media/albums/group-1/image-4-thumb.webp",
+          "alt": "Không gian sinh hoạt và sáng tác — ảnh 4"
+        },
+        {
+          "id": "album-1-image-5",
+          "title": "Ảnh 5",
+          "src": "assets/images/media/albums/group-1/image-5.webp",
+          "poster": "assets/images/media/albums/group-1/image-5-thumb.webp",
+          "alt": "Không gian sinh hoạt và sáng tác — ảnh 5"
+        }
+      ]
+    },
+    {
+      "id": "album-2",
+      "title": "Lớp học thời phong kiến",
+      "poster": "assets/images/media/albums/group-2/cover-thumb.webp",
+      "src": "assets/images/media/albums/group-2/cover.webp",
+      "coverOnly": false,
+      "images": [
+        {
+          "id": "album-2-image-1",
+          "title": "Ảnh 1",
+          "src": "assets/images/media/albums/group-2/image-1.webp",
+          "poster": "assets/images/media/albums/group-2/image-1-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 1"
+        },
+        {
+          "id": "album-2-image-2",
+          "title": "Ảnh 2",
+          "src": "assets/images/media/albums/group-2/image-2.webp",
+          "poster": "assets/images/media/albums/group-2/image-2-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 2"
+        },
+        {
+          "id": "album-2-image-3",
+          "title": "Ảnh 3",
+          "src": "assets/images/media/albums/group-2/image-3.webp",
+          "poster": "assets/images/media/albums/group-2/image-3-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 3"
+        },
+        {
+          "id": "album-2-image-4",
+          "title": "Ảnh 4",
+          "src": "assets/images/media/albums/group-2/image-4.webp",
+          "poster": "assets/images/media/albums/group-2/image-4-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 4"
+        },
+        {
+          "id": "album-2-image-5",
+          "title": "Ảnh 5",
+          "src": "assets/images/media/albums/group-2/image-5.webp",
+          "poster": "assets/images/media/albums/group-2/image-5-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 5"
+        },
+        {
+          "id": "album-2-image-6",
+          "title": "Ảnh 6",
+          "src": "assets/images/media/albums/group-2/image-6.webp",
+          "poster": "assets/images/media/albums/group-2/image-6-thumb.webp",
+          "alt": "Lớp học thời phong kiến — ảnh 6"
+        }
+      ]
+    },
+    {
+      "id": "album-3",
+      "title": "Không gian trưng bày văn nghệ",
+      "poster": "assets/images/media/albums/group-3/cover-thumb.webp",
+      "src": "assets/images/media/albums/group-3/cover.webp",
+      "coverOnly": false,
+      "images": [
+        {
+          "id": "album-3-image-1",
+          "title": "Ảnh 1",
+          "src": "assets/images/media/albums/group-3/image-1.webp",
+          "poster": "assets/images/media/albums/group-3/image-1-thumb.webp",
+          "alt": "Không gian trưng bày văn nghệ — ảnh 1"
+        },
+        {
+          "id": "album-3-image-2",
+          "title": "Ảnh 2",
+          "src": "assets/images/media/albums/group-3/image-2.webp",
+          "poster": "assets/images/media/albums/group-3/image-2-thumb.webp",
+          "alt": "Không gian trưng bày văn nghệ — ảnh 2"
+        },
+        {
+          "id": "album-3-image-3",
+          "title": "Ảnh 3",
+          "src": "assets/images/media/albums/group-3/image-3.webp",
+          "poster": "assets/images/media/albums/group-3/image-3-thumb.webp",
+          "alt": "Không gian trưng bày văn nghệ — ảnh 3"
+        },
+        {
+          "id": "album-3-image-4",
+          "title": "Ảnh 4",
+          "src": "assets/images/media/albums/group-3/image-4.webp",
+          "poster": "assets/images/media/albums/group-3/image-4-thumb.webp",
+          "alt": "Không gian trưng bày văn nghệ — ảnh 4"
+        }
+      ]
+    },
+    {
+      "id": "album-4",
+      "title": "Làm giấy dó thủ công",
+      "poster": "assets/images/media/albums/group-4/cover-thumb.webp",
+      "src": "assets/images/media/albums/group-4/cover.webp",
+      "coverOnly": false,
+      "images": [
+        {
+          "id": "album-4-image-1",
+          "title": "Ảnh 1",
+          "src": "assets/images/media/albums/group-4/image-1.webp",
+          "poster": "assets/images/media/albums/group-4/image-1-thumb.webp",
+          "alt": "Làm giấy dó thủ công — ảnh 1"
+        },
+        {
+          "id": "album-4-image-2",
+          "title": "Ảnh 2",
+          "src": "assets/images/media/albums/group-4/image-2.webp",
+          "poster": "assets/images/media/albums/group-4/image-2-thumb.webp",
+          "alt": "Làm giấy dó thủ công — ảnh 2"
+        },
+        {
+          "id": "album-4-image-3",
+          "title": "Ảnh 3",
+          "src": "assets/images/media/albums/group-4/image-3.webp",
+          "poster": "assets/images/media/albums/group-4/image-3-thumb.webp",
+          "alt": "Làm giấy dó thủ công — ảnh 3"
+        },
+        {
+          "id": "album-4-image-4",
+          "title": "Ảnh 4",
+          "src": "assets/images/media/albums/group-4/image-4.webp",
+          "poster": "assets/images/media/albums/group-4/image-4-thumb.webp",
+          "alt": "Làm giấy dó thủ công — ảnh 4"
+        },
+        {
+          "id": "album-4-image-5",
+          "title": "Ảnh 5",
+          "src": "assets/images/media/albums/group-4/image-5.webp",
+          "poster": "assets/images/media/albums/group-4/image-5-thumb.webp",
+          "alt": "Làm giấy dó thủ công — ảnh 5"
+        }
+      ]
+    }
   ]
 }
