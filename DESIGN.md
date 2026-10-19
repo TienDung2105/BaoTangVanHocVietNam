@@ -23,3 +23,8 @@ The first historical hero uses its original photo and Multiply gold layer.
 
 Reproduction scope: homepage. Existing menu destinations remain page shells;
 no invented backend, biographies, payments, or social URLs.
+
+Navigation labels, page-name headings and breadcrumbs use sentence case:
+Tham quan, Sưu tầm, Chuyện bảo tàng, Tin tức, Khám phá, Mua vé, Tìm kiếm.
+Keep proper names capitalized normally. Apply this convention to new pages
+and their shared/static navigation markup as well.

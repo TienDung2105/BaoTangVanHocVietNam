@@ -1,0 +1,4 @@
+/* Keep every supplied photograph flush with the reading column. */
+.explore-article .doc-figure img { width: 100% !important; max-height: none; height: auto; }
+.explore-article a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.explore-video-slot[hidden] { display: none; }

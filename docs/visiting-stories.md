@@ -1,5 +1,9 @@
 # Visiting and Museum Stories
 
+Current visiting article content and source mapping are documented in
+`visiting-content.md`. The original implementation notes below describe the
+earlier placeholder stage.
+
 Implemented in the existing vanilla project, preserving the homepage menu and navigation prefetch.
 
 ## Design references

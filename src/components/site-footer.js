@@ -24,8 +24,8 @@ class MuseumFooter extends HTMLElement {
           <div>
             <p>Theo dõi chúng tôi</p>
             <div class="collection-footer__social">
-              <img src="${siteUrl('assets/images/home/facebook.webp')}" width="62" height="62" alt="Facebook" loading="lazy">
-              <img src="${siteUrl('assets/images/home/tiktok.webp')}" width="62" height="62" alt="TikTok" loading="lazy">
+<a class="social-follow" href="https://www.facebook.com/baotangvanhoc275auco/" target="_blank" rel="noopener noreferrer" data-follow="Follow on Facebook" aria-label="Follow on Facebook — Bảo tàng Văn học Việt Nam"><img src="${siteUrl('assets/images/home/social-facebook.svg')}" width="62" height="62" alt="Facebook" loading="lazy"></a>
+              <a class="social-follow" href="https://www.tiktok.com/@baotangvanhocvn" target="_blank" rel="noopener noreferrer" data-follow="Follow on Tiktok" aria-label="Follow on Tiktok — Bảo tàng Văn học Việt Nam"><img src="${siteUrl('assets/images/home/social-tiktok.svg')}" width="62" height="62" alt="TikTok" loading="lazy"></a>
             </div>
           </div>
         </div>

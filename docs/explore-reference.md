@@ -1,5 +1,9 @@
 # Explore: October reference update
 
+Current article content, supplied images and user-approved copy/footer changes
+are documented in `explore-content.md`. The notes below describe the original
+reference implementation before those updates.
+
 Design authority: user-supplied Drive folder `1t0_GtRfrxKwPL7A7_QP5HdtLFsBNWnym`, refreshed for this task. Reviewed all 104 PNG exports. `tong quan.png` is 4000 x 9194; the folder has no PDF. This supersedes the earlier uniform collection grid for Explore only.
 
 Direction: editorial museum experience, preserving the cream/red/charcoal reference. DESIGN_VARIANCE 4, MOTION_INTENSITY 2, VISUAL_DENSITY 4. Native HTML/CSS/ES modules; no framework. Shared menu retains the homepage's geometry and styling instead of the different menu drawn in the new reference.

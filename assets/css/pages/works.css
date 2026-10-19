@@ -1,0 +1,4 @@
+/* Keep the supplied poem's lines and stanza breaks in the shared article layout. */
+.work-poem .poem-stanza { margin-block: 0 24px; }
+.work-poem .poem-stanza > p { margin: 0 !important; text-align: left; }
+.work-poem > p[data-align='right'] { margin-bottom: 6px !important; }

@@ -4,7 +4,7 @@ import { siteUrl } from '../data/navigation.js';
 import { hydrateIcons } from '../features/media-icons.js';
 
 registerSiteHeader(); registerSiteFooter(); hydrateIcons(document);
-const labels = {all:'Tất cả',exhibitions:'Hiện vật',news:'Tin tức',explore:'Khám phá',visiting:'Tham quan',stories:'Chuyện bảo tàng',media:'Media'};
+const labels = {all:'Tất cả',exhibitions:'Sưu tầm',news:'Tin tức',explore:'Khám phá',visiting:'Tham quan',stories:'Chuyện bảo tàng',media:'Media'};
 const form = document.querySelector('#searchForm'), input = document.querySelector('#searchInput'), results = document.querySelector('#searchResults');
 const heading = document.querySelector('#searchResultsTitle'), message = document.querySelector('#searchMessage'), more = document.querySelector('#searchMore'), sort = document.querySelector('#searchSort');
 let items = [], ready = false, category = 'all', limit = 12, timer, composing = false;

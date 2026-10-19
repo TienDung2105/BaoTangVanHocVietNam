@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="31" fill="#101010"/>
+  <defs><path id="note" d="M34 13h7c.4 5.6 3.4 8.6 9 9v7c-3.5 0-6.5-1-9-2.8V41a12 12 0 1 1-12-12h1v7h-1a5 5 0 1 0 5 5z"/></defs>
+  <g transform="translate(32 32) scale(.92) translate(-33.5 -33.1)">
+    <use href="#note" fill="#25f4ee" transform="translate(-1.5 -.8)"/>
+    <use href="#note" fill="#fe2c55" transform="translate(1.5 1)"/>
+    <use href="#note" fill="#fff"/>
+  </g>
+</svg>
