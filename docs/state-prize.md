@@ -8,13 +8,20 @@ source Google Doc tab `t.m4f6qr7mjbuu`.
 Native page: `pages/hien-vat/may-danh-chu.html`.
 Topic URL: `pages/trung-bay.html?topic=nha-nuoc`.
 
-All supplied prose and twelve embedded images are retained in document order.
+All supplied prose and fifteen images (twelve inline and three positioned) are retained in document order.
+The positioned images were restored from the source tab: Olympia and Royal 200
+belong to one figure with the Trần Thanh Giang caption; Thanh Thảo follows in
+its own figure. The pair is side by side on desktop and stacks on mobile.
+Captions are centered and source crop offsets are applied. The three restored
+photos are local JPEGs in the existing article image directory; downloaded
+originals are retained under `backups/typewriter-missing-originals/`.
 The listing image is a single WebP derived from the source photograph. Article
 images use the source crop where specified and are stored locally as WebP.
 The shared editorial article layout, header, fonts and footer are unchanged.
 The old `bai-viet.html?collection=exhibitions&id=may-danh-chu` route redirects
 to the native page through the existing catalog handler.
 
+The article breadcrumb also returns to the State Prize topic.
 The earlier six shared cards are no longer rendered in this topic. Their data
 is preserved to avoid breaking unrelated bookmarked routes. Ancient and Ho Chi
 Minh topics remain at four and two cards. No award classifications were inferred

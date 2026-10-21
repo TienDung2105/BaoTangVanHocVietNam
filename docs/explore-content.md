@@ -8,10 +8,10 @@ tab `t.9uq73h99mzud`. Article sources are tabs in
 | --- | --- | --- | --- |
 | Đón thu Hà Nội tại Bảo tàng Văn học Việt Nam | `t.2osdd2h9g5a5` | `pages/kham-pha/don-thu-ha-noi.html` | 7 |
 | Những góc check-in “lowkey” tại bảo tàng | `t.lr09blmle4uq` | `pages/kham-pha/goc-check-in-lowkey.html` | 7 |
-| Khoác lại đồng phục, trở về tiết Văn năm ấy | `t.5wobye8092nu` | `pages/kham-pha/khoac-lai-dong-phuc.html` | 0 |
+| Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam | `t.5wobye8092nu` | `pages/kham-pha/khoac-lai-dong-phuc.html` | 0 |
 | Bảo tàng "lowkey" giữa lòng Hà Nội | `t.k95jw7ce1o9f` | `pages/kham-pha/bao-tang-lowkey.html` | 6 |
 | Một buổi solo date tại Bảo tàng Văn học | `t.4mlj2dqahyyn` | `pages/kham-pha/solo-date-bao-tang.html` | 5 |
-| Sống chậm tại Bảo tàng Văn học | `t.13s3cmicvf7` | `pages/kham-pha/song-cham-bao-tang.html` | 7 |
+| Tận hưởng một ngày sống chậm giữa lòng Hà Nội | `t.13s3cmicvf7` | `pages/kham-pha/song-cham-bao-tang.html` | 7 |
 | 3 outfit đi bảo tàng cực “ăn ảnh” | `t.ftlbpv9ft9aa` | `pages/kham-pha/outfit-di-bao-tang.html` | 5 |
 
 Six index thumbnails and 37 article photographs are mapped by paragraph order.

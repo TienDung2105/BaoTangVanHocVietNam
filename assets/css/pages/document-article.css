@@ -29,6 +29,10 @@
 .doc-figure img { display: block; width: auto !important; height: auto; max-width: 100%; max-height: 720px; margin-inline: auto !important; aspect-ratio: auto; object-fit: contain; border-radius: 8px; }
 .doc-figure figcaption { font: italic 15px/1.55 'Proxima', Arial, sans-serif !important; color: #6c6054 !important; margin: 12px 0 0 !important; padding: 0 !important; text-indent: 0 !important; overflow-wrap: break-word; }
 .doc-figure figcaption span { font: inherit !important; }
+.doc-image-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: 20px; }
+.doc-image-pair img { width: 100% !important; max-height: none; }
+@media (max-width: 640px) { .doc-image-pair { grid-template-columns: 1fr; gap: 18px; } }
+.collection-page[data-page='stories'] .doc-figure figcaption { text-align: center; }
 .doc-blank { height: 10px; }
 .doc-blank + .doc-blank { display: none; }
 .document-back { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; margin-top: 26px; color: var(--accent); font: italic 16px/1.5 'Brother', sans-serif; border-top: 1px solid var(--rule); width: 100%; padding-top: 18px; }

@@ -2,7 +2,7 @@ import { registerSiteHeader } from '../components/site-header.js';
 import { registerSiteFooter } from '../components/site-footer.js';
 import { siteUrl } from '../data/navigation.js';
 import { hydrateIcons } from '../features/media-icons.js';
-import { createInteractiveExhibit } from '../features/interactive-exhibit.js';
+import { createInteractiveExhibit } from '../features/interactive-exhibit.js?v=hotspot-anchor-2';
 
 registerSiteHeader(); registerSiteFooter(); hydrateIcons(document);
 const tabs = [...document.querySelectorAll('[data-tab]')];
@@ -127,7 +127,7 @@ function renderItems(kind, items, choose) {
   }); hydrateIcons(host);
 }
 async function initialize() {
-  try { const response = await fetch(siteUrl('assets/data/media-library.json')); if (!response.ok) throw new Error(); library = await response.json(); renderItems('video', library.videos, selectVideo); renderItems('model', library.models, selectModel); photoGallery = createInteractiveExhibit(library.photos); const params = new URLSearchParams(location.search); selectVideo(library.videos.find(item => item.id === params.get('video')) || library.videos[0]); selectModel(library.models.find(item => item.id === params.get('model')) || library.models[0]); setTab(location.hash.slice(1), false); if (activeTab === 'photos') photoGallery.openAlbumById(params.get('album')); }
+  try { const response = await fetch(siteUrl('assets/data/media-library.json')); if (!response.ok) throw new Error(); library = await response.json(); renderItems('video', library.videos, selectVideo); renderItems('model', library.models, selectModel); photoGallery = createInteractiveExhibit(); const params = new URLSearchParams(location.search); selectVideo(library.videos.find(item => item.id === params.get('video')) || library.videos[0]); selectModel(library.models.find(item => item.id === params.get('model')) || library.models[0]); setTab(location.hash.slice(1), false); if (activeTab === 'photos') photoGallery.openAlbumById(params.get('album')); }
   catch { const error = document.querySelector('#libraryError'); error.hidden = false; error.textContent = 'Không tải được thư viện. Vui lòng tải lại trang.'; }
 }
 addEventListener('pagehide', () => { video.pause(); stopYouTube(); modelViewer?.dispose(); modelViewer = null; loadedModelId = null; loadingModelId = null; });
