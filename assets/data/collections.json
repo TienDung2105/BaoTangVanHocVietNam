@@ -239,7 +239,7 @@
   "exhibitions": {
     "title": "Sưu tầm",
     "file": "trung-bay.html",
-    "intro": "Chạm vào ký ức qua từng hiện vật.",
+    "intro": "Chạm vào ký ức qua từng hiện vật",
     "section": "NHỮNG CÂU CHUYỆN TỪ HIỆN VẬT",
     "unit": "bài viết",
     "cta": "Đọc bài viết",
@@ -360,7 +360,7 @@
   "media": {
     "title": "Media",
     "file": "media.html",
-    "intro": "Văn chương qua những thước phim.",
+    "intro": "Văn chương qua những thước phim",
     "section": "THƯ VIỆN MEDIA",
     "unit": "nội dung",
     "cta": "Đọc bài viết",
@@ -440,7 +440,7 @@
   "news": {
     "title": "Tin tức",
     "file": "tin-tuc.html",
-    "intro": "Nhịp sống bảo tàng. Những chuyển động văn chương.",
+    "intro": "Nhịp sống bảo tàng. Những chuyển động văn chương",
     "section": "DÒNG TIN VĂN HỌC & BẢO TÀNG",
     "unit": "bài viết",
     "cta": "Đọc bài viết",
@@ -892,7 +892,7 @@
   "stories": {
     "title": "Chuyện bảo tàng",
     "file": "chuyen-bao-tang.html",
-    "intro": "Lắng nghe những câu chuyện<br>sau mỗi không gian trưng bày.",
+    "intro": "Lắng nghe những câu chuyện<br>sau mỗi không gian trưng bày",
     "section": "NHỮNG CÂU CHUYỆN ĐƯỢC KỂ",
     "unit": "bài viết",
     "cta": "Đọc bài viết",

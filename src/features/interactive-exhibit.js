@@ -4,23 +4,17 @@ import { hydrateIcons } from './media-icons.js';
 export function createInteractiveExhibit() {
   const root = document.querySelector('#interactiveExhibit');
   const rooms = [
-    { id: 'album-1', title: 'Không gian sinh hoạt', description: 'Khám phá những chi tiết trong không gian sinh hoạt được tái hiện.', images: [{ src: 'assets/images/media/interactive-left.png', alt: 'Không gian sinh hoạt với vách tre, quang gánh và các mô hình nhân vật', points: [
-      { label: 'Quang gánh', x: 18, y: 69, zoom: 2, text: 'Quang gánh trong không gian sinh hoạt được tái hiện.' },
-      { label: 'Vách tre', x: 24, y: 28, zoom: 1.9, text: 'Những nan tre đan trên vách của không gian trưng bày.' },
-      { label: 'Bếp lửa', x: 53, y: 76, zoom: 2.1, text: 'Góc bếp với những viên gạch và vật dụng sinh hoạt.' },
-      { label: 'Góc sinh hoạt', x: 83, y: 68, zoom: 1.8, text: 'Các mô hình nhân vật trong một cảnh sinh hoạt.' }
+    { id: 'album-1', title: 'Không gian tái hiện cảnh chị Dậu, Chí Phèo – Thị Nở cạnh khu trưng bày tư liệu nhà văn Ngô Tất Tố và Nam Cao.', description: '', images: [{ src: 'assets/images/media/interactive-left.png', alt: 'Không gian tái hiện cảnh chị Dậu, Chí Phèo – Thị Nở cạnh khu trưng bày tư liệu nhà văn Ngô Tất Tố và Nam Cao', points: [
+      { label: 'Chí Phèo - Thị Nở', x: 83, y: 68, zoom: 1.8, text: 'Tổ hợp 2 nhân vật Chí Phèo - Thị Nở trong tác phẩm Chí Phèo của Nam Cao' },
+      { label: 'Chị Dậu', x: 18, y: 69, zoom: 2, text: 'Tổ hợp Chị Dậu trong tác phẩm Tắt Đèn của Ngô Tất Tố.' }
     ] }] },
-    { id: 'album-2', title: 'Góc làm việc', description: 'Ghé gần bàn viết, giá sách và chiếc võng trong gian nhà.', images: [{ src: 'assets/images/media/interactive-center.png', alt: 'Góc làm việc với bàn viết, giá sách và mô hình nhân vật bên chiếc võng', points: [
-      { label: 'Bàn viết', x: 31.2, y: 64.4, zoom: 1.95, text: 'Bàn gỗ, giấy tờ và các vật dụng trong góc làm việc được tái hiện.' },
-      { label: 'Giá sách', x: 54.4, y: 20.1, zoom: 2.15, text: 'Giá sách treo trên vách gỗ, phía trên không gian làm việc.' },
-      { label: 'Chiếc võng', x: 74.6, y: 65.8, zoom: 1.85, text: 'Chiếc võng nằm bên cạnh bàn viết trong không gian trưng bày.' },
-      { label: 'Mô hình nhân vật', x: 83.1, y: 58.1, zoom: 2.35, text: 'Mô hình nhân vật trong không gian sinh hoạt được tái hiện.' }
+    { id: 'album-2', title: 'Không gian sắp đặt nhân vật Đại thi hào Nguyễn Du.', description: '', images: [{ src: 'assets/images/media/interactive-center.png', alt: 'Không gian sắp đặt nhân vật Đại thi hào Nguyễn Du', points: [
+      { label: 'Chiếc bàn gỗ', x: 31.2, y: 64.4, zoom: 1.95, text: 'Chiếc bàn gỗ mà tác giả của Truyện Kiều đã sử dụng trong thời gian 10 năm sống ở quê vợ (Thái Bình) cuối thế kỷ 18.' },
+      { label: 'Đại thi hào Nguyễn Du', x: 83.1, y: 58.1, zoom: 2.35, text: 'Mô hình Đại thi hào Nguyễn Du' }
     ] }] },
-    { id: 'album-3', title: 'Lớp học xưa', description: 'Quan sát thầy giáo, sách và không gian lớp học được tái hiện.', images: [{ src: 'assets/images/media/interactive-right.png', alt: 'Không gian lớp học xưa với thầy giáo, học trò và sách trên bàn', points: [
-      { label: 'Thầy giáo', x: 62, y: 37, zoom: 2.1, text: 'Mô hình thầy giáo ở vị trí trung tâm lớp học.' },
-      { label: 'Sách trên bàn', x: 61, y: 50, zoom: 2.4, text: 'Những trang sách mở trên bàn trong không gian lớp học.' },
-      { label: 'Hòm sách', x: 43, y: 45, zoom: 2.3, text: 'Chiếc hòm được đặt bên cạnh sách và vật dụng trên bàn.' },
-      { label: 'Học trò', x: 29, y: 64, zoom: 1.85, text: 'Các mô hình học trò ngồi trên chiếu, hướng về phía thầy giáo.' }
+    { id: 'album-3', title: 'Không gian dạy học thời phong kiến', description: '', images: [{ src: 'assets/images/media/interactive-right.png', alt: 'Không gian dạy học thời phong kiến với thầy đồ và học trò', points: [
+      { label: 'Thầy đồ', x: 62, y: 37, zoom: 2.1, text: 'Thầy đồ trong bối cảnh không gian dạy học thời phong kiến. Hệ thống giáo dục và khoa cử đã tồn tại ở Việt Nam gần 1.000 năm. Trong thời gian này, nền giáo dục dựa vào nho học và khoa cử là một định chế bình đẳng cho mọi nhân tài có cơ hội thăng tiến trên đường quan lộ.' },
+      { label: 'Học trò', x: 29, y: 64, zoom: 1.85, text: 'Việc học ngày xưa thường bắt đầu từ lúc 6-7 tuổi, gọi là sơ học. Tài liệu học tập gồm "Tam tự kinh"; "Tứ tự kinh"; "Ngũ ngôn" và tập làm văn câu đối 2 chữ, 4 chữ.' }
     ] }] }
   ];
   root.innerHTML = `
@@ -60,7 +54,9 @@ export function createInteractiveExhibit() {
     const title = document.createElement('strong'); title.textContent = item.title;
     const description = document.createElement('span'); description.textContent = item.description;
     const action = document.createElement('span'); action.className = 'exhibit-tour-action'; action.textContent = 'Khám phá không gian';
-    copy.append(title, description, action); button.append(photo, copy);
+    copy.append(title);
+    if (item.description) copy.append(description);
+    copy.append(action); button.append(photo, copy);
     button.addEventListener('click', () => { opener = button; openRoom(item.id); }); el('exhibitTours').append(button);
   });
   function collapse() {
