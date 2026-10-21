@@ -12,7 +12,6 @@ export function initHomeNews() {
       card.classList.toggle('is-expanded', active && expanded);
       card.classList.toggle('is-before', expanded && position < index);
       card.classList.toggle('is-after', expanded && position > index);
-      card.setAttribute('aria-pressed', String(active));
     });
   }
 

@@ -1,6 +1,7 @@
 import { navigation, siteUrl } from '../data/navigation.js';
 import { headerTemplate } from './header-template.js';
 import { enableNavigationPrefetch } from '../features/navigation-prefetch.js';
+import { initScrollReveal } from '../features/scroll-reveal.js';
 
 class MuseumHeader extends HTMLElement {
   connectedCallback() {
@@ -83,4 +84,6 @@ class MuseumHeader extends HTMLElement {
 
 export function registerSiteHeader() {
   if (!customElements.get('museum-header')) customElements.define('museum-header', MuseumHeader);
+  // Wait for the page entry to finish constructing its initial content.
+  requestAnimationFrame(initScrollReveal);
 }
