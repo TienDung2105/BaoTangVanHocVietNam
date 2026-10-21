@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "title": "Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
+      "url": "pages/media.html?video=dong-phuc#videos",
+      "category": "media",
+      "image": "assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg",
+      "imageAlt": "Ảnh từ video Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
+      "description": "Video · Bảo tàng Văn học Việt Nam",
+      "text": "Một tiết Văn đặc biệt tại Bảo tàng Văn học Việt Nam, nơi những tác phẩm quen thuộc trong sách giáo khoa được tái hiện sống động, đưa người trẻ trở về với ký ức tuổi học trò."
+    },
+    {
       "title": "Những chiếc máy đánh chữ quen thuộc một thời",
       "url": "pages/hien-vat/may-danh-chu.html",
       "category": "exhibitions",
@@ -593,8 +602,8 @@
       "title": "Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
       "url": "pages/kham-pha/khoac-lai-dong-phuc.html",
       "category": "explore",
-      "image": "assets/images/home/news-group.webp",
-      "imageAlt": "Ảnh minh họa đoàn khách tham quan bảo tàng",
+      "image": "assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg",
+      "imageAlt": "Ảnh từ video Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
       "description": "Một tiết Văn đặc biệt tại Bảo tàng Văn học Việt Nam, nơi những tác phẩm quen thuộc trong sách giáo khoa được tái hiện sống động, đưa người trẻ trở về với ký ức tuổi học…",
       "text": "Một tiết Văn đặc biệt tại Bảo tàng Văn học Việt Nam, nơi những tác phẩm quen thuộc trong sách giáo khoa được tái hiện sống động, đưa người trẻ trở về với ký ức tuổi học trò. Bảo tàng Văn học Việt Nam",
       "kind": "video-article"

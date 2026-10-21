@@ -93,13 +93,13 @@
       {
         "id": "dong-phuc",
         "title": "Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
-        "image": "assets/images/home/news-group.webp",
-        "imageAlt": "Ảnh minh họa đoàn khách tham quan bảo tàng",
+        "image": "assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg",
+        "imageAlt": "Ảnh từ video Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
         "imagePosition": "center",
         "imageFit": "cover",
-        "temporaryImage": true,
-        "video": null,
-        "videoPending": true,
+        "temporaryImage": false,
+        "video": "https://youtu.be/XE13pQbaXUY",
+        "videoPending": false,
         "documentPage": "pages/kham-pha/khoac-lai-dong-phuc.html",
         "body": [
           "Một tiết Văn đặc biệt tại Bảo tàng Văn học Việt Nam, nơi những tác phẩm quen thuộc trong sách giáo khoa được tái hiện sống động, đưa người trẻ trở về với ký ức tuổi học trò.",
@@ -248,37 +248,37 @@
         "id": "lop-hoc",
         "title": "Mô hình dạy học thời phong kiến",
         "image": "intro-right.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "van-hoc-tran",
         "title": "Văn học đời Trần",
         "image": "intro-center.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "chu-viet",
         "title": "Chữ viết được thể hiện trên chất liệu gì?",
         "image": "intro-center.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "tho-chuc-tet",
         "title": "Thơ chúc Tết của chủ tịch Hồ Chí Minh",
         "image": "intro-left.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "giay-do",
         "title": "Làm giấy dó thủ công",
         "image": "story-archive.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "nguyen-cong-hoan",
         "title": "Những kỷ vật của nhà văn Nguyễn Công Hoan",
         "image": "statue.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "may-danh-chu",
@@ -295,7 +295,7 @@
         "id": "nhan-chung",
         "title": "Những nhân chứng lịch sử",
         "image": "bicycle.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "co-trung-dai-chu-viet",
@@ -372,68 +372,68 @@
         "displayTitle": "Khám phá toàn cảnh<br>Bảo tàng Văn học<br>Việt Nam",
         "category": "VIDEO NỔI BẬT / TOÀN CẢNH",
         "image": "visiting.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "video": null
       },
       {
         "id": "vu-tu-nam",
         "title": "“Trứng bọ ngựa nở” - Thế giới tuổi thơ qua ngòi bút Vũ Tú Nam",
         "image": "intro-left.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "video": null
       },
       {
         "id": "nguyen-my",
         "title": "“Cuộc chia ly màu đỏ” của liệt sĩ, nhà thơ Nguyễn Mỹ",
         "image": "story-archive.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "video": null
       },
       {
         "id": "thu-hoc-sinh",
         "title": "“Thư gửi các học sinh” - Lời Bác dặn mỗi mùa khai trường",
         "image": "news-visit.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "video": null
       },
       {
         "id": "ba-huyen-thanh-quan",
         "title": "Tượng nữ sĩ Bà Huyện Thanh Quan",
         "image": "story-garden.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "model": "bhtq"
       },
       {
         "id": "le-quy-don",
         "title": "Tượng nhà bác học Lê Quý Đôn",
         "image": "statue.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "model": "le-quy-don"
       },
       {
         "id": "nguyen-khuyen",
         "title": "Tượng nhà thơ Nguyễn Khuyến",
         "image": "story-garden.webp",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "model": "nguyen-khuyen"
       },
       {
         "id": "nguyen-du",
         "title": "Mô hình không gian sống và làm việc của đại thi hào Nguyễn Du.",
         "image": "intro-right.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "lop-hoc",
         "title": "Mô hình lớp học thời phong kiến",
         "image": "intro-center.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       },
       {
         "id": "xom-choi",
         "title": "Mô hình Xóm Chòi - Căn cứ văn nghệ kháng chiến",
         "image": "hero-history.webp",
-        "temporaryImage": true
+        "temporaryImage": false
       }
     ]
   },
@@ -857,7 +857,7 @@
         "category": "THÔNG TIN THAM QUAN",
         "image": "news-visit.webp",
         "imageAlt": "Khách tham quan bảo tàng",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "cta": "Đọc bài viết",
         "body": [
           "THỜI GIAN MỞ CỬA:",
@@ -879,7 +879,7 @@
         "category": "VỀ BẢO TÀNG",
         "image": "intro-right.webp",
         "imageAlt": "Không gian trưng bày trong bảo tàng",
-        "temporaryImage": true,
+        "temporaryImage": false,
         "cta": "Đọc bài viết",
         "body": [
           "Bảo tàng Văn học Việt Nam tọa lạc tại địa chỉ 275 Âu Cơ, phường Tây Hồ, Hà Nội.",

@@ -20,19 +20,27 @@ export function initScrollReveal() {
   if (motion.matches || navigator.connection?.saveData) return;
 
   const seen = new WeakSet();
+  const armed = new WeakSet();
   const running = new Map();
   let stopped = false;
   const observer = new IntersectionObserver(entries => {
     let order = 0;
     for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
       const element = entry.target;
-      observer.unobserve(element);
+      if (!entry.isIntersecting) {
+        // Replay only after a full exit, rather than flickering at the reveal threshold.
+        armed.add(element);
+        running.get(element)?.cancel();
+        continue;
+      }
+      if (entry.intersectionRatio < 0.1 || !armed.has(element)) continue;
+      armed.delete(element);
       if (stopped || motion.matches || document.hidden || element.contains(document.activeElement)) continue;
-      // Never delay someone scrolling upwards or jumping to an anchor.
-      if (entry.boundingClientRect.bottom <= 0 || element.matches(':target')) continue;
+      if (element.matches(':target')) continue;
+      running.get(element)?.cancel();
+      const distance = entry.boundingClientRect.top < window.innerHeight / 2 ? -20 : 20;
       const animation = element.animate([
-        { opacity: 0, translate: '0 20px' },
+        { opacity: 0, translate: `0 ${distance}px` },
         { opacity: 1, translate: '0 0' }
       ], {
         duration: 1200,
@@ -45,7 +53,7 @@ export function initScrollReveal() {
       const release = () => { if (running.get(element) === animation) running.delete(element); };
       animation.onfinish = animation.oncancel = release;
     }
-  }, { threshold: 0, rootMargin: '0px 0px -24px 0px' });
+  }, { threshold: [0, 0.1] });
 
   function register(scope, initial = false) {
     const candidates = [...(scope.matches?.(targets) ? [scope] : []), ...scope.querySelectorAll(targets)];
@@ -54,16 +62,28 @@ export function initScrollReveal() {
     for (const element of candidates) {
       if (seen.has(element) || element.closest(excluded) || element.parentElement?.closest(targets)) continue;
       seen.add(element);
+      let initiallyVisible = false;
       if (initial) {
         const rect = element.getBoundingClientRect();
-        if (rect.height > 0 && rect.bottom > 0 && rect.top < viewportHeight) continue;
+        initiallyVisible = rect.height > 0 && rect.bottom > 0 && rect.top < viewportHeight;
       }
+      if (!initiallyVisible) armed.add(element);
       observer.observe(element);
     }
   }
   // Discover asynchronously populated lists without rescanning on every scroll.
   const mutations = new MutationObserver(records => {
     for (const record of records) {
+      for (const node of record.removedNodes) {
+        if (node.nodeType !== 1 || node.isConnected) continue;
+        const removed = [...(node.matches(targets) ? [node] : []), ...node.querySelectorAll(targets)];
+        for (const element of removed) {
+          observer.unobserve(element);
+          running.get(element)?.cancel();
+          seen.delete(element);
+          armed.delete(element);
+        }
+      }
       for (const node of record.addedNodes) {
         if (node.nodeType === 1 && !node.closest(excluded)) register(node);
       }

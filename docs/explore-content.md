@@ -27,11 +27,15 @@ centered cover and subject-specific focal positions. Article images fill the
 reading column at their natural proportions, without side gutters or an
 artificial maximum-height frame.
 
-The user explicitly said they will supply the uniform article's video later.
-Its native page has an empty, hidden `data-explore-video="dong-phuc"` slot;
-the catalog has `video: null` and `videoPending: true`. There is no invented
-video URL, duration or player. The existing illustrative listing photo remains
-temporary until a real cover is supplied.
+The user supplied the uniform article's video: `https://youtu.be/XE13pQbaXUY`.
+Its native page embeds the video after the introductory content, with a responsive
+16:9 player, lazy loading and fullscreen support. The same video and local cover
+also appear in Media's video library. The separate YouTube text link was removed
+at the user's request.
+The catalog records the supplied URL and `videoPending: false`.
+The user selected the video's YouTube thumbnail as the cover. Its 1280×720 local
+copy is `assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg`;
+the listing, related article links and search index use this image.
 
 All seven catalog records redirect legacy generic detail URLs to native pages.
 Search, listing destinations, local covers and metadata are updated together.
