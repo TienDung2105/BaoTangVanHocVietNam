@@ -93,12 +93,12 @@
       {
         "id": "dong-phuc",
         "title": "Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
-        "image": "assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg",
+        "image": "assets/images/articles/explore-khoac-lai-dong-phuc/cover-video.jpg",
         "imageAlt": "Ảnh từ video Một ngày trở lại làm học sinh tại Bảo tàng Văn học Việt Nam",
         "imagePosition": "center",
         "imageFit": "cover",
         "temporaryImage": false,
-        "video": "https://youtu.be/XE13pQbaXUY",
+        "video": "https://youtu.be/EpFaf_Q7_l8",
         "videoPending": false,
         "documentPage": "pages/kham-pha/khoac-lai-dong-phuc.html",
         "body": [

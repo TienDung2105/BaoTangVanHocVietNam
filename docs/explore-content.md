@@ -27,15 +27,16 @@ centered cover and subject-specific focal positions. Article images fill the
 reading column at their natural proportions, without side gutters or an
 artificial maximum-height frame.
 
-The user supplied the uniform article's video: `https://youtu.be/XE13pQbaXUY`.
+The user supplied the uniform article's video: `https://youtu.be/EpFaf_Q7_l8`.
 Its native page embeds the video after the introductory content, with a responsive
 16:9 player, lazy loading and fullscreen support. The same video and local cover
 also appear in Media's video library. The separate YouTube text link was removed
 at the user's request.
 The catalog records the supplied URL and `videoPending: false`.
-The user selected the video's YouTube thumbnail as the cover. Its 1280×720 local
-copy is `assets/images/articles/explore-khoac-lai-dong-phuc/video-thumbnail.jpg`;
+The user supplied `1013(2)-Cover.jpg` as the cover. Its 3840×2160 local
+copy is `assets/images/articles/explore-khoac-lai-dong-phuc/cover-video.jpg`;
 the listing, related article links and search index use this image.
+The video uses YouTube ID `EpFaf_Q7_l8` and is second in the Media video library.
 
 All seven catalog records redirect legacy generic detail URLs to native pages.
 Search, listing destinations, local covers and metadata are updated together.

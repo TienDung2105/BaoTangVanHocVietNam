@@ -57,7 +57,7 @@
 .explore-card h3 a:hover { color: var(--explore-red); }
 .explore-card--uniform .explore-photo { aspect-ratio: 1068 / 1258; }
 .explore-card--uniform { padding-bottom: 22px; border-bottom: 1px solid var(--rule); }
-.explore-card--checkin .explore-photo { aspect-ratio: 1156 / 795; }
+.explore-card--checkin .explore-photo { aspect-ratio: 16 / 9; }
 .explore-card--checkin .explore-label { margin-top: 26px; }
 .explore-card--checkin h3 { margin-top: 0; }
 .explore-card--lowkey { padding-top: calc(80px * var(--explore-scale)); }
